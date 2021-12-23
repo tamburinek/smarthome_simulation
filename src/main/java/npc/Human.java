@@ -1,4 +1,14 @@
 package npc;
 
-public class Human {
+import location.Tracker;
+
+public abstract class Human extends Tracker {
+
+    private String name;
+    private int age;
+
+    public Human(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
 }

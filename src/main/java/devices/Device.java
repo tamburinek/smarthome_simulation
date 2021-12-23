@@ -1,4 +1,6 @@
 package devices;
 
-public class Device {
+import location.Tracker;
+
+public abstract class Device extends Tracker {
 }
