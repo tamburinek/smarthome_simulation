@@ -10,6 +10,7 @@ public abstract class Device extends Tracker {
     private int repairDifficulty;
     private int brokenIndex;
     private int lives = 100;
+
     private DeviceState state = new IdleState();
 
     public Device(String deviceName, int repairDifficulty, int brokenIndex) {

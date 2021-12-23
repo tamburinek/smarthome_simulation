@@ -27,9 +27,15 @@ public enum ResourceEnum {
         }
 
         @Override
-        public void setQuantity(int quantity) {
-            this.quantity = quantity;
+        public void add(int quantity) {
+            this.quantity += quantity;
         }
+
+        @Override
+        public void consume(int quantity) {
+            this.quantity -= quantity;
+        }
+
     },
 
     FOOD{
@@ -57,9 +63,15 @@ public enum ResourceEnum {
         }
 
         @Override
-        public void setQuantity(int quantity) {
-            this.quantity = quantity;
+        public void add(int quantity) {
+            this.quantity += quantity;
         }
+
+        @Override
+        public void consume(int quantity) {
+            this.quantity -= quantity;
+        }
+
     },
 
     GAS{
@@ -87,9 +99,15 @@ public enum ResourceEnum {
         }
 
         @Override
-        public void setQuantity(int quantity) {
-            this.quantity = quantity;
+        public void add(int quantity) {
+            this.quantity += quantity;
         }
+
+        @Override
+        public void consume(int quantity) {
+            this.quantity -= quantity;
+        }
+
     },
 
     MONEY{
@@ -117,9 +135,15 @@ public enum ResourceEnum {
         }
 
         @Override
-        public void setQuantity(int quantity) {
-            this.quantity = quantity;
+        public void add(int quantity) {
+            this.quantity += quantity;
         }
+
+        @Override
+        public void consume(int quantity) {
+            this.quantity -= quantity;
+        }
+
     },
 
     WATER{
@@ -147,14 +171,21 @@ public enum ResourceEnum {
         }
 
         @Override
-        public void setQuantity(int quantity) {
-            this.quantity = quantity;
+        public void add(int quantity) {
+            this.quantity += quantity;
         }
+
+        @Override
+        public void consume(int quantity) {
+            this.quantity -= quantity;
+        }
+
     };
 
     public abstract int price();
     public abstract void setPrice(int price);
     public abstract String getName();
     public abstract int getQuantity();
-    public abstract void setQuantity(int quantity);
+    public abstract void add(int quantity);
+    public abstract void consume(int quantity);
 }

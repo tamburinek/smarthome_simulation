@@ -6,42 +6,42 @@ public enum Difficulty {
         @Override
         public void configure() {
             ResourceEnum.ELECTRICITY.setPrice(0);
-            ResourceEnum.ELECTRICITY.setQuantity(0);
+            ResourceEnum.ELECTRICITY.add(0);
             ResourceEnum.FOOD.setPrice(0);
-            ResourceEnum.FOOD.setQuantity(0);
+            ResourceEnum.FOOD.add(0);
             ResourceEnum.GAS.setPrice(0);
-            ResourceEnum.GAS.setQuantity(0);
+            ResourceEnum.GAS.add(0);
             ResourceEnum.WATER.setPrice(0);
-            ResourceEnum.WATER.setQuantity(0);
-            ResourceEnum.MONEY.setQuantity(0);
+            ResourceEnum.WATER.add(0);
+            ResourceEnum.MONEY.add(0);
         }
     },
     MEDIUM {
         @Override
         public void configure() {
             ResourceEnum.ELECTRICITY.setPrice(0);
-            ResourceEnum.ELECTRICITY.setQuantity(0);
+            ResourceEnum.ELECTRICITY.add(0);
             ResourceEnum.FOOD.setPrice(0);
-            ResourceEnum.FOOD.setQuantity(0);
+            ResourceEnum.FOOD.add(0);
             ResourceEnum.GAS.setPrice(0);
-            ResourceEnum.GAS.setQuantity(0);
+            ResourceEnum.GAS.add(0);
             ResourceEnum.WATER.setPrice(0);
-            ResourceEnum.WATER.setQuantity(0);
-            ResourceEnum.MONEY.setQuantity(0);
+            ResourceEnum.WATER.add(0);
+            ResourceEnum.MONEY.add(0);
         }
     },
     HARD {
         @Override
         public void configure() {
             ResourceEnum.ELECTRICITY.setPrice(0);
-            ResourceEnum.ELECTRICITY.setQuantity(0);
+            ResourceEnum.ELECTRICITY.add(0);
             ResourceEnum.FOOD.setPrice(0);
-            ResourceEnum.FOOD.setQuantity(0);
+            ResourceEnum.FOOD.add(0);
             ResourceEnum.GAS.setPrice(0);
-            ResourceEnum.GAS.setQuantity(0);
+            ResourceEnum.GAS.add(0);
             ResourceEnum.WATER.setPrice(0);
-            ResourceEnum.WATER.setQuantity(0);
-            ResourceEnum.MONEY.setQuantity(0);
+            ResourceEnum.WATER.add(0);
+            ResourceEnum.MONEY.add(0);
         }
     };
 
