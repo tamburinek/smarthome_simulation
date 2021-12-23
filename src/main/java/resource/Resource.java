@@ -1,4 +1,25 @@
 package resource;
 
-public class Resource {
+import enums.ResourceEnum;
+
+public abstract class Resource {
+
+    private ResourceEnum resourceType;
+    private int quantity;
+    private final String name;
+
+    public Resource(ResourceEnum resource, int quantity){
+        resourceType = resource;
+        this.quantity = quantity;
+        this.name = resource.getName();
+    }
+
+    public ResourceEnum getResourceType() {
+        resourceType.price();
+        return resourceType;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
