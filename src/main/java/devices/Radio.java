@@ -1,4 +1,7 @@
 package devices;
 
-public class Radio {
+public class Radio extends Device{
+    public Radio(String deviceName, int repairDifficulty, int brokenIndex) {
+        super(deviceName, repairDifficulty, brokenIndex);
+    }
 }
