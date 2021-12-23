@@ -1,3 +1,4 @@
+import enums.Difficulty;
 import house.Floor;
 import house.House;
 import house.HouseBuilder;
@@ -11,6 +12,10 @@ import java.util.ArrayList;
 
 public class FirstRun {
     public static void main(String[] args) {
+
+        Difficulty difficulty = Difficulty.EASY;
+        difficulty.configure();
+
         ArrayList<Floor> floors = new ArrayList<>();
         ArrayList<Animal> animals = new ArrayList<>();
         ArrayList<Human> humans = new ArrayList<>();
@@ -18,7 +23,9 @@ public class FirstRun {
         //first floor
         Floor firstFloor = new Floor();
         Room garage = new Room("garage");
+        Room entry = new Room("entry");
         firstFloor.addRoom(garage);
+        firstFloor.addRoom(entry);
         floors.add(firstFloor);
 
         //second floor

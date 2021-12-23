@@ -8,9 +8,9 @@ public abstract class Resource {
     private int quantity;
     private final String name;
 
-    public Resource(ResourceEnum resource, int quantity){
+    public Resource(ResourceEnum resource){
         resourceType = resource;
-        this.quantity = quantity;
+        this.quantity = resource.getQuantity();
         this.name = resource.getName();
     }
 
