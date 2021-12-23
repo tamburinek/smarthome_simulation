@@ -27,4 +27,14 @@ public class OffState implements DeviceState{
     public void stopUsingDevice(Device device) {
 
     }
+
+    @Override
+    public boolean isOccupied() {
+        return false;
+    }
+
+    @Override
+    public boolean isBroken() {
+        return false;
+    }
 }

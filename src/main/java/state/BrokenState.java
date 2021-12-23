@@ -3,6 +3,7 @@ package state;
 import devices.Device;
 
 public class BrokenState implements DeviceState{
+
     @Override
     public void useDevice(Device device) {
 
@@ -26,5 +27,15 @@ public class BrokenState implements DeviceState{
     @Override
     public void stopUsingDevice(Device device) {
 
+    }
+
+    @Override
+    public boolean isOccupied() {
+        return false;
+    }
+
+    @Override
+    public boolean isBroken() {
+        return true;
     }
 }

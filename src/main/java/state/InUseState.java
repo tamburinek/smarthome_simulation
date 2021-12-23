@@ -27,4 +27,14 @@ public class InUseState implements DeviceState{
     public void stopUsingDevice(Device device) {
 
     }
+
+    @Override
+    public boolean isOccupied() {
+        return true;
+    }
+
+    @Override
+    public boolean isBroken() {
+        return false;
+    }
 }

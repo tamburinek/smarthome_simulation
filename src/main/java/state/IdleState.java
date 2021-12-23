@@ -29,6 +29,16 @@ public class IdleState implements DeviceState{
 
     }
 
+    @Override
+    public boolean isOccupied() {
+        return false;
+    }
+
+    @Override
+    public boolean isBroken() {
+        return false;
+    }
+
     public String toString(){
         return "IdleState";
     }

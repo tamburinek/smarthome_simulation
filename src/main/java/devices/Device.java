@@ -10,7 +10,6 @@ public abstract class Device extends Tracker {
     private int repairDifficulty;
     private int brokenIndex;
     private int lives = 100;
-    private boolean isOccupied = false;
     private DeviceState state = new IdleState();
 
     public Device(String deviceName, int repairDifficulty, int brokenIndex) {
@@ -55,14 +54,6 @@ public abstract class Device extends Tracker {
         return state;
     }
 
-    public void setOccupied(boolean occupied){
-        isOccupied = occupied;
-    }
-
-    public boolean isOccupied() {
-        return isOccupied;
-    }
-
     //todo implement consume for each device
     protected abstract void consume();
 
@@ -93,8 +84,8 @@ public abstract class Device extends Tracker {
                 ", repairDifficulty=" + repairDifficulty +
                 ", brokenIndex=" + brokenIndex +
                 ", lives=" + lives +
-                ", isOccupied=" + isOccupied +
-                ", state=" + state +
+                ", occupied=" + state.isOccupied() +
+                ", broken=" + state.isBroken() +
                 '}';
     }
 }

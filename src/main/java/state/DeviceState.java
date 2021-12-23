@@ -10,5 +10,8 @@ public interface DeviceState {
     public void repairDevice(Device device);
     public void stopUsingDevice(Device device);
 
+    public boolean isOccupied();
+    public boolean isBroken();
+
 
 }
