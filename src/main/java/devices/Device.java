@@ -9,6 +9,7 @@ public abstract class Device extends Tracker {
     private final String deviceName;
     private int repairDifficulty;
     private int brokenIndex;
+    private int lives = 100;
     private boolean isOccupied = false;
     private DeviceState state = new IdleState();
 
@@ -20,6 +21,14 @@ public abstract class Device extends Tracker {
 
     public String getDeviceName() {
         return deviceName;
+    }
+
+    public int getLives() {
+        return lives;
+    }
+
+    public void setLives(int lives) {
+        this.lives = lives;
     }
 
     public int getRepairDifficulty() {
@@ -54,6 +63,8 @@ public abstract class Device extends Tracker {
         return isOccupied;
     }
 
+    //todo implement consume for each device
+    protected abstract void consume();
 
     //states
     public void useDevice(){state.useDevice(this);}
@@ -74,4 +85,16 @@ public abstract class Device extends Tracker {
         state.stopUsingDevice(this);
     }
 
+
+    @Override
+    public String toString() {
+        return "Device{" +
+                "deviceName='" + deviceName + '\'' +
+                ", repairDifficulty=" + repairDifficulty +
+                ", brokenIndex=" + brokenIndex +
+                ", lives=" + lives +
+                ", isOccupied=" + isOccupied +
+                ", state=" + state +
+                '}';
+    }
 }

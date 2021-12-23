@@ -3,7 +3,7 @@ package location;
 public abstract class Tracker {
     private Location location;
 
-    public void changeLocation(Location location) {
+    public void setLocation(Location location) {
         this.location = location;
     }
 

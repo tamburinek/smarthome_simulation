@@ -1,6 +1,8 @@
 package npc;
 
-public abstract class Animal {
+import location.Tracker;
+
+public abstract class Animal extends Tracker {
 
     private String name;
 

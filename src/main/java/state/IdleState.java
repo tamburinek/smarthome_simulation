@@ -28,4 +28,8 @@ public class IdleState implements DeviceState{
     public void stopUsingDevice(Device device) {
 
     }
+
+    public String toString(){
+        return "IdleState";
+    }
 }

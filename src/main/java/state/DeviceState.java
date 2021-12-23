@@ -9,4 +9,6 @@ public interface DeviceState {
     public void turnOnDevice(Device device);
     public void repairDevice(Device device);
     public void stopUsingDevice(Device device);
+
+
 }

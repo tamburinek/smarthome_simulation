@@ -24,6 +24,14 @@ public class Room extends Location {
 
     public void addDevice(Device device){
         devices.add(device);
-        device.changeLocation(this);
+        device.setLocation(this);
+    }
+
+    @Override
+    public String toString() {
+        return "Room{" +
+                "roomName='" + roomName + '\'' +
+                ", devices=" + devices +
+                '}';
     }
 }
