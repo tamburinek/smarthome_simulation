@@ -79,10 +79,9 @@ public class FirstRun {
         HouseBuilder builder = new HouseBuilder();
         House testHouse = builder.houseName("test").floors(floors).animals(animals).humans(humans).getResult();
         HouseController runner = new HouseController(testHouse);
-        System.out.println(testHouse);
 
-        for (Floor floor : testHouse.getFloors()) {
-            System.out.println(floor);
-        }
+        //running simulation
+        runner.runSimulation(1);
+
     }
 }

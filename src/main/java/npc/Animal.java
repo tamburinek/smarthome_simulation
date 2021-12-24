@@ -9,4 +9,11 @@ public abstract class Animal extends Tracker {
     public Animal(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }

@@ -2,15 +2,17 @@ package house;
 
 import npc.Animal;
 import npc.Human;
+import sensors.Sensor;
 
 import java.util.ArrayList;
 
 public class House {
 
     private String houseName;
-    private ArrayList<Floor> floors;
-    private ArrayList<Human> humans;
-    private ArrayList<Animal> animals;
+    private ArrayList<Floor> floors = new ArrayList<>();
+    private ArrayList<Human> humans = new ArrayList<>();
+    private ArrayList<Animal> animals = new ArrayList<>();
+    private ArrayList<Sensor> sensors = new ArrayList<>();
 
     public String getHouseName() {
         return houseName;
@@ -30,6 +32,14 @@ public class House {
 
     public void setHouseName(String houseName) {
         this.houseName = houseName;
+    }
+
+    public ArrayList<Sensor> getSensors() {
+        return sensors;
+    }
+
+    public void setSensors(ArrayList<Sensor> sensors) {
+        this.sensors = sensors;
     }
 
     public void setFloors(ArrayList<Floor> floors) {

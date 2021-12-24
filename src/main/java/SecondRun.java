@@ -7,6 +7,6 @@ import java.util.Calendar;
 
 public class SecondRun {
     public static void main(String[] args) {
-        HouseController.runSimulation();
+
     }
 }

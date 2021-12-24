@@ -11,4 +11,12 @@ public abstract class Human extends Tracker {
         this.name = name;
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Human{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
