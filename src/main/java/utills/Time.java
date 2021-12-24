@@ -18,12 +18,4 @@ public class Time {
     public static void setCurrentTime(int year, int month, int day){
         calendar.set(year, month - 1, day, 0, 0, 0);
     }
-
-    public static void runSimulation(){
-        setCurrentTime(1,1,1);
-        for (int i = 0; i < 100; i++) {
-            addTime(10);
-            System.out.println(getCurrentTime());
-        }
-    }
 }

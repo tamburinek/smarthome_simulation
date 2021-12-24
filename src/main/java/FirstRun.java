@@ -1,10 +1,7 @@
 import devices.Bath;
 import devices.Device;
 import enums.Difficulty;
-import house.Floor;
-import house.House;
-import house.HouseBuilder;
-import house.Room;
+import house.*;
 import npc.*;
 
 import java.util.ArrayList;
@@ -81,6 +78,7 @@ public class FirstRun {
 
         HouseBuilder builder = new HouseBuilder();
         House testHouse = builder.houseName("test").floors(floors).animals(animals).humans(humans).getResult();
+        HouseController runner = new HouseController(testHouse);
         System.out.println(testHouse);
 
         for (Floor floor : testHouse.getFloors()) {
