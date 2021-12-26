@@ -70,6 +70,9 @@ public abstract class Device extends Tracker {
         this.duration = 100 - effectivity;
     }
 
+    public abstract void useDevice(Human human);
+    public abstract void repairDevice(Human human);
+
     //todo implement consume for each device
     public abstract void consume();
     public abstract int cleaning();

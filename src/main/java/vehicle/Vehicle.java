@@ -1,6 +1,7 @@
 package vehicle;
 
 import devices.Device;
+import npc.Human;
 
 public abstract class Vehicle extends Device {
 

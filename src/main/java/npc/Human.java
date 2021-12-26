@@ -30,10 +30,6 @@ public abstract class Human extends Tracker {
         this.house = house;
     }
 
-    public void useDevice(Device device){
-
-    }
-
     @Override
     public String toString() {
         return "Human{" +

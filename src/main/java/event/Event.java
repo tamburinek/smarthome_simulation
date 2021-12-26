@@ -1,4 +1,4 @@
-package utills;
+package event;
 
 import devices.Device;
 import enums.Activity;
@@ -20,7 +20,7 @@ public class Event {
         this.activity = activity;
     }
 
-    //todo here will be observer pattern
+    //todo here will be listener pattern
 
     public static ArrayList<Event> eventsToDo = new ArrayList<>();
     public static ArrayList<Event> currentEvents = new ArrayList<>();
