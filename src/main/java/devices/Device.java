@@ -1,6 +1,8 @@
 package devices;
 
+import house.Room;
 import location.Tracker;
+import npc.Human;
 import state.DeviceState;
 import state.IdleState;
 
@@ -10,13 +12,22 @@ public abstract class Device extends Tracker {
     private int repairDifficulty;
     private int brokenIndex;
     private int lives = 100;
+    private int effectivity;
+
+    private Human humanUsingDevice;
+
+    //todo
+    private int duration = 0;
+
+    private Room room;
 
     private DeviceState state = new IdleState();
 
-    public Device(String deviceName, int repairDifficulty, int brokenIndex) {
+    public Device(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
         this.deviceName = deviceName;
         this.repairDifficulty = repairDifficulty;
         this.brokenIndex = brokenIndex;
+        this.effectivity = effectivity;
     }
 
     public String getDeviceName() {
@@ -27,7 +38,7 @@ public abstract class Device extends Tracker {
         return lives;
     }
 
-    public void setLives(int lives) {
+    public void setLives(int lives){
         this.lives = lives;
     }
 
@@ -53,6 +64,14 @@ public abstract class Device extends Tracker {
 
     public DeviceState getState() {
         return state;
+    }
+
+    public Room getRoom() {
+        return room;
+    }
+
+    public void setRoom(Room room) {
+        this.room = room;
     }
 
     //todo implement consume for each device

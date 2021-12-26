@@ -1,6 +1,5 @@
 import devices.Bath;
 import devices.Device;
-import enums.Difficulty;
 import house.*;
 import npc.*;
 
@@ -8,10 +7,6 @@ import java.util.ArrayList;
 
 public class FirstRun {
     public static void main(String[] args) {
-
-        //setting difficulty
-        Difficulty difficulty = Difficulty.EASY;
-        difficulty.configure();
 
         ArrayList<Floor> floors = new ArrayList<>();
         ArrayList<Animal> animals = new ArrayList<>();
@@ -33,7 +28,7 @@ public class FirstRun {
         Floor secondFloor = new Floor("second");
 
         Room bathroom = new Room("bathroom");
-        Device bath = new Bath("bath", 23, 25);
+        Device bath = new Bath("bath", 23, 25, 25);
         bath.setLocation(bathroom);
         bathroom.addDevice(bath);
         secondFloor.addRoom(bathroom);

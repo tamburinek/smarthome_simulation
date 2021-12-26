@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Floor {
 
     private String name;
+    private House house;
 
     public Floor(String name) {
         this.name = name;
@@ -17,7 +18,16 @@ public class Floor {
     }
 
     public void addRoom(Room room){
+        room.setFloor(this);
         rooms.add(room);
+    }
+
+    public House getHouse() {
+        return house;
+    }
+
+    public void setHouse(House house) {
+        this.house = house;
     }
 
     @Override

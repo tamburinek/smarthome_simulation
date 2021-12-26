@@ -29,6 +29,7 @@ public class HouseBuilder {
     }
 
     public House getResult(){
+        house.setLocation();
         return house;
     }
 }

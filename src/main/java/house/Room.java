@@ -8,6 +8,9 @@ import java.util.ArrayList;
 public class Room extends Location {
 
     private final String roomName;
+
+    private Floor floor;
+
     private ArrayList<Device> devices = new ArrayList<>();
 
     public Room(String roomName) {
@@ -25,6 +28,15 @@ public class Room extends Location {
     public void addDevice(Device device){
         devices.add(device);
         device.setLocation(this);
+        device.setRoom(this);
+    }
+
+    public Floor getFloor() {
+        return floor;
+    }
+
+    public void setFloor(Floor floor) {
+        this.floor = floor;
     }
 
     @Override

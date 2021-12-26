@@ -1,5 +1,6 @@
 package house;
 
+import devices.Device;
 import npc.Animal;
 import npc.Human;
 import sensors.Sensor;
@@ -13,6 +14,7 @@ public class House {
     private ArrayList<Human> humans = new ArrayList<>();
     private ArrayList<Animal> animals = new ArrayList<>();
     private ArrayList<Sensor> sensors = new ArrayList<>();
+    private final ArrayList<Device> devices = new ArrayList<>();
 
     public String getHouseName() {
         return houseName;
@@ -52,6 +54,37 @@ public class House {
 
     public void setAnimals(ArrayList<Animal> animals) {
         this.animals = animals;
+    }
+
+    public ArrayList<Device> getDevices() {
+        return devices;
+    }
+
+    public void setDevices(ArrayList<Device> devices) {
+        for (Floor floor : getFloors()) {
+            for (Room room : floor.getRooms()) {
+                devices.addAll(room.getDevices());
+            }
+        }
+    }
+
+    public void setLocation(){
+        for (Floor floor : floors) {
+            floor.setHouse(this);
+        }
+
+        for (Human human : humans) {
+            human.setHouse(this);
+        }
+
+        for (Animal animal : animals){
+            animal.setHouse(this);
+        }
+
+        for (Sensor sensor : sensors){
+            sensor.setHouse(this);
+        }
+
     }
 
     @Override
