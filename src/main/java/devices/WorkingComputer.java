@@ -1,9 +1,12 @@
 package devices;
 
-public class Computer extends Device{
+import location.Work;
 
-    public Computer(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
+public class WorkingComputer extends Device{
+
+    public WorkingComputer(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
         super(deviceName, repairDifficulty, brokenIndex, effectivity);
+        setLocation(Work.getInstance());
     }
 
     @Override

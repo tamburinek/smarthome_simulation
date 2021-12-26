@@ -1,5 +1,7 @@
 package npc;
 
+import devices.Device;
+import enums.Gender;
 import house.House;
 import location.Tracker;
 
@@ -7,11 +9,17 @@ public abstract class Human extends Tracker {
 
     private String name;
     private int age;
+    private Gender gender;
     private House house;
 
-    public Human(String name, int age){
+    private int happiness;
+    private int health;
+    private int clean;
+
+    public Human(String name, int age, Gender gender){
         this.name = name;
         this.age = age;
+        this.gender = gender;
     }
 
     public House getHouse() {
@@ -20,6 +28,10 @@ public abstract class Human extends Tracker {
 
     public void setHouse(House house) {
         this.house = house;
+    }
+
+    public void useDevice(Device device){
+
     }
 
     @Override

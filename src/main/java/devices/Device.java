@@ -11,16 +11,12 @@ public abstract class Device extends Tracker {
     private final String deviceName;
     private int repairDifficulty;
     private int brokenIndex;
-    private int lives = 100;
     private int effectivity;
 
-    private Human humanUsingDevice;
-
-    //todo
-    private int duration = 0;
+    private Human humanUsingDevice = null;
+    private int duration;
 
     private Room room;
-
     private DeviceState state = new IdleState();
 
     public Device(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
@@ -32,14 +28,6 @@ public abstract class Device extends Tracker {
 
     public String getDeviceName() {
         return deviceName;
-    }
-
-    public int getLives() {
-        return lives;
-    }
-
-    public void setLives(int lives){
-        this.lives = lives;
     }
 
     public int getRepairDifficulty() {
@@ -74,8 +62,18 @@ public abstract class Device extends Tracker {
         this.room = room;
     }
 
+    public int getDuration() {
+        return duration;
+    }
+
+    public void setDuration(int duration) {
+        this.duration = 100 - effectivity;
+    }
+
     //todo implement consume for each device
-    protected abstract void consume();
+    public abstract void consume();
+    public abstract int cleaning();
+    public abstract int happiness();
 
     //states
     public void useDevice(){state.useDevice(this);}
@@ -103,7 +101,6 @@ public abstract class Device extends Tracker {
                 "deviceName='" + deviceName + '\'' +
                 ", repairDifficulty=" + repairDifficulty +
                 ", brokenIndex=" + brokenIndex +
-                ", lives=" + lives +
                 ", occupied=" + state.isOccupied() +
                 ", broken=" + state.isBroken() +
                 '}';

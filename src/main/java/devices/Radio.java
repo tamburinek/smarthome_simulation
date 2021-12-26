@@ -6,7 +6,17 @@ public class Radio extends Device{
     }
 
     @Override
-    protected void consume() {
+    public void consume() {
 
+    }
+
+    @Override
+    public int cleaning() {
+        return 0;
+    }
+
+    @Override
+    public int happiness() {
+        return 0;
     }
 }

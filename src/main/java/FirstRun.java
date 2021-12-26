@@ -1,5 +1,6 @@
 import devices.Bath;
 import devices.Device;
+import enums.Gender;
 import house.*;
 import npc.*;
 
@@ -39,12 +40,12 @@ public class FirstRun {
         floors.add(thirdFloor);
 
         //humans
-        Human Pepa = new Adult("Pepa", 34);
-        Human Iveta = new Adult("Iveta", 45);
-        Human BabickaIlona = new Adult("Ilona", 69);
-        Human Honzik = new Child("Honzik", 13);
-        Human Maruska = new Child("Maruska", 15);
-        Human Mimino = new Baby("Mimino", 2);
+        Human Pepa = new Adult("Pepa", 34, Gender.MALE);
+        Human Iveta = new Adult("Iveta", 45, Gender.FEMALE);
+        Human BabickaIlona = new Adult("Ilona", 69, Gender.FEMALE);
+        Human Honzik = new Child("Honzik", 13, Gender.MALE);
+        Human Maruska = new Child("Maruska", 15, Gender.FEMALE);
+        Human Mimino = new Baby("Mimino", 2, Gender.MALE);
         Pepa.setLocation(garage);
         Iveta.setLocation(entry);
         BabickaIlona.setLocation(animalRoom);
