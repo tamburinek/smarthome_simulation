@@ -1,8 +1,10 @@
 package devices;
 
+import enums.DeviceType;
+
 public class Window extends Device {
     public Window(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
-        super(deviceName, repairDifficulty, brokenIndex, effectivity);
+        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.WINDOW);
     }
 
     @Override

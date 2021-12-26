@@ -6,5 +6,8 @@ public enum DeviceType {
     SPORT,
     LIGHT,
     SLEEPING,
+    WINDOW,
+    WORK,
+    TRANSPORT,
     EAT
 }

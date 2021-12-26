@@ -2,9 +2,11 @@ import devices.Bath;
 import devices.Device;
 import enums.Gender;
 import enums.ResourceEnum;
+import event.Event;
 import house.*;
 import npc.*;
 import resource.Resource;
+import utills.Helper;
 
 import java.util.ArrayList;
 
@@ -31,7 +33,7 @@ public class FirstRun {
         Floor secondFloor = new Floor("second");
 
         Room bathroom = new Room("bathroom");
-        Device bath = new Bath("bath", 23, 25, 25);
+        Device bath = new Bath("bath", 23, 10, 25);
         bath.setLocation(bathroom);
         bathroom.addDevice(bath);
         secondFloor.addRoom(bathroom);
@@ -81,6 +83,5 @@ public class FirstRun {
 
         //running simulation
         runner.runSimulation(1);
-
     }
 }

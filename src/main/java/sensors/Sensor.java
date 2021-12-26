@@ -23,4 +23,8 @@ public abstract class Sensor {
     public Device getSensorDevice() {
         return sensorDevice;
     }
+
+    //todo
+    public abstract boolean isSomethingWrong();
+    public abstract void makeNotification();
 }

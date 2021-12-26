@@ -1,11 +1,12 @@
 package devices;
 
+import enums.DeviceType;
 import enums.ResourceEnum;
 
 public class Computer extends Device{
 
     public Computer(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
-        super(deviceName, repairDifficulty, brokenIndex, effectivity);
+        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.JOY);
     }
 
 

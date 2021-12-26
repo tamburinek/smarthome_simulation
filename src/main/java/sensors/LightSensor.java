@@ -8,5 +8,15 @@ public class LightSensor extends Sensor{
         super(sensorDevice);
     }
 
+    @Override
+    public boolean isSomethingWrong() {
+        return false;
+    }
+
+    @Override
+    public void makeNotification() {
+
+    }
+
     //todo implement when it is evening to turn the lights on
 }

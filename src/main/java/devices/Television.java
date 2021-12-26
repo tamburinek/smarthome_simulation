@@ -1,10 +1,11 @@
 package devices;
 
+import enums.DeviceType;
 import enums.ResourceEnum;
 
 public class Television extends Device{
     public Television(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
-        super(deviceName, repairDifficulty, brokenIndex, effectivity);
+        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.JOY);
     }
 
     @Override

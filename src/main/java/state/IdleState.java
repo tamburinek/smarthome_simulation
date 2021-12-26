@@ -35,6 +35,7 @@ public class IdleState implements DeviceState{
     public void doNothingNew(Device device, Human human) {
         device.consume(false);
         if (device.tryBreak(false)){
+            device.setHumanUsingDevice(null);
             device.setState(new BrokenState());
         };
     }

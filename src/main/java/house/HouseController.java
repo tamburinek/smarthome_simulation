@@ -1,15 +1,16 @@
 package house;
 
 import devices.Device;
-import enums.ResourceEnum;
+import enums.Activity;
+import event.BasicEvent;
+import event.Event;
 import npc.Animal;
 import npc.Human;
 import sensors.Sensor;
 import strategy.DifficultyStrategy;
 import strategy.EasyStrategy;
+import utills.Helper;
 import utills.Time;
-
-import java.util.ArrayList;
 
 public class HouseController {
 
@@ -21,21 +22,6 @@ public class HouseController {
         this.difficulty = new EasyStrategy();
     }
 
-    public Device findDeviceForClean(){
-        //todo
-        return null;
-    }
-
-    public Device findDeviceForJoy(){
-        //todo
-        return null;
-    }
-
-    public Human findPersonForRepair(int required){
-        //todo
-        return null;
-    }
-
     public void runSimulation(int rounds){
         difficulty.setParams();
 
@@ -43,25 +29,70 @@ public class HouseController {
             Time.addTime(10);
             System.out.println(Time.getCurrentTime());
 
+            //todo zkontrolovat eventy - az bude hotovy visitor
+
             for (Human human : house.getHumans()) {
-                //todo human.doSomething
-                System.out.println(human);
+                if (human.isDoingSt()){
+                    continue;
+                }
+                if (human.getClean() < 40){
+                    Device device = Helper.findDeviceForClean(house.getDevices());
+                    if (device != null){
+                        Event event = new BasicEvent(device, human, device.getDuration(), Activity.USING);
+                        human.setDoingSt(true);
+                        Event.eventsToDo.add(event);
+                    }
+                    continue;
+                }
+                if (human.getHappiness() < 20){
+                    Device device = Helper.findDeviceForJoy(house.getDevices());
+                    if (device != null){
+                        Event event = new BasicEvent(device, human, device.getDuration(), Activity.USING);
+                        human.setDoingSt(true);
+                        Event.eventsToDo.add(event);
+                    }
+                    continue;
+                }
+                if (human.getFresh() < 40) {
+                    Device device = Helper.findDeviceForSleep(house.getDevices());
+                    if (device != null){
+                        Event event = new BasicEvent(device, human, device.getDuration(), Activity.USING);
+                        human.setDoingSt(true);
+                        Event.eventsToDo.add(event);
+                    }
+                    continue;
+                }
+                if (human.getHungry() < 20) {
+                    Device device = Helper.findDeviceToEat(house.getDevices());
+                    if (device != null){
+                        Event event = new BasicEvent(device, human, device.getDuration(), Activity.USING);
+                        human.setDoingSt(true);
+                        Event.eventsToDo.add(event);
+                    }
+                    continue;
+                }
+                else {
+                    Device device = Helper.findRandomDevice(house.getDevices());
+                    if (device != null){
+                        Event event = new BasicEvent(device, human, device.getDuration(), Activity.USING);
+                        human.setDoingSt(true);
+                        Event.eventsToDo.add(event);
+                    }
+                }
             }
 
             for (Animal animal : house.getAnimals() ) {
                 //todo animal.doSomething
-                System.out.println(animal);
             }
 
             for (Sensor sensor : house.getSensors()) {
-                //todo sensor.doSomething
-                System.out.println(sensor);
+                if (sensor.isSomethingWrong()){
+                    sensor.makeNotification();
+                }
             }
 
             for (Device device : house.getDevices()) {
-                System.out.println(device);
-
-                //todo device.doSomething
+                device.getState().doNothingNew(device, device.getHumanUsingDevice());
             }
         }
     }

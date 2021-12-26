@@ -1,10 +1,12 @@
 package devices;
 
+import enums.DeviceType;
 import house.Room;
 import location.Tracker;
 import npc.Human;
 import state.DeviceState;
 import state.IdleState;
+import utills.Helper;
 
 public abstract class Device extends Tracker {
 
@@ -12,6 +14,7 @@ public abstract class Device extends Tracker {
     private final int repairDifficulty;
     private final int brokenIndex;
     private final int effectivity;
+    private final DeviceType type;
 
     private Human humanUsingDevice = null;
     private int duration;
@@ -19,11 +22,12 @@ public abstract class Device extends Tracker {
     private Room room;
     private DeviceState state = new IdleState();
 
-    public Device(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
+    public Device(String deviceName, int repairDifficulty, int brokenIndex, int effectivity,DeviceType type) {
         this.deviceName = deviceName;
         this.repairDifficulty = repairDifficulty;
         this.brokenIndex = brokenIndex;
         this.effectivity = effectivity;
+        this.type = type;
         setDuration();
     }
 
@@ -71,14 +75,25 @@ public abstract class Device extends Tracker {
         this.duration = 100 - effectivity;
     }
 
+    public int getEffectivity() {
+        return effectivity;
+    }
+
+    public DeviceType getType() {
+        return type;
+    }
+
+    public void setDuration(int duration) {
+        this.duration = duration;
+    }
+
     public abstract void consume(boolean usingDevice);
     public abstract int cleaning();
     public abstract int happiness();
     public abstract int fresh();
 
-    //todo random breaking
     public boolean tryBreak(boolean someoneUsing){
-        return false;
+        return Helper.breakDevice(this, someoneUsing);
     }
 
     //states

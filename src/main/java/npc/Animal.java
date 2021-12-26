@@ -10,7 +10,7 @@ public abstract class Animal extends Tracker {
     private House house;
 
     private int happiness = Constants.START_HAPPINESS;
-    private int health = Constants.START_HEALTH;
+    private int hungry = Constants.START_HUNGRY;
 
     public Animal(String name) {
         this.name = name;
