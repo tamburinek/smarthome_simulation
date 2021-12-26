@@ -1,6 +1,6 @@
 package devices;
 
-import npc.Human;
+import enums.ResourceEnum;
 
 public class Radio extends Device{
     public Radio(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
@@ -8,8 +8,13 @@ public class Radio extends Device{
     }
 
     @Override
-    public void consume() {
-
+    public void consume(boolean usingDevice) {
+        if (usingDevice){
+            ResourceEnum.ELECTRICITY.consume(40);
+        }
+        else {
+            ResourceEnum.ELECTRICITY.consume(2);
+        }
     }
 
     @Override
@@ -19,6 +24,11 @@ public class Radio extends Device{
 
     @Override
     public int happiness() {
-        return 0;
+        return 15;
+    }
+
+    @Override
+    public int fresh() {
+        return 20;
     }
 }

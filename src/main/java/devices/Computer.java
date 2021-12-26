@@ -1,6 +1,6 @@
 package devices;
 
-import npc.Human;
+import enums.ResourceEnum;
 
 public class Computer extends Device{
 
@@ -10,17 +10,27 @@ public class Computer extends Device{
 
 
     @Override
-    public void consume() {
-
+    public void consume(boolean usingDevice) {
+        if (usingDevice){
+            ResourceEnum.ELECTRICITY.consume(40);
+        }
+        else {
+            ResourceEnum.ELECTRICITY.consume(2);
+        }
     }
 
     @Override
     public int cleaning() {
-        return 0;
+        return -2;
     }
 
     @Override
     public int happiness() {
-        return 0;
+        return 50;
+    }
+
+    @Override
+    public int fresh() {
+        return -20;
     }
 }

@@ -10,9 +10,9 @@ public interface DeviceState {
     public void turnOnDevice(Device device);
     public void repairDevice(Device device, Human human);
     public void stopUsingDevice(Device device, Human human);
+    public void doNothingNew(Device device, Human human);
 
     public boolean isOccupied();
     public boolean isBroken();
-
-
+    public boolean isOn();
 }

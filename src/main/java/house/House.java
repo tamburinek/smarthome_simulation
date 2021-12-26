@@ -14,7 +14,7 @@ public class House {
     private ArrayList<Human> humans = new ArrayList<>();
     private ArrayList<Animal> animals = new ArrayList<>();
     private ArrayList<Sensor> sensors = new ArrayList<>();
-    private final ArrayList<Device> devices = new ArrayList<>();
+    private ArrayList<Device> devices = new ArrayList<>();
 
     public String getHouseName() {
         return houseName;
@@ -60,7 +60,7 @@ public class House {
         return devices;
     }
 
-    public void setDevices(ArrayList<Device> devices) {
+    public void setDevices() {
         for (Floor floor : getFloors()) {
             for (Room room : floor.getRooms()) {
                 devices.addAll(room.getDevices());

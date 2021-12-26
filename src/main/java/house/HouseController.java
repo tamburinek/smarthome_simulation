@@ -1,6 +1,7 @@
 package house;
 
 import devices.Device;
+import enums.ResourceEnum;
 import npc.Animal;
 import npc.Human;
 import sensors.Sensor;
@@ -52,14 +53,15 @@ public class HouseController {
                 System.out.println(animal);
             }
 
-            for (Device device : house.getDevices()) {
-                //todo device.doSomething
-                System.out.println(device);
-            }
-
             for (Sensor sensor : house.getSensors()) {
                 //todo sensor.doSomething
                 System.out.println(sensor);
+            }
+
+            for (Device device : house.getDevices()) {
+                System.out.println(device);
+
+                //todo device.doSomething
             }
         }
     }

@@ -1,6 +1,7 @@
 package devices;
 
-import npc.Human;
+import enums.Gender;
+import enums.ResourceEnum;
 
 public class DishWash extends Device{
 
@@ -9,17 +10,36 @@ public class DishWash extends Device{
     }
 
     @Override
-    public void consume() {
-
+    public void consume(boolean usingDevice) {
+        if (usingDevice){
+            ResourceEnum.WATER.consume(50);
+            ResourceEnum.ELECTRICITY.consume(40);
+        }
+        else {
+            ResourceEnum.ELECTRICITY.consume(2);
+        }
     }
 
     @Override
     public int cleaning() {
-        return 0;
+        return 20;
     }
 
     @Override
     public int happiness() {
-        return 0;
+        if (getHumanUsingDevice().getGender() == Gender.FEMALE){
+            return 20;
+        } else{
+            return -10;
+        }
+    }
+
+    @Override
+    public int fresh() {
+        if (getHumanUsingDevice().getGender() == Gender.FEMALE){
+            return 20;
+        } else{
+            return -10;
+        }
     }
 }

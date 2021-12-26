@@ -1,5 +1,6 @@
 package npc;
 
+import enums.Constants;
 import house.House;
 import location.Tracker;
 
@@ -7,6 +8,9 @@ public abstract class Animal extends Tracker {
 
     private String name;
     private House house;
+
+    private int happiness = Constants.START_HAPPINESS;
+    private int health = Constants.START_HEALTH;
 
     public Animal(String name) {
         this.name = name;

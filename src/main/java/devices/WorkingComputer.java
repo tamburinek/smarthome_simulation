@@ -1,7 +1,7 @@
 package devices;
 
+import enums.ResourceEnum;
 import location.Work;
-import npc.Human;
 
 public class WorkingComputer extends Device{
 
@@ -11,17 +11,22 @@ public class WorkingComputer extends Device{
     }
 
     @Override
-    public void consume() {
-
+    public void consume(boolean usingDevice) {
+        ResourceEnum.MONEY.add(1000);
     }
 
     @Override
     public int cleaning() {
-        return 0;
+        return -35;
     }
 
     @Override
     public int happiness() {
-        return 0;
+        return -35;
+    }
+
+    @Override
+    public int fresh() {
+        return -25;
     }
 }

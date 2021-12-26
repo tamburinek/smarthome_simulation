@@ -1,6 +1,6 @@
 package devices;
 
-import npc.Human;
+import enums.ResourceEnum;
 
 public class Television extends Device{
     public Television(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
@@ -8,17 +8,27 @@ public class Television extends Device{
     }
 
     @Override
-    public void consume() {
-
+    public void consume(boolean usingDevice) {
+        if (usingDevice){
+            ResourceEnum.ELECTRICITY.consume(40);
+        }
+        else {
+            ResourceEnum.ELECTRICITY.consume(2);
+        }
     }
 
     @Override
     public int cleaning() {
-        return 0;
+        return -20;
     }
 
     @Override
     public int happiness() {
-        return 0;
+        return 45;
+    }
+
+    @Override
+    public int fresh() {
+        return 20;
     }
 }

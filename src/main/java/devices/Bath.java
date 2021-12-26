@@ -1,6 +1,7 @@
 package devices;
 
-import npc.Human;
+import enums.ResourceEnum;
+import resource.Resource;
 
 public class Bath extends Device{
 
@@ -9,17 +10,28 @@ public class Bath extends Device{
     }
 
     @Override
-    public void consume() {
-
+    public void consume(boolean usingDevice) {
+        if (usingDevice){
+            ResourceEnum.WATER.consume(50);
+            ResourceEnum.ELECTRICITY.consume(40);
+        }
+        else {
+            ResourceEnum.ELECTRICITY.consume(2);
+        }
     }
 
     @Override
     public int cleaning() {
-        return 0;
+        return 100;
     }
 
     @Override
     public int happiness() {
-        return 0;
+        return 40;
+    }
+
+    @Override
+    public int fresh() {
+        return 10;
     }
 }

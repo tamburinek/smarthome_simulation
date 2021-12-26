@@ -1,7 +1,5 @@
 package vehicle;
 
-import npc.Human;
-
 public class Bike extends Vehicle{
 
     public Bike(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
@@ -9,17 +7,22 @@ public class Bike extends Vehicle{
     }
 
     @Override
-    public void consume() {
-
+    public void consume(boolean usingDevice) {
+        //consume nothing
     }
 
     @Override
     public int cleaning() {
-        return 0;
+        return -30;
     }
 
     @Override
     public int happiness() {
-        return 0;
+        return 30;
+    }
+
+    @Override
+    public int fresh() {
+        return -20;
     }
 }

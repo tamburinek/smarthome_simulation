@@ -30,6 +30,7 @@ public class HouseBuilder {
 
     public House getResult(){
         house.setLocation();
+        house.setDevices();
         return house;
     }
 }

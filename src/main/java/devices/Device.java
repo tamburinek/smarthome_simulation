@@ -9,9 +9,9 @@ import state.IdleState;
 public abstract class Device extends Tracker {
 
     private final String deviceName;
-    private int repairDifficulty;
-    private int brokenIndex;
-    private int effectivity;
+    private final int repairDifficulty;
+    private final int brokenIndex;
+    private final int effectivity;
 
     private Human humanUsingDevice = null;
     private int duration;
@@ -24,6 +24,15 @@ public abstract class Device extends Tracker {
         this.repairDifficulty = repairDifficulty;
         this.brokenIndex = brokenIndex;
         this.effectivity = effectivity;
+        setDuration();
+    }
+
+    public Human getHumanUsingDevice() {
+        return humanUsingDevice;
+    }
+
+    public void setHumanUsingDevice(Human humanUsingDevice) {
+        this.humanUsingDevice = humanUsingDevice;
     }
 
     public String getDeviceName() {
@@ -34,16 +43,8 @@ public abstract class Device extends Tracker {
         return repairDifficulty;
     }
 
-    public void setRepairDifficulty(int repairDifficulty) {
-        this.repairDifficulty = repairDifficulty;
-    }
-
     public int getBrokenIndex() {
         return brokenIndex;
-    }
-
-    public void setBrokenIndex(int brokenIndex) {
-        this.brokenIndex = brokenIndex;
     }
 
     public void setState(DeviceState state){
@@ -66,13 +67,19 @@ public abstract class Device extends Tracker {
         return duration;
     }
 
-    public void setDuration(int duration) {
+    public void setDuration() {
         this.duration = 100 - effectivity;
     }
 
-    public abstract void consume();
+    public abstract void consume(boolean usingDevice);
     public abstract int cleaning();
     public abstract int happiness();
+    public abstract int fresh();
+
+    //todo random breaking
+    public boolean tryBreak(boolean someoneUsing){
+        return false;
+    }
 
     //states
     public void useDevice(Human human){state.useDevice(this, human);}
@@ -92,6 +99,8 @@ public abstract class Device extends Tracker {
     public void stopUsingDevice(Human human){
         state.stopUsingDevice(this, human);
     }
+
+    public void tick(Human human){state.doNothingNew(this, human);}
 
 
     @Override

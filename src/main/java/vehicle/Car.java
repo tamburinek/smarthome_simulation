@@ -1,6 +1,7 @@
 package vehicle;
 
-import npc.Human;
+import enums.Gender;
+import enums.ResourceEnum;
 
 public class Car extends Vehicle{
 
@@ -9,17 +10,26 @@ public class Car extends Vehicle{
     }
 
     @Override
-    public void consume() {
-
+    public void consume(boolean usingDevice) {
+        ResourceEnum.GAS.consume(100);
     }
 
     @Override
     public int cleaning() {
-        return 0;
+        return -2;
     }
 
     @Override
     public int happiness() {
-        return 0;
+        if (getHumanUsingDevice().getGender() == Gender.FEMALE){
+            return -10;
+        } else{
+            return 30;
+        }
+    }
+
+    @Override
+    public int fresh() {
+        return -5;
     }
 }

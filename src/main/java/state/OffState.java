@@ -30,12 +30,22 @@ public class OffState implements DeviceState{
     }
 
     @Override
+    public void doNothingNew(Device device, Human human) {
+        //do nothing
+    }
+
+    @Override
     public boolean isOccupied() {
         return false;
     }
 
     @Override
     public boolean isBroken() {
+        return false;
+    }
+
+    @Override
+    public boolean isOn() {
         return false;
     }
 }

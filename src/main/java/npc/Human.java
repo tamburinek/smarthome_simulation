@@ -1,5 +1,6 @@
 package npc;
 
+import devices.Device;
 import enums.Constants;
 import enums.Gender;
 import house.House;
@@ -22,6 +23,16 @@ public abstract class Human extends Tracker {
         this.name = name;
         this.age = age;
         this.gender = gender;
+    }
+
+    public void claimSatisfy(Device device){
+        happiness = happiness += device.happiness();
+        clean = clean += device.cleaning();
+        fresh = fresh += device.fresh();
+    };
+
+    public Gender getGender() {
+        return gender;
     }
 
     public House getHouse() {

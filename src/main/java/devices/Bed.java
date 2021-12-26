@@ -1,7 +1,5 @@
 package devices;
 
-import npc.Human;
-
 public class Bed extends Device{
 
     public Bed(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
@@ -10,17 +8,22 @@ public class Bed extends Device{
 
 
     @Override
-    public void consume() {
-
+    public void consume(boolean usingDevice) {
+        //consume nothing
     }
 
     @Override
     public int cleaning() {
-        return 0;
+        return -10;
     }
 
     @Override
     public int happiness() {
-        return 0;
+        return 100;
+    }
+
+    @Override
+    public int fresh() {
+        return 100;
     }
 }

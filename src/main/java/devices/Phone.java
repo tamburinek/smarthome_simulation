@@ -1,6 +1,6 @@
 package devices;
 
-import npc.Human;
+import enums.ResourceEnum;
 
 public class Phone extends Device{
     public Phone(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
@@ -8,8 +8,8 @@ public class Phone extends Device{
     }
 
     @Override
-    public void consume() {
-
+    public void consume(boolean usingDevice) {
+        ResourceEnum.ELECTRICITY.consume(5);
     }
 
     @Override
@@ -19,6 +19,11 @@ public class Phone extends Device{
 
     @Override
     public int happiness() {
-        return 0;
+        return 20;
+    }
+
+    @Override
+    public int fresh() {
+        return 10;
     }
 }

@@ -1,8 +1,10 @@
 import devices.Bath;
 import devices.Device;
 import enums.Gender;
+import enums.ResourceEnum;
 import house.*;
 import npc.*;
+import resource.Resource;
 
 import java.util.ArrayList;
 
@@ -75,6 +77,7 @@ public class FirstRun {
         HouseBuilder builder = new HouseBuilder();
         House testHouse = builder.houseName("test").floors(floors).animals(animals).humans(humans).getResult();
         HouseController runner = new HouseController(testHouse);
+
 
         //running simulation
         runner.runSimulation(1);
