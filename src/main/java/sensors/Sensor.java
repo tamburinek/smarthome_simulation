@@ -3,7 +3,7 @@ package sensors;
 import devices.Device;
 import house.House;
 
-public class Sensor {
+public abstract class Sensor {
 
     private House house;
     private final Device sensorDevice;

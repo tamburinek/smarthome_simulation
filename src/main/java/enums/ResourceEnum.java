@@ -111,7 +111,7 @@ public enum ResourceEnum {
     },
 
     MONEY{
-        private int price = 0;
+        private int price = 1;
         private int quantity = 0;
 
         @Override

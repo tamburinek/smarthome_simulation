@@ -6,7 +6,7 @@ import npc.Human;
 
 import java.util.ArrayList;
 
-public class Event {
+public abstract class Event {
 
     private final Device usingDevice;
     private final Human human;
@@ -25,5 +25,7 @@ public class Event {
     public static ArrayList<Event> eventsToDo = new ArrayList<>();
     public static ArrayList<Event> currentEvents = new ArrayList<>();
     public static ArrayList<Event> notifications = new ArrayList<>();
+
+    public abstract boolean accept(EventVisitor visitor);
 
 }

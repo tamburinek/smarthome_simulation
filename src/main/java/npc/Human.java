@@ -1,20 +1,22 @@
 package npc;
 
-import devices.Device;
+import enums.Constants;
 import enums.Gender;
 import house.House;
 import location.Tracker;
 
 public abstract class Human extends Tracker {
 
-    private String name;
+    private final String name;
     private int age;
-    private Gender gender;
+    private final Gender gender;
+
     private House house;
 
-    private int happiness;
-    private int health;
-    private int clean;
+    private int happiness = Constants.START_HAPPINESS;
+    private int health = Constants.START_HEALTH;
+    private int clean = Constants.START_CLEAN;
+    private int fresh = Constants.START_FRESH;
 
     public Human(String name, int age, Gender gender){
         this.name = name;

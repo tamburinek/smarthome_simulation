@@ -8,15 +8,6 @@ public class Computer extends Device{
         super(deviceName, repairDifficulty, brokenIndex, effectivity);
     }
 
-    @Override
-    public void useDevice(Human human) {
-
-    }
-
-    @Override
-    public void repairDevice(Human human) {
-
-    }
 
     @Override
     public void consume() {

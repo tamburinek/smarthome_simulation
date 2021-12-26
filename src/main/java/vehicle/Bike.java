@@ -9,16 +9,6 @@ public class Bike extends Vehicle{
     }
 
     @Override
-    public void useDevice(Human human) {
-
-    }
-
-    @Override
-    public void repairDevice(Human human) {
-
-    }
-
-    @Override
     public void consume() {
 
     }

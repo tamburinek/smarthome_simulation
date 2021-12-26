@@ -1,10 +1,11 @@
 package state;
 
 import devices.Device;
+import npc.Human;
 
 public class InUseState implements DeviceState{
     @Override
-    public void useDevice(Device device) {
+    public void useDevice(Device device, Human human) {
 
     }
 
@@ -19,12 +20,12 @@ public class InUseState implements DeviceState{
     }
 
     @Override
-    public void repairDevice(Device device) {
+    public void repairDevice(Device device, Human human) {
 
     }
 
     @Override
-    public void stopUsingDevice(Device device) {
+    public void stopUsingDevice(Device device, Human human) {
 
     }
 

@@ -11,16 +11,6 @@ public class WorkingComputer extends Device{
     }
 
     @Override
-    public void useDevice(Human human) {
-
-    }
-
-    @Override
-    public void repairDevice(Human human) {
-
-    }
-
-    @Override
     public void consume() {
 
     }

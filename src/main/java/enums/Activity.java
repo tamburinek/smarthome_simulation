@@ -3,5 +3,6 @@ package enums;
 public enum Activity {
 
     REPAIRING,
-    USING
+    USING,
+    HELPING_BABY
 }

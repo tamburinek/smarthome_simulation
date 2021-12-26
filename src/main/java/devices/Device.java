@@ -70,16 +70,12 @@ public abstract class Device extends Tracker {
         this.duration = 100 - effectivity;
     }
 
-    public abstract void useDevice(Human human);
-    public abstract void repairDevice(Human human);
-
-    //todo implement consume for each device
     public abstract void consume();
     public abstract int cleaning();
     public abstract int happiness();
 
     //states
-    public void useDevice(){state.useDevice(this);}
+    public void useDevice(Human human){state.useDevice(this, human);}
 
     public void turnOffDevice() {
         state.turnOffDevice(this);
@@ -89,12 +85,12 @@ public abstract class Device extends Tracker {
         state.turnOnDevice(this);
     }
 
-    public void repairDevice() {
-        state.repairDevice(this);
+    public void repairDevice(Human human) {
+        state.repairDevice(this, human);
     }
 
-    public void stopUsingDevice(){
-        state.stopUsingDevice(this);
+    public void stopUsingDevice(Human human){
+        state.stopUsingDevice(this, human);
     }
 
 

@@ -19,5 +19,6 @@ public class EasyStrategy implements DifficultyStrategy{
         Constants.MAX_HEALTH = 1000;
         Constants.MAX_CLEAN = 1000;
         Constants.MAX_HAPPINESS = 1000;
+        Constants.MAX_FRESH = 1000;
     }
 }

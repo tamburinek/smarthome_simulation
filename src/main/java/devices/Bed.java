@@ -2,11 +2,12 @@ package devices;
 
 import npc.Human;
 
-public class Bath extends Device{
+public class Bed extends Device{
 
-    public Bath(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
+    public Bed(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
         super(deviceName, repairDifficulty, brokenIndex, effectivity);
     }
+
 
     @Override
     public void consume() {
