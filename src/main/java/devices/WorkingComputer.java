@@ -3,11 +3,12 @@ package devices;
 import enums.DeviceType;
 import enums.ResourceEnum;
 import location.Work;
+import manuals.Manual;
 
 public class WorkingComputer extends Device{
 
-    public WorkingComputer(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
-        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.WORK);
+    public WorkingComputer(String deviceName, int repairDifficulty, int brokenIndex, int effectivity, Manual manual) {
+        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.WORK, manual);
         setLocation(Work.getInstance());
     }
 

@@ -9,6 +9,7 @@ public class IdleState implements DeviceState{
     public void useDevice(Device device, Human human) {
         device.setState(new InUseState());
         device.setHumanUsingDevice(human);
+        human.setDoingSt(true);
     }
 
     @Override

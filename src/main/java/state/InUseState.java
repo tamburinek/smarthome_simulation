@@ -27,6 +27,8 @@ public class InUseState implements DeviceState{
     @Override
     public void stopUsingDevice(Device device, Human human) {
         device.setState(new IdleState());
+        human.setDoingSt(false);
+        device.setHumanUsingDevice(null);
     }
 
     @Override

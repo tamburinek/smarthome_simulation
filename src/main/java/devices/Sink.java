@@ -2,10 +2,11 @@ package devices;
 
 import enums.DeviceType;
 import enums.ResourceEnum;
+import manuals.Manual;
 
 public class Sink extends Device{
-    public Sink(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
-        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.CLEANING);
+    public Sink(String deviceName, int repairDifficulty, int brokenIndex, int effectivity, Manual manual) {
+        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.CLEANING, manual);
     }
 
     @Override

@@ -33,9 +33,7 @@ public class EventVisitor {
         if (Event.eventsToDo.contains(event)) {
             if (event.getHuman().isIn(event.getUsingDevice().getLocation())) {
                 if (!event.getHuman().isDoingSt() && event.getUsingDevice().getHumanUsingDevice() == null && !event.getUsingDevice().getState().isBroken()) {
-                    event.getUsingDevice().setHumanUsingDevice(event.getHuman());
-                    //event.getUsingDevice().consume(true);
-                    event.getHuman().setDoingSt(true);
+                    event.getUsingDevice().useDevice(event.getHuman());
                     Event.eventsToDo.remove(event);
                     Event.currentEvents.add(event);
                 } else
@@ -49,9 +47,7 @@ public class EventVisitor {
             event.setDuration(event.getDuration() - 10);
             if (event.getDuration() <= 0) {
                 Event.currentEvents.remove(event);
-                event.getHuman().setDoingSt(false);
-                event.getUsingDevice().setHumanUsingDevice(null);
-                //event.getUsingDevice().consume(false);
+                event.getUsingDevice().stopUsingDevice(event.getHuman());
             }
             return true;
         }

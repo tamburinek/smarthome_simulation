@@ -3,11 +3,12 @@ package devices;
 import enums.DeviceType;
 import enums.Gender;
 import enums.ResourceEnum;
+import manuals.Manual;
 
 public class ClothWash extends Device{
 
-    public ClothWash(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
-        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.CLEANING);
+    public ClothWash(String deviceName, int repairDifficulty, int brokenIndex, int effectivity, Manual manual) {
+        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.CLEANING, manual);
     }
 
     @Override

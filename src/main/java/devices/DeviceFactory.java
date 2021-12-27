@@ -1,7 +1,6 @@
 package devices;
 
 public class DeviceFactory {
-
     public static Bath createBath(String name, int difficulty, int index, int effectivity){return new Bath(name, difficulty, index, effectivity);}
     public static ClothWash createClothWash(String name, int difficulty, int index, int effectivity){return new ClothWash(name, difficulty, index, effectivity);}
     public static Computer createComputer(String name, int difficulty, int index, int effectivity){return new Computer(name, difficulty, index, effectivity);}

@@ -3,6 +3,7 @@ package devices;
 import enums.DeviceType;
 import house.Room;
 import location.Tracker;
+import manuals.Manual;
 import npc.Human;
 import state.DeviceState;
 import state.IdleState;
@@ -22,13 +23,20 @@ public abstract class Device extends Tracker {
     private Room room;
     private DeviceState state = new IdleState();
 
-    public Device(String deviceName, int repairDifficulty, int brokenIndex, int effectivity,DeviceType type) {
+    private final Manual manual;
+
+    public Device(String deviceName, int repairDifficulty, int brokenIndex, int effectivity, DeviceType type, Manual manual) {
         this.deviceName = deviceName;
         this.repairDifficulty = repairDifficulty;
         this.brokenIndex = brokenIndex;
         this.effectivity = effectivity;
         this.type = type;
+        this.manual = manual;
         setDuration();
+    }
+
+    public Manual getManual() {
+        return manual;
     }
 
     public Human getHumanUsingDevice() {

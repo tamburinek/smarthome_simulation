@@ -1,9 +1,12 @@
 import devices.Bath;
 import devices.Device;
+import devices.Window;
 import enums.Gender;
 import enums.ResourceEnum;
 import event.Event;
 import house.*;
+import manuals.Manual;
+import manuals.ManualProxyImpl;
 import npc.*;
 import resource.Resource;
 import utills.Helper;
@@ -16,6 +19,8 @@ public class FirstRun {
         ArrayList<Floor> floors = new ArrayList<>();
         ArrayList<Animal> animals = new ArrayList<>();
         ArrayList<Human> humans = new ArrayList<>();
+
+        Manual manual = new ManualProxyImpl();
 
         //first floor
         Floor firstFloor = new Floor("first");
@@ -34,6 +39,7 @@ public class FirstRun {
 
         Room bathroom = new Room("bathroom");
         Device bath = new Bath("bath", 23, 10, 25);
+        Device window = new Window("window", 10, 50, 50, manual);
         bath.setLocation(bathroom);
         bathroom.addDevice(bath);
         secondFloor.addRoom(bathroom);

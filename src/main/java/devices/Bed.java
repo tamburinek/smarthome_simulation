@@ -1,11 +1,12 @@
 package devices;
 
 import enums.DeviceType;
+import manuals.Manual;
 
 public class Bed extends Device{
 
-    public Bed(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
-        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.SLEEPING);
+    public Bed(String deviceName, int repairDifficulty, int brokenIndex, int effectivity, Manual manual) {
+        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.SLEEPING, manual);
     }
 
 

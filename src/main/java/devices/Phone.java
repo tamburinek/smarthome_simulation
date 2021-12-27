@@ -2,10 +2,11 @@ package devices;
 
 import enums.DeviceType;
 import enums.ResourceEnum;
+import manuals.Manual;
 
 public class Phone extends Device{
-    public Phone(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
-        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.JOY);
+    public Phone(String deviceName, int repairDifficulty, int brokenIndex, int effectivity, Manual manual) {
+        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.JOY, manual);
     }
 
     @Override

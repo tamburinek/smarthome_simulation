@@ -2,12 +2,13 @@ package devices;
 
 import enums.DeviceType;
 import enums.ResourceEnum;
+import manuals.Manual;
 import resource.Resource;
 
 public class Bath extends Device{
 
-    public Bath(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
-        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.CLEANING);
+    public Bath(String deviceName, int repairDifficulty, int brokenIndex, int effectivity, Manual manual) {
+        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.CLEANING, manual);
     }
 
     @Override
