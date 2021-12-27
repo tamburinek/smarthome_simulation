@@ -4,6 +4,7 @@ import devices.Device;
 import enums.Activity;
 import event.BasicEvent;
 import event.Event;
+import event.RepairEvent;
 import npc.Animal;
 import npc.Human;
 import sensors.Sensor;
@@ -69,15 +70,6 @@ public class HouseController {
                         human.setDoingSt(true);
                         Event.eventsToDo.add(event);
                     }
-                    continue;
-                }
-                else {
-                    Device device = Helper.findRandomDevice(house.getDevices());
-                    if (device != null){
-                        Event event = new BasicEvent(device, human, device.getDuration(), Activity.USING);
-                        human.setDoingSt(true);
-                        Event.eventsToDo.add(event);
-                    }
                 }
             }
 
@@ -92,7 +84,24 @@ public class HouseController {
             }
 
             for (Device device : house.getDevices()) {
+                if (device.getState().isBroken()) {
+                    Human human = Helper.findPersonForRepair(16, house.getHumans());
+                    Event event = new RepairEvent(device, human, device.getDuration(), Activity.REPAIRING);
+                    Event.eventsToDo.add(event);
+                }
                 device.getState().doNothingNew(device, device.getHumanUsingDevice());
+            }
+
+            for (Human human : house.getHumans()) {
+                if (human.isDoingSt()){
+                    continue;
+                }
+                Device device = Helper.findRandomDevice(house.getDevices());
+                if (device != null){
+                    Event event = new BasicEvent(device, human, device.getDuration(), Activity.USING);
+                    human.setDoingSt(true);
+                    Event.eventsToDo.add(event);
+                }
             }
         }
     }
