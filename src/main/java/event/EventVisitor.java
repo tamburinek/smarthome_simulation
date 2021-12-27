@@ -3,10 +3,58 @@ package event;
 public class EventVisitor {
 
     public boolean visitBabyEvent(BabyEvent event){
+        if (Event.eventsToDo.contains(event)) {
+            if (event.getHuman().isIn(event.getBaby().getLocation())) {
+                if (!event.getHuman().isDoingSt() && !event.getBaby().isDoingSt()) {
+                    event.getBaby().setDoingSt(true);
+                    event.getHuman().setDoingSt(true);
+                    Event.eventsToDo.remove(event);
+                    Event.currentEvents.add(event);
+                } else
+                    return false;
+            } else {
+                event.getHuman().setLocation(event.getBaby().getLocation());
+                return false;
+            }
+        }
+        if (Event.currentEvents.contains(event)) {
+            event.setDuration(event.getDuration() - 10);
+            if (event.getDuration() <= 0) {
+                Event.currentEvents.remove(event);
+                event.getHuman().setDoingSt(false);
+                event.getBaby().setDoingSt(false);
+            }
+            return true;
+        }
         return false;
     }
 
     public boolean visitBasicEvent(BasicEvent event){
+        if (Event.eventsToDo.contains(event)) {
+            if (event.getHuman().isIn(event.getUsingDevice().getLocation())) {
+                if (!event.getHuman().isDoingSt() && event.getUsingDevice().getHumanUsingDevice() == null && !event.getUsingDevice().getState().isBroken()) {
+                    event.getUsingDevice().setHumanUsingDevice(event.getHuman());
+                    //event.getUsingDevice().consume(true);
+                    event.getHuman().setDoingSt(true);
+                    Event.eventsToDo.remove(event);
+                    Event.currentEvents.add(event);
+                } else
+                    return false;
+            } else {
+                event.getHuman().setLocation(event.getUsingDevice().getLocation());
+                return false;
+            }
+        }
+        if (Event.currentEvents.contains(event)) {
+            event.setDuration(event.getDuration() - 10);
+            if (event.getDuration() <= 0) {
+                Event.currentEvents.remove(event);
+                event.getHuman().setDoingSt(false);
+                event.getUsingDevice().setHumanUsingDevice(null);
+                //event.getUsingDevice().consume(false);
+            }
+            return true;
+        }
         return false;
     }
 

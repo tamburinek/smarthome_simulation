@@ -18,4 +18,8 @@ public class BabyEvent extends Event{
     public boolean accept(EventVisitor visitor) {
         return visitor.visitBabyEvent(this);
     }
+
+    public Baby getBaby() {
+        return baby;
+    }
 }

@@ -29,6 +29,26 @@ public abstract class Event {
 
     public abstract boolean accept(EventVisitor visitor);
 
+    public Device getUsingDevice() {
+        return usingDevice;
+    }
+
+    public Human getHuman() {
+        return human;
+    }
+
+    public int getDuration() {
+        return duration;
+    }
+
+    public Activity getActivity() {
+        return activity;
+    }
+
+    public void setDuration(int duration) {
+        this.duration = duration;
+    }
+
     @Override
     public String toString() {
         return "Event{" +
