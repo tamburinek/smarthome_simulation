@@ -6,6 +6,7 @@ import enums.ResourceEnum;
 import event.Event;
 import house.*;
 import manuals.Manual;
+import manuals.ManualImpl;
 import manuals.ManualProxyImpl;
 import npc.*;
 import resource.Resource;
@@ -38,7 +39,7 @@ public class FirstRun {
         Floor secondFloor = new Floor("second");
 
         Room bathroom = new Room("bathroom");
-        Device bath = new Bath("bath", 23, 10, 25);
+        Device bath = new Bath("bath", 23, 10, 25, manual);
         Device window = new Window("window", 10, 50, 50, manual);
         bath.setLocation(bathroom);
         bathroom.addDevice(bath);

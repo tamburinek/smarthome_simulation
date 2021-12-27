@@ -1,11 +1,12 @@
 package vehicle;
 
 import enums.DeviceType;
+import manuals.Manual;
 
 public class Bike extends Vehicle{
 
-    public Bike(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {
-        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.SPORT);
+    public Bike(String deviceName, int repairDifficulty, int brokenIndex, int effectivity, Manual manual) {
+        super(deviceName, repairDifficulty, brokenIndex, effectivity, DeviceType.SPORT, manual);
     }
 
     @Override
