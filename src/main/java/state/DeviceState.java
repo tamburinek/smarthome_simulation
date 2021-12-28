@@ -5,14 +5,16 @@ import npc.Human;
 
 public interface DeviceState {
 
-    public void useDevice(Device device, Human human);
-    public void turnOffDevice(Device device);
-    public void turnOnDevice(Device device);
-    public void repairDevice(Device device, Human human);
-    public void stopUsingDevice(Device device, Human human);
-    public void doNothingNew(Device device, Human human);
+    void useDevice(Device device, Human human);
+    void turnOffDevice(Device device);
+    void turnOnDevice(Device device);
+    void repairDevice(Device device, Human human);
+    void stopUsingDevice(Device device, Human human);
+    void doNothingNew(Device device, Human human);
+    void buyNewDevice(Device device, Human human);
+    void callRepairman(Device device, Human human);
 
-    public boolean isOccupied();
-    public boolean isBroken();
-    public boolean isOn();
+    boolean isOccupied();
+    boolean isBroken();
+    boolean isOn();
 }

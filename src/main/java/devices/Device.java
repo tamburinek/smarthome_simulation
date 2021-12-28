@@ -123,6 +123,14 @@ public abstract class Device extends Tracker {
         state.stopUsingDevice(this, human);
     }
 
+    public void buyNewDevice(Human human) {
+        state.buyNewDevice(this, human);
+    }
+
+    public void callRepairman(Human human) {
+        state.callRepairman(this, human);
+    }
+
     public void tick(Human human){state.doNothingNew(this, human);}
 
 

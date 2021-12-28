@@ -35,6 +35,16 @@ public class OffState implements DeviceState{
     }
 
     @Override
+    public void buyNewDevice(Device device, Human human) {
+        //do nothing
+    }
+
+    @Override
+    public void callRepairman(Device device, Human human) {
+        //do nothing
+    }
+
+    @Override
     public boolean isOccupied() {
         return false;
     }

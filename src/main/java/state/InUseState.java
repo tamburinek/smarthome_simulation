@@ -37,7 +37,17 @@ public class InUseState implements DeviceState{
         if (device.tryBreak(true)){
             device.setHumanUsingDevice(null);
             device.setState(new BrokenState());
-        };
+        }
+    }
+
+    @Override
+    public void buyNewDevice(Device device, Human human) {
+        //do nothing
+    }
+
+    @Override
+    public void callRepairman(Device device, Human human) {
+        //do nothing
     }
 
     @Override

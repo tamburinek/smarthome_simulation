@@ -22,7 +22,9 @@ public class BrokenState implements DeviceState{
 
     @Override
     public void repairDevice(Device device, Human human) {
-        //todo lazy loading pattern
+        device.setState(new IdleState());
+        human.setDoingSt(false);
+        device.setHumanUsingDevice(null);
     }
 
     @Override
@@ -33,6 +35,21 @@ public class BrokenState implements DeviceState{
     @Override
     public void doNothingNew(Device device, Human human) {
         //do nothing
+    }
+
+    @Override
+    public void buyNewDevice(Device device, Human human) {
+        device.setState(new OffState());
+        human.setDoingSt(false);
+        device.setHumanUsingDevice(null);
+
+    }
+
+    @Override
+    public void callRepairman(Device device, Human human) {
+        device.setState(new IdleState());
+        human.setDoingSt(false);
+        device.setHumanUsingDevice(null);
     }
 
     @Override
