@@ -110,4 +110,9 @@ public class EventVisitor {
         }
         return false;
     }
+
+    public boolean animalEvent(AnimalEvent event){
+        //todo add activities for animals
+        return false;
+    }
 }
