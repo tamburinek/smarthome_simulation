@@ -28,9 +28,9 @@ public abstract class Human extends Tracker {
     }
 
     public void claimSatisfy(Device device){
-        happiness = happiness += device.happiness();
-        clean = clean += device.cleaning();
-        fresh = fresh += device.fresh();
+        happiness = happiness + device.happiness();
+        clean = clean + device.cleaning();
+        fresh = fresh + device.fresh();
     }
 
     public void doNothing(){

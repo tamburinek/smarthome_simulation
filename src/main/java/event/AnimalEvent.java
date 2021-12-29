@@ -3,17 +3,16 @@ package event;
 import devices.Device;
 import enums.Activity;
 import npc.Animal;
-
+import npc.Human;
 
 
 public class AnimalEvent extends Event{
     private final Animal animal;
 
-    public AnimalEvent(Device usingDevice, Animal animal, int duration, Activity activity) {
-        super(usingDevice, null, duration, activity);
+    public AnimalEvent(Device usingDevice, Human human, Animal animal, int duration, Activity activity) {
+        super(usingDevice, human, duration, activity);
         this.animal = animal;
     }
-
     public Animal getAnimal() {
         return animal;
     }

@@ -12,6 +12,8 @@ public abstract class Animal extends Tracker {
     private int happiness = Constants.START_HAPPINESS;
     private int hungry = Constants.START_HUNGRY;
 
+    private boolean isDoingSt = false;
+
     public Animal(String name) {
         this.name = name;
     }
@@ -30,6 +32,14 @@ public abstract class Animal extends Tracker {
 
     public void setHouse(House house) {
         this.house = house;
+    }
+
+    public boolean isDoingSt() {
+        return isDoingSt;
+    }
+
+    public void setDoingSt(boolean doingSt) {
+        isDoingSt = doingSt;
     }
 
     @Override

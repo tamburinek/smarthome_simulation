@@ -112,7 +112,29 @@ public class EventVisitor {
     }
 
     public boolean animalEvent(AnimalEvent event){
-        //todo add activities for animals
+        if (Event.eventsToDo.contains(event)) {
+            if (event.getHuman().isIn(event.getAnimal().getLocation())) {
+                if (!event.getHuman().isDoingSt() && !event.getAnimal().isDoingSt()) {
+                    event.getAnimal().setDoingSt(true);
+                    event.getHuman().setDoingSt(true);
+                    Event.eventsToDo.remove(event);
+                    Event.currentEvents.add(event);
+                } else
+                    return false;
+            } else {
+                event.getHuman().setLocation(event.getAnimal().getLocation());
+                return false;
+            }
+        }
+        if (Event.currentEvents.contains(event)) {
+            event.setDuration(event.getDuration() - 10);
+            if (event.getDuration() <= 0) {
+                Event.currentEvents.remove(event);
+                event.getHuman().setDoingSt(false);
+                event.getAnimal().setDoingSt(false);
+            }
+            return true;
+        }
         return false;
     }
 }
