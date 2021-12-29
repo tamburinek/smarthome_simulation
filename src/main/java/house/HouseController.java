@@ -90,6 +90,7 @@ public class HouseController {
                     Event.eventsToDo.add(event);
                 }
                 device.getState().doNothingNew(device, device.getHumanUsingDevice());
+                //System.out.println("device: " + device.getDeviceName() + " state: " + device.getState() + " broken: " + device.getBrokenIndex());
             }
 
             for (Human human : house.getHumans()) {
@@ -102,6 +103,7 @@ public class HouseController {
                     human.setDoingSt(true);
                     Event.eventsToDo.add(event);
                 }
+                //System.out.println("jmeno: " + human.getName() + " happiness: " + human.getHappiness() + " clean: " + human.getClean() + " hungry: " + human.getHungry());
             }
         }
     }

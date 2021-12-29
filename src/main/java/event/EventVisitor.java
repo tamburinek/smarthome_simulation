@@ -52,6 +52,7 @@ public class EventVisitor {
             if (event.getDuration() <= 0) {
                 Event.currentEvents.remove(event);
                 event.getUsingDevice().stopUsingDevice(event.getHuman());
+                event.getHuman().claimSatisfy(event.getUsingDevice());
             }
             return true;
         }
@@ -94,17 +95,16 @@ public class EventVisitor {
             if (event.getDuration() <= 0) {
                 Event.currentEvents.remove(event);
                 if(event.getSolution() == 1) {
-                    event.getUsingDevice().stopUsingDevice(event.getHuman());
                     event.getUsingDevice().repairDevice(event.getHuman());
                 }
                 if(event.getSolution() == 2) {
                     event.getUsingDevice().callRepairman(event.getHuman());
-                    event.getUsingDevice().stopUsingDevice(event.getHuman());
                 }
                 if(event.getSolution() == 3) {
                     event.getUsingDevice().buyNewDevice(event.getHuman());
-                    event.getUsingDevice().stopUsingDevice(event.getHuman());
                 }
+                event.getUsingDevice().stopUsingDevice(event.getHuman());
+                event.getHuman().claimSatisfy(event.getUsingDevice());
             }
             return true;
         }
