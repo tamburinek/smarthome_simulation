@@ -14,10 +14,10 @@ public class Computer extends Device{
     @Override
     public void consume(boolean usingDevice) {
         if (usingDevice){
-            ResourceEnum.ELECTRICITY.consume(40);
+            getResourcesConsumed()[0] +=  ResourceEnum.ELECTRICITY.consume(40);
         }
         else {
-            ResourceEnum.ELECTRICITY.consume(2);
+            getResourcesConsumed()[0] += ResourceEnum.ELECTRICITY.consume(2);
         }
     }
 

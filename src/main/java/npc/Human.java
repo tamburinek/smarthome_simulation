@@ -20,6 +20,8 @@ public abstract class Human extends Tracker {
     private int clean = Constants.START_CLEAN;
     private int fresh = Constants.START_FRESH;
 
+    private boolean isAlive = true;
+
 
     public Human(String name, int age, Gender gender){
         this.name = name;
@@ -32,6 +34,7 @@ public abstract class Human extends Tracker {
         clean = Math.min(clean + device.cleaning(), Constants.MAX_CLEAN);
         fresh = Math.min(fresh + device.fresh(), Constants.MAX_FRESH);
         hungry = Math.min(hungry + device.hungry(), Constants.MAX_HUNGRY);
+        checkForDead();
     }
 
     public void doNothing(){
@@ -39,6 +42,13 @@ public abstract class Human extends Tracker {
         fresh = fresh - Constants.INDEX;
         clean = clean - Constants.INDEX;
         hungry = hungry - Constants.INDEX;
+        checkForDead();
+    }
+
+    private void checkForDead(){
+        if (fresh <= 0 || happiness <= 0 || hungry <= 0 || clean <= 0){
+            isAlive = false;
+        }
     }
 
     public int getAge() {
@@ -107,7 +117,15 @@ public abstract class Human extends Tracker {
 
     public void printStats(){
         System.out.println("Hungry: " + hungry + ", Clean: " + clean + ", Fresh: " + fresh + ", Happiness: " + happiness);
-    };
+    }
+
+    public boolean isAlive() {
+        return isAlive;
+    }
+
+    public void setAlive(boolean alive) {
+        isAlive = alive;
+    }
 
     @Override
     public String toString() {

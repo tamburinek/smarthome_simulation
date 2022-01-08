@@ -21,52 +21,10 @@ public class Helper {
         return breakNumber < numberToBeat;
     }
 
-    public static Device findDeviceForClean(ArrayList<Device> devices){
+    public static Device findDevice(ArrayList<Device> devices, DeviceType type){
         ArrayList<Device> devices1 = new ArrayList<>();
         for (Device device : devices) {
-            if (device.getType() == DeviceType.CLEANING) {
-                if (!device.getState().isOccupied() && !device.getState().isBroken())
-                    devices1.add(device);
-            }
-        }
-        if (!devices1.isEmpty()){
-            return devices1.get(random.nextInt(devices1.size()));
-        }
-        return null;
-    }
-
-    public static Device findDeviceForJoy(ArrayList<Device> devices){
-        ArrayList<Device> devices1 = new ArrayList<>();
-        for (Device device : devices) {
-            if (device.getType() == DeviceType.JOY) {
-                if (!device.getState().isOccupied() && !device.getState().isBroken())
-                    devices1.add(device);
-            }
-        }
-        if (!devices1.isEmpty()){
-            return devices1.get(random.nextInt(devices1.size()));
-        }
-        return null;
-    }
-
-    public static Device findDeviceForSleep(ArrayList<Device> devices){
-        ArrayList<Device> devices1 = new ArrayList<>();
-        for (Device device : devices) {
-            if (device.getType() == DeviceType.SLEEPING) {
-                if (!device.getState().isOccupied() && !device.getState().isBroken())
-                    devices1.add(device);
-            }
-        }
-        if (!devices1.isEmpty()){
-            return devices1.get(random.nextInt(devices1.size()));
-        }
-        return null;
-    }
-
-    public static Device findDeviceToEat(ArrayList<Device> devices){
-        ArrayList<Device> devices1 = new ArrayList<>();
-        for (Device device : devices) {
-            if (device.getType() == DeviceType.EAT) {
+            if (device.getType() == type) {
                 if (!device.getState().isOccupied() && !device.getState().isBroken())
                     devices1.add(device);
             }
@@ -91,22 +49,27 @@ public class Helper {
         return null;
     }
 
-    public static Device findVehicle(ArrayList<Device> devices){
-        for (Device device : devices) {
-            if (device.getType() == DeviceType.TRANSPORT) {
-                if (!device.getState().isOccupied() && !device.getState().isBroken())
-                    return device;
-            }
-        }
-        return null;
-    }
-
     public static Human findPersonForRepair(int requiredAge, ArrayList<Human> humans){
+        //ArrayList<Device> devices1 = new ArrayList<>();
         for (Human human : humans) {
             if (human.getAge() > requiredAge) {
                 if (!human.isDoingSt())
                     return human;
             }
+        }
+        return null;
+    }
+
+    public static Human findPersonForBaby(int requiredAge, ArrayList<Human> humans){
+        ArrayList<Human> humans1 = new ArrayList<>();
+        for (Human human : humans) {
+            if (human.getAge() > requiredAge) {
+                if (!human.isDoingSt())
+                    humans1.add(human);
+            }
+        }
+        if (!humans1.isEmpty()){
+            return humans1.get(random.nextInt(humans1.size()));
         }
         return null;
     }

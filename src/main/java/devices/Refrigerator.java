@@ -11,7 +11,7 @@ public class Refrigerator extends Device {
 
     @Override
     public void consume(boolean usingDevice) {
-        ResourceEnum.ELECTRICITY.consume(2);
+        getResourcesConsumed()[0] += ResourceEnum.ELECTRICITY.consume(5);
         if (usingDevice){
             ResourceEnum.FOOD.consume(50);
             ResourceEnum.WATER.consume(50);

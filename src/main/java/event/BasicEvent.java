@@ -1,13 +1,12 @@
 package event;
 
 import devices.Device;
-import enums.Activity;
 import npc.Human;
 
 public class BasicEvent extends Event{
 
-    public BasicEvent(Device usingDevice, Human human, int duration, Activity activity) {
-        super(usingDevice, human, duration, activity);
+    public BasicEvent(Device usingDevice, Human human, int duration) {
+        super(usingDevice, human, duration);
     }
 
     @Override

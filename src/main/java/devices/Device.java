@@ -99,7 +99,7 @@ public abstract class Device extends Tracker {
     }
 
     //states
-    public void useDevice(Human human){state.useDevice(this, human);}
+    public void startUsingDevice(Human human){state.useDevice(this, human);}
 
     public void turnOffDevice() {
         state.turnOffDevice(this);

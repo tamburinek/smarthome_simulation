@@ -13,7 +13,7 @@ public class Car extends Vehicle{
 
     @Override
     public void consume(boolean usingDevice) {
-        ResourceEnum.GAS.consume(100);
+        getResourcesConsumed()[1] += ResourceEnum.GAS.consume(100);
     }
 
     @Override

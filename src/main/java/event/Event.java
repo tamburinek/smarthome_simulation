@@ -1,31 +1,32 @@
 package event;
 
 import devices.Device;
-import enums.Activity;
 import npc.Human;
+import utills.Time;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 public abstract class Event {
 
     private final Device usingDevice;
     private final Human human;
     private int duration;
-    private Activity activity;
+    private final Date time;
 
-    public Event(Device usingDevice, Human human, int duration, Activity activity) {
+    public Event(Device usingDevice, Human human, int duration) {
         this.usingDevice = usingDevice;
         this.human = human;
         this.duration = duration;
-        this.activity = activity;
+        this.time = Time.getCurrentTime();
     }
-
-    //todo here will be listener pattern
 
     public static ArrayList<Event> activitiesToDo = new ArrayList<>();
     public static ArrayList<Event> currentActivities = new ArrayList<>();
     public static ArrayList<Event> notifications = new ArrayList<>();
-    public static ArrayList<Event> notReadyEvents = new ArrayList<>();
+
+    public static ArrayList<Event> doneEvents = new ArrayList<>();
+    public static ArrayList<Event> allNotifications = new ArrayList<>();
 
     public abstract boolean accept(EventVisitor visitor);
 
@@ -41,10 +42,6 @@ public abstract class Event {
         return duration;
     }
 
-    public Activity getActivity() {
-        return activity;
-    }
-
     public void setDuration(int duration) {
         this.duration = duration;
     }
@@ -55,7 +52,6 @@ public abstract class Event {
                 "usingDevice=" + usingDevice +
                 ", human=" + human +
                 ", duration=" + duration +
-                ", activity=" + activity +
                 '}';
     }
 }

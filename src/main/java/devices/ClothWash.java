@@ -14,11 +14,11 @@ public class ClothWash extends Device{
     @Override
     public void consume(boolean usingDevice) {
         if (usingDevice){
-            ResourceEnum.WATER.consume(50);
-            ResourceEnum.ELECTRICITY.consume(40);
+            getResourcesConsumed()[2] += ResourceEnum.WATER.consume(50);
+            getResourcesConsumed()[0] += ResourceEnum.ELECTRICITY.consume(40);
         }
         else {
-            ResourceEnum.ELECTRICITY.consume(2);
+            getResourcesConsumed()[0] += ResourceEnum.ELECTRICITY.consume(2);
         }
     }
 

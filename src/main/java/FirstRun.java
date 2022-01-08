@@ -107,5 +107,6 @@ public class FirstRun {
 
         //running simulation
         runner.runSimulation(35);
+
     }
 }

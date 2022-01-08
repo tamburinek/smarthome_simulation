@@ -11,7 +11,7 @@ public class Phone extends Device{
 
     @Override
     public void consume(boolean usingDevice) {
-        ResourceEnum.ELECTRICITY.consume(5);
+        getResourcesConsumed()[0] += ResourceEnum.ELECTRICITY.consume(5);
     }
 
     @Override

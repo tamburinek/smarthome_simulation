@@ -1,11 +1,8 @@
 package house;
 
 import devices.Device;
-import enums.Activity;
-import event.BasicEvent;
-import event.Event;
-import event.EventVisitor;
-import event.RepairEvent;
+import enums.DeviceType;
+import event.*;
 import npc.Animal;
 import npc.Human;
 import sensors.Sensor;
@@ -13,8 +10,6 @@ import strategy.DifficultyStrategy;
 import strategy.EasyStrategy;
 import utills.Helper;
 import utills.Time;
-
-import java.util.Iterator;
 
 public class HouseController {
 
@@ -29,7 +24,6 @@ public class HouseController {
     public void runSimulation(int rounds){
         difficulty.setParams();
         EventVisitor visitor = new EventVisitor();
-
         Time.setCurrentTime(2012,10,23);
 
         for (int i = 0; i < rounds; i++) {
@@ -37,69 +31,45 @@ public class HouseController {
             System.out.println("----------------------");
             System.out.println(Time.getCurrentTime());
 
-            Iterator<Event> itr = Event.currentActivities.iterator();
-            while (itr.hasNext()) {
-                Event event = itr.next();
-                if (event.accept(visitor)) {
-                    itr.remove();
-                }
-            }
+            Event.notifications.removeIf(event -> event.accept(visitor));
 
-            Iterator<Event> itr2 = Event.activitiesToDo.iterator();
-            while (itr2.hasNext()) {
-                Event event = itr2.next();
-                if (event.accept(visitor)) {
-                    itr2.remove();
-                }
-            }
+            Event.currentActivities.removeIf(event -> event.accept(visitor));
+
+            Event.activitiesToDo.removeIf(event -> event.accept(visitor));
+
+            Device device = null;
 
             for (Human human : house.getHumans()) {
+
                 if (human.isDoingSt()){
                     continue;
                 }
+
                 human.doNothing();
-                if (human.getClean() < 40){
-                    Device device = Helper.findDeviceForClean(house.getDevices());
-                    if (device != null){
-                        Event.activitiesToDo.add(new BasicEvent(device, human, device.getDuration(), Activity.USING));
-                        human.setDoingSt(true);
-                    }
-                    continue;
+
+                if (human.getClean() < 60){
+                    device = Helper.findDevice(house.getDevices(), DeviceType.CLEANING);
                 }
-                else if (human.getHappiness() < 40){
-                    Device device = Helper.findDeviceForJoy(house.getDevices());
-                    if (device != null){
-                        Event.activitiesToDo.add(new BasicEvent(device, human, device.getDuration(), Activity.USING));
-                        human.setDoingSt(true);
-                    }
-                    continue;
+                else if (human.getHappiness() < 60){
+                    device = Helper.findDevice(house.getDevices(), DeviceType.JOY);
                 }
-                else if (human.getFresh() < 40) {
-                    Device device = Helper.findDeviceForSleep(house.getDevices());
-                    if (device != null){
-                        Event.activitiesToDo.add(new BasicEvent(device, human, device.getDuration(), Activity.USING));
-                        human.setDoingSt(true);
-                    }
-                    continue;
+                else if (human.getFresh() < 60) {
+                    device = Helper.findDevice(house.getDevices(), DeviceType.SLEEPING);
                 }
-                else if (human.getHungry() < 40) {
-                    Device device = Helper.findDeviceToEat(house.getDevices());
-                    if (device != null){
-                        Event.activitiesToDo.add(new BasicEvent(device, human, device.getDuration(), Activity.USING));
-                        human.setDoingSt(true);
-                    }
+                else if (human.getHungry() < 60) {
+                    device = Helper.findDevice(house.getDevices(), DeviceType.EAT);
                 }
                 else {
-                    Device device = Helper.findRandomDevice(house.getDevices());
-                    if (device != null){
-                        Event.activitiesToDo.add(new BasicEvent(device, human, device.getDuration(), Activity.USING));
-                        human.setDoingSt(true);
-                    }
+                    device = Helper.findRandomDevice(house.getDevices());
+                }
+                if (device != null){
+                    Event.activitiesToDo.add(new BasicEvent(device, human, device.getDuration()));
+                    human.setDoingSt(true);
                 }
             }
 
             for (Animal animal : house.getAnimals() ) {
-                //todo animal.doSomething
+                //todo
             }
 
             for (Sensor sensor : house.getSensors()) {
@@ -108,23 +78,14 @@ public class HouseController {
                 }
             }
 
-            for (Device device : house.getDevices()) {
-                if (device.getState().isBroken()) {
+            for (Device deviceHelper : house.getDevices()) {
+                if (deviceHelper.getState().isBroken()) {
                     Human human = Helper.findPersonForRepair(16, house.getHumans());
-                    Event event = new RepairEvent(device, human, device.getDuration(), Activity.REPAIRING);
+                    Event event = new RepairEvent(device, human, deviceHelper.getDuration());
                     Event.activitiesToDo.add(event);
                 }
-                device.getState().doNothingNew(device, device.getHumanUsingDevice());
-                //System.out.println("device: " + device.getDeviceName() + " state: " + device.getState() + " broken: " + device.getBrokenIndex());
+                deviceHelper.getState().doNothingNew(deviceHelper, deviceHelper.getHumanUsingDevice());
             }
         }
-    }
-
-    public DifficultyStrategy getDifficulty() {
-        return difficulty;
-    }
-
-    public void setDifficulty(DifficultyStrategy difficulty) {
-        this.difficulty = difficulty;
     }
 }

@@ -1,7 +1,6 @@
 package event;
 
 import devices.Device;
-import enums.Activity;
 import npc.Baby;
 import npc.Human;
 
@@ -9,8 +8,8 @@ public class BabyEvent extends Event{
 
     private final Baby baby;
 
-    public BabyEvent(Device usingDevice, Human human, int duration, Activity activity, Baby baby) {
-        super(usingDevice, human, duration, activity);
+    public BabyEvent(Device usingDevice, Human human, int duration, Baby baby) {
+        super(usingDevice, human, duration);
         this.baby = baby;
     }
 

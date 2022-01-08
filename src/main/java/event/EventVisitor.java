@@ -2,12 +2,14 @@ package event;
 
 import java.util.Random;
 
-public class EventVisitor {
+public class EventVisitor implements Visitor {
 
     public boolean visitBabyEvent(BabyEvent event){
-        if (Event.activitiesToDo.contains(event)) {
-            if (event.getHuman().isIn(event.getBaby().getLocation())) {
+
+        if (Event.activitiesToDo.contains(event) || Event.notifications.contains(event)) {
+            if (event.getHuman().isIn(event.getUsingDevice().getLocation())) {
                 if (!event.getHuman().isDoingSt() && !event.getBaby().isDoingSt()) {
+                    event.getUsingDevice().startUsingDevice(event.getHuman());
                     event.getBaby().setDoingSt(true);
                     event.getHuman().setDoingSt(true);
                     Event.currentActivities.add(event);
@@ -19,11 +21,12 @@ public class EventVisitor {
                 return false;
             }
         }
+
         if (Event.currentActivities.contains(event)) {
             event.setDuration(event.getDuration() - 10);
             if (event.getDuration() <= 0) {
-                event.getHuman().setDoingSt(false);
                 event.getBaby().setDoingSt(false);
+                event.getUsingDevice().stopUsingDevice(event.getHuman());
                 return true;
             }
         }
@@ -31,10 +34,11 @@ public class EventVisitor {
     }
 
     public boolean visitBasicEvent(BasicEvent event){
-        if (Event.activitiesToDo.contains(event)) {
+
+        if (Event.activitiesToDo.contains(event) || Event.notifications.contains(event)) {
             if (event.getHuman().isIn(event.getUsingDevice().getLocation())) {
                 if (!event.getUsingDevice().getState().isOccupied() && !event.getUsingDevice().getState().isBroken()) {
-                    event.getUsingDevice().useDevice(event.getHuman());
+                    event.getUsingDevice().startUsingDevice(event.getHuman());
 
                     System.out.println("Human: " + event.getHuman().getName() + " started using device: " + event.getUsingDevice().getDeviceName() + " and will be doing for " + event.getDuration());
 
@@ -47,6 +51,7 @@ public class EventVisitor {
                 return false;
             }
         }
+
         if (Event.currentActivities.contains(event)) {
             event.setDuration(event.getDuration() - 10);
             if (event.getDuration() <= 0) {
@@ -61,7 +66,8 @@ public class EventVisitor {
     }
 
     public boolean visitRepairEvent(RepairEvent event){
-        if (Event.activitiesToDo.contains(event)) {
+
+        if (Event.activitiesToDo.contains(event) || Event.notifications.contains(event)) {
             if (event.getHuman().isIn(event.getUsingDevice().getLocation())) {
                 if (!event.getHuman().isDoingSt() && !event.getUsingDevice().getState().isOccupied() && event.getUsingDevice().getState().isBroken()) {
                     if (event.getSolution() == 0) {
@@ -81,7 +87,7 @@ public class EventVisitor {
                         }
 
                     }
-                    event.getUsingDevice().useDevice(event.getHuman());
+                    event.getUsingDevice().startUsingDevice(event.getHuman());
                     Event.activitiesToDo.remove(event);
                     Event.currentActivities.add(event);
                 } else
@@ -113,13 +119,13 @@ public class EventVisitor {
     }
 
     public boolean animalEvent(AnimalEvent event){
-        if (Event.activitiesToDo.contains(event)) {
+        if (Event.activitiesToDo.contains(event) || Event.notifications.contains(event)) {
             if (event.getHuman().isIn(event.getAnimal().getLocation())) {
                 if (!event.getHuman().isDoingSt() && !event.getAnimal().isDoingSt()) {
                     event.getAnimal().setDoingSt(true);
                     event.getHuman().setDoingSt(true);
-                    Event.activitiesToDo.remove(event);
                     Event.currentActivities.add(event);
+                    return true;
                 } else
                     return false;
             } else {
@@ -133,8 +139,8 @@ public class EventVisitor {
                 Event.currentActivities.remove(event);
                 event.getHuman().setDoingSt(false);
                 event.getAnimal().setDoingSt(false);
+                return true;
             }
-            return true;
         }
         return false;
     }

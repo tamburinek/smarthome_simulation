@@ -34,6 +34,7 @@ public enum ResourceEnum {
         @Override
         public int consume(int quantity) {
             this.quantity -= quantity;
+            consumedElectricity += quantity;
             return quantity;
         }
 
@@ -71,6 +72,7 @@ public enum ResourceEnum {
         @Override
         public int consume(int quantity) {
             this.quantity -= quantity;
+            consumedFood += quantity;
             return quantity;
         }
 
@@ -108,6 +110,7 @@ public enum ResourceEnum {
         @Override
         public int consume(int quantity) {
             this.quantity -= quantity;
+            consumedGas += quantity;
             return quantity;
         }
 
@@ -140,11 +143,13 @@ public enum ResourceEnum {
         @Override
         public void add(int quantity) {
             this.quantity += quantity;
+            earnedMoney += quantity;
         }
 
         @Override
         public int consume(int quantity) {
             this.quantity -= quantity;
+            consumedMoney += quantity;
             return quantity;
         }
 
@@ -182,6 +187,7 @@ public enum ResourceEnum {
         @Override
         public int consume(int quantity) {
             this.quantity -= quantity;
+            consumedWater += quantity;
             return quantity;
         }
 
@@ -193,4 +199,12 @@ public enum ResourceEnum {
     public abstract int getQuantity();
     public abstract void add(int quantity);
     public abstract int consume(int quantity);
+
+    public int consumedElectricity = 0;
+    public int consumedFood = 0;
+    public int consumedGas = 0;
+    public int consumedMoney = 0;
+    public int earnedMoney = 0;
+    public int consumedWater = 0;
+
 }
