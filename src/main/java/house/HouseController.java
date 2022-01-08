@@ -88,7 +88,7 @@ public class HouseController {
         }
 
         if (difficulty.toString().equals("easy")){
-            EventIterator iterator = new EventIterator("reports/ActivityAndUsageReportEasyMode.txt");
+            EventIterator iterator = new EventIterator("reports/easy/ActivityAndUsageReport.txt");
             while (iterator.hasNext()){
                 iterator.next();
             }
