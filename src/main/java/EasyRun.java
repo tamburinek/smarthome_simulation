@@ -7,13 +7,17 @@ import manuals.Manual;
 import manuals.ManualImpl;
 import manuals.ManualProxyImpl;
 import npc.*;
+import observer.DeviceObserver;
+import observer.Observer;
 import resource.Resource;
+import strategy.EasyStrategy;
 import utills.Helper;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
-public class FirstRun {
+public class EasyRun {
     public static void main(String[] args) {
 
         ArrayList<Floor> floors = new ArrayList<>();
@@ -59,6 +63,10 @@ public class FirstRun {
         bathroom.addDevice(tv);
         Device workingComputer = new WorkingComputer("work", 10, 2, 0, manual);
         bathroom.addDevice(workingComputer);
+        Device refrigerator = new Refrigerator("refrigerator", 10, 2, 0, manual);
+        bathroom.addDevice(refrigerator);
+        Device refrigerator2 = new Refrigerator("refrigerator2", 10, 2, 0, manual);
+        bathroom.addDevice(refrigerator2);
 
         secondFloor.addRoom(bathroom);
         floors.add(secondFloor);
@@ -102,11 +110,12 @@ public class FirstRun {
 
         HouseBuilder builder = new HouseBuilder();
         House testHouse = builder.houseName("test").floors(floors).animals(animals).humans(humans).getResult();
-        HouseController runner = new HouseController(testHouse);
+        HouseController runner = new HouseController(testHouse, new EasyStrategy());
+
 
 
         //running simulation
-        runner.runSimulation(35);
+        runner.runSimulation(40);
 
     }
 }

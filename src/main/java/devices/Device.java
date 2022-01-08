@@ -5,9 +5,13 @@ import house.Room;
 import location.Tracker;
 import manuals.Manual;
 import npc.Human;
+import observer.Observer;
 import state.DeviceState;
 import state.IdleState;
 import utills.Helper;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class Device extends Tracker {
 
@@ -16,6 +20,8 @@ public abstract class Device extends Tracker {
     private final int brokenIndex;
     private final int effectivity;
     private final DeviceType type;
+
+    private Observer observer = null;
 
     private int[] resourcesConsumed = new int[3];
 
@@ -86,6 +92,18 @@ public abstract class Device extends Tracker {
 
     public void setDuration(int duration) {
         this.duration = duration;
+    }
+
+    public void attach(Observer observer){
+        this.observer = observer;
+    }
+
+    public Observer getObservers() {
+        return observer;
+    }
+
+    public void setResourcesConsumed(int[] resourcesConsumed) {
+        this.resourcesConsumed = resourcesConsumed;
     }
 
     public abstract void consume(boolean usingDevice);

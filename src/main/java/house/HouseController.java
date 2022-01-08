@@ -3,6 +3,7 @@ package house;
 import devices.Device;
 import enums.DeviceType;
 import event.*;
+import iterator.EventIterator;
 import npc.Animal;
 import npc.Human;
 import sensors.Sensor;
@@ -16,9 +17,9 @@ public class HouseController {
     private final House house;
     private DifficultyStrategy difficulty;
 
-    public HouseController(House house) {
+    public HouseController(House house, DifficultyStrategy strategy) {
         this.house = house;
-        this.difficulty = new EasyStrategy();
+        this.difficulty = strategy;
     }
 
     public void runSimulation(int rounds){
@@ -28,8 +29,6 @@ public class HouseController {
 
         for (int i = 0; i < rounds; i++) {
             Time.addTime(10);
-            System.out.println("----------------------");
-            System.out.println(Time.getCurrentTime());
 
             Event.notifications.removeIf(event -> event.accept(visitor));
 
@@ -41,11 +40,11 @@ public class HouseController {
 
             for (Human human : house.getHumans()) {
 
-                if (human.isDoingSt()){
+                human.doNothing();
+
+                if (human.isDoingSt() || !human.isAlive()){
                     continue;
                 }
-
-                human.doNothing();
 
                 if (human.getClean() < 60){
                     device = Helper.findDevice(house.getDevices(), DeviceType.CLEANING);
@@ -85,6 +84,16 @@ public class HouseController {
                     Event.activitiesToDo.add(event);
                 }
                 deviceHelper.getState().doNothingNew(deviceHelper, deviceHelper.getHumanUsingDevice());
+            }
+        }
+
+        if (difficulty.toString().equals("easy")){
+            EventIterator iterator = new EventIterator("ActivityAndUsageReportEasyMode.txt");
+            while (iterator.hasNext()){
+                iterator.next();
+            }
+            for (Human human : house.getHumans()){
+                iterator.last(human);
             }
         }
     }

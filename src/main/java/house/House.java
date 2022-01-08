@@ -3,6 +3,8 @@ package house;
 import devices.Device;
 import npc.Animal;
 import npc.Human;
+import observer.DeviceObserver;
+import observer.Observer;
 import sensors.Sensor;
 
 import java.util.ArrayList;
@@ -85,6 +87,12 @@ public class House {
             sensor.setHouse(this);
         }
 
+    }
+
+    public void atachObserver() {
+        for (Device device : devices) {
+            new DeviceObserver(device);
+        }
     }
 
     @Override

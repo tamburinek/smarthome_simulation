@@ -30,6 +30,11 @@ public abstract class Event {
 
     public abstract boolean accept(EventVisitor visitor);
 
+
+    public Date getTime() {
+        return time;
+    }
+
     public Device getUsingDevice() {
         return usingDevice;
     }

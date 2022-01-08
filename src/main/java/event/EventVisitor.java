@@ -39,9 +39,6 @@ public class EventVisitor implements Visitor {
             if (event.getHuman().isIn(event.getUsingDevice().getLocation())) {
                 if (!event.getUsingDevice().getState().isOccupied() && !event.getUsingDevice().getState().isBroken()) {
                     event.getUsingDevice().startUsingDevice(event.getHuman());
-
-                    System.out.println("Human: " + event.getHuman().getName() + " started using device: " + event.getUsingDevice().getDeviceName() + " and will be doing for " + event.getDuration());
-
                     Event.currentActivities.add(event);
                     return true;
                 } else
@@ -57,8 +54,6 @@ public class EventVisitor implements Visitor {
             if (event.getDuration() <= 0) {
                 event.getHuman().claimSatisfy(event.getUsingDevice());
                 event.getUsingDevice().stopUsingDevice(event.getHuman());
-                System.out.println("Human: " + event.getHuman().getName() + " ended using device: " + event.getUsingDevice().getDeviceName());
-                event.getHuman().printStats();
                 return true;
             }
         }

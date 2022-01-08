@@ -11,7 +11,7 @@ public enum NotificationType {
     ENDED_USING {
         @Override
         public String toString() {
-            return "ended repairing";
+            return "ended using";
         }
     },
     STARTED_REPAIRING {

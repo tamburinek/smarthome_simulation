@@ -23,4 +23,9 @@ public class EasyStrategy implements DifficultyStrategy{
         Constants.MAX_HAPPINESS = 100;
         Constants.MAX_FRESH = 100;
     }
+
+    @Override
+    public String toString() {
+        return "easy";
+    }
 }

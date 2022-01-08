@@ -1,15 +1,17 @@
 package state;
 
 import devices.Device;
+import enums.NotificationType;
 import npc.Human;
 
 public class IdleState implements DeviceState{
 
     @Override
     public void useDevice(Device device, Human human) {
-        device.setState(new InUseState());
         device.setHumanUsingDevice(human);
         human.setDoingSt(true);
+        device.getObservers().update(NotificationType.STARTED_USING);
+        device.setState(new InUseState());
     }
 
     @Override

@@ -31,6 +31,7 @@ public class HouseBuilder {
     public House getResult(){
         house.setLocation();
         house.setDevices();
+        house.atachObserver();
         return house;
     }
 }

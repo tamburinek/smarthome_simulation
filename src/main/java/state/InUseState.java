@@ -1,6 +1,7 @@
 package state;
 
 import devices.Device;
+import enums.NotificationType;
 import npc.Human;
 
 public class InUseState implements DeviceState{
@@ -26,9 +27,10 @@ public class InUseState implements DeviceState{
 
     @Override
     public void stopUsingDevice(Device device, Human human) {
-        device.setState(new IdleState());
+        device.getObservers().update(NotificationType.ENDED_USING);
         human.setDoingSt(false);
         device.setHumanUsingDevice(null);
+        device.setState(new IdleState());
     }
 
     @Override

@@ -4,6 +4,8 @@ import devices.Device;
 import enums.NotificationType;
 import npc.Human;
 
+import java.util.Date;
+
 public class NotificationEvent extends Event {
 
     private final NotificationType type;
