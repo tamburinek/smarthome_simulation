@@ -28,4 +28,9 @@ public class Bike extends Vehicle{
     public int fresh() {
         return -20;
     }
+
+    @Override
+    public int hungry() {
+        return -10;
+    }
 }

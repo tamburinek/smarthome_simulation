@@ -17,10 +17,11 @@ public abstract class Device extends Tracker {
     private final int effectivity;
     private final DeviceType type;
 
+    private int[] resourcesConsumed = new int[3];
+
     private Human humanUsingDevice = null;
     private int duration;
 
-    private Room room;
     private DeviceState state = new IdleState();
 
     private final Manual manual;
@@ -67,14 +68,6 @@ public abstract class Device extends Tracker {
         return state;
     }
 
-    public Room getRoom() {
-        return room;
-    }
-
-    public void setRoom(Room room) {
-        this.room = room;
-    }
-
     public int getDuration() {
         return duration;
     }
@@ -99,6 +92,7 @@ public abstract class Device extends Tracker {
     public abstract int cleaning();
     public abstract int happiness();
     public abstract int fresh();
+    public abstract int hungry();
 
     public boolean tryBreak(boolean someoneUsing){
         return Helper.breakDevice(this, someoneUsing);
@@ -133,6 +127,9 @@ public abstract class Device extends Tracker {
 
     public void tick(Human human){state.doNothingNew(this, human);}
 
+    public int[] getResourcesConsumed() {
+        return resourcesConsumed;
+    }
 
     @Override
     public String toString() {

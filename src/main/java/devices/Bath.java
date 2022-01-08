@@ -14,11 +14,11 @@ public class Bath extends Device{
     @Override
     public void consume(boolean usingDevice) {
         if (usingDevice){
-            ResourceEnum.WATER.consume(50);
-            ResourceEnum.ELECTRICITY.consume(40);
+            getResourcesConsumed()[0] += ResourceEnum.ELECTRICITY.consume(40);
+            getResourcesConsumed()[2] += ResourceEnum.WATER.consume(50);
         }
         else {
-            ResourceEnum.ELECTRICITY.consume(2);
+            getResourcesConsumed()[0] += ResourceEnum.ELECTRICITY.consume(2);
         }
     }
 
@@ -29,11 +29,16 @@ public class Bath extends Device{
 
     @Override
     public int happiness() {
-        return 40;
+        return 20;
     }
 
     @Override
     public int fresh() {
         return 10;
+    }
+
+    @Override
+    public int hungry() {
+        return 0;
     }
 }

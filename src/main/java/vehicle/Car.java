@@ -34,4 +34,9 @@ public class Car extends Vehicle{
     public int fresh() {
         return -5;
     }
+
+    @Override
+    public int hungry() {
+        return 0;
+    }
 }

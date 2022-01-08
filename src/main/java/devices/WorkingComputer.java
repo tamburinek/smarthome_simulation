@@ -31,4 +31,9 @@ public class WorkingComputer extends Device{
     public int fresh() {
         return -25;
     }
+
+    @Override
+    public int hungry() {
+        return -30;
+    }
 }

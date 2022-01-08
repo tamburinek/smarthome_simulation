@@ -11,4 +11,9 @@ public abstract class Vehicle extends Device {
         super(deviceName, repairDifficulty, brokenIndex, effectivity, type, manual);
     }
 
+    @Override
+    public int hungry() {
+        return 0;
+    }
+
 }

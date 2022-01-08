@@ -29,4 +29,9 @@ public class Bed extends Device{
     public int fresh() {
         return 100;
     }
+
+    @Override
+    public int hungry() {
+        return 0;
+    }
 }

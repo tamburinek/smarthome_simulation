@@ -1,19 +1,17 @@
 package event;
 
-import manuals.Manual;
-
 import java.util.Random;
 
 public class EventVisitor {
 
     public boolean visitBabyEvent(BabyEvent event){
-        if (Event.eventsToDo.contains(event)) {
+        if (Event.activitiesToDo.contains(event)) {
             if (event.getHuman().isIn(event.getBaby().getLocation())) {
                 if (!event.getHuman().isDoingSt() && !event.getBaby().isDoingSt()) {
                     event.getBaby().setDoingSt(true);
                     event.getHuman().setDoingSt(true);
-                    Event.eventsToDo.remove(event);
-                    Event.currentEvents.add(event);
+                    Event.currentActivities.add(event);
+                    return true;
                 } else
                     return false;
             } else {
@@ -21,25 +19,27 @@ public class EventVisitor {
                 return false;
             }
         }
-        if (Event.currentEvents.contains(event)) {
+        if (Event.currentActivities.contains(event)) {
             event.setDuration(event.getDuration() - 10);
             if (event.getDuration() <= 0) {
-                Event.currentEvents.remove(event);
                 event.getHuman().setDoingSt(false);
                 event.getBaby().setDoingSt(false);
+                return true;
             }
-            return true;
         }
         return false;
     }
 
     public boolean visitBasicEvent(BasicEvent event){
-        if (Event.eventsToDo.contains(event)) {
+        if (Event.activitiesToDo.contains(event)) {
             if (event.getHuman().isIn(event.getUsingDevice().getLocation())) {
-                if (!event.getHuman().isDoingSt() && !event.getUsingDevice().getState().isOccupied() && !event.getUsingDevice().getState().isBroken()) {
+                if (!event.getUsingDevice().getState().isOccupied() && !event.getUsingDevice().getState().isBroken()) {
                     event.getUsingDevice().useDevice(event.getHuman());
-                    Event.eventsToDo.remove(event);
-                    Event.currentEvents.add(event);
+
+                    System.out.println("Human: " + event.getHuman().getName() + " started using device: " + event.getUsingDevice().getDeviceName() + " and will be doing for " + event.getDuration());
+
+                    Event.currentActivities.add(event);
+                    return true;
                 } else
                     return false;
             } else {
@@ -47,20 +47,21 @@ public class EventVisitor {
                 return false;
             }
         }
-        if (Event.currentEvents.contains(event)) {
+        if (Event.currentActivities.contains(event)) {
             event.setDuration(event.getDuration() - 10);
             if (event.getDuration() <= 0) {
-                Event.currentEvents.remove(event);
-                event.getUsingDevice().stopUsingDevice(event.getHuman());
                 event.getHuman().claimSatisfy(event.getUsingDevice());
+                event.getUsingDevice().stopUsingDevice(event.getHuman());
+                System.out.println("Human: " + event.getHuman().getName() + " ended using device: " + event.getUsingDevice().getDeviceName());
+                event.getHuman().printStats();
+                return true;
             }
-            return true;
         }
         return false;
     }
 
     public boolean visitRepairEvent(RepairEvent event){
-        if (Event.eventsToDo.contains(event)) {
+        if (Event.activitiesToDo.contains(event)) {
             if (event.getHuman().isIn(event.getUsingDevice().getLocation())) {
                 if (!event.getHuman().isDoingSt() && !event.getUsingDevice().getState().isOccupied() && event.getUsingDevice().getState().isBroken()) {
                     if (event.getSolution() == 0) {
@@ -81,8 +82,8 @@ public class EventVisitor {
 
                     }
                     event.getUsingDevice().useDevice(event.getHuman());
-                    Event.eventsToDo.remove(event);
-                    Event.currentEvents.add(event);
+                    Event.activitiesToDo.remove(event);
+                    Event.currentActivities.add(event);
                 } else
                     return false;
             } else {
@@ -90,10 +91,10 @@ public class EventVisitor {
                 return false;
             }
         }
-        if (Event.currentEvents.contains(event)) {
+        if (Event.currentActivities.contains(event)) {
             event.setDuration(event.getDuration() - 10);
             if (event.getDuration() <= 0) {
-                Event.currentEvents.remove(event);
+                Event.currentActivities.remove(event);
                 if(event.getSolution() == 1) {
                     event.getUsingDevice().repairDevice(event.getHuman());
                 }
@@ -112,13 +113,13 @@ public class EventVisitor {
     }
 
     public boolean animalEvent(AnimalEvent event){
-        if (Event.eventsToDo.contains(event)) {
+        if (Event.activitiesToDo.contains(event)) {
             if (event.getHuman().isIn(event.getAnimal().getLocation())) {
                 if (!event.getHuman().isDoingSt() && !event.getAnimal().isDoingSt()) {
                     event.getAnimal().setDoingSt(true);
                     event.getHuman().setDoingSt(true);
-                    Event.eventsToDo.remove(event);
-                    Event.currentEvents.add(event);
+                    Event.activitiesToDo.remove(event);
+                    Event.currentActivities.add(event);
                 } else
                     return false;
             } else {
@@ -126,10 +127,10 @@ public class EventVisitor {
                 return false;
             }
         }
-        if (Event.currentEvents.contains(event)) {
+        if (Event.currentActivities.contains(event)) {
             event.setDuration(event.getDuration() - 10);
             if (event.getDuration() <= 0) {
-                Event.currentEvents.remove(event);
+                Event.currentActivities.remove(event);
                 event.getHuman().setDoingSt(false);
                 event.getAnimal().setDoingSt(false);
             }

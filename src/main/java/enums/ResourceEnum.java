@@ -32,8 +32,9 @@ public enum ResourceEnum {
         }
 
         @Override
-        public void consume(int quantity) {
+        public int consume(int quantity) {
             this.quantity -= quantity;
+            return quantity;
         }
 
     },
@@ -68,8 +69,9 @@ public enum ResourceEnum {
         }
 
         @Override
-        public void consume(int quantity) {
+        public int consume(int quantity) {
             this.quantity -= quantity;
+            return quantity;
         }
 
     },
@@ -104,8 +106,9 @@ public enum ResourceEnum {
         }
 
         @Override
-        public void consume(int quantity) {
+        public int consume(int quantity) {
             this.quantity -= quantity;
+            return quantity;
         }
 
     },
@@ -140,8 +143,9 @@ public enum ResourceEnum {
         }
 
         @Override
-        public void consume(int quantity) {
+        public int consume(int quantity) {
             this.quantity -= quantity;
+            return quantity;
         }
 
     },
@@ -176,8 +180,9 @@ public enum ResourceEnum {
         }
 
         @Override
-        public void consume(int quantity) {
+        public int consume(int quantity) {
             this.quantity -= quantity;
+            return quantity;
         }
 
     };
@@ -187,5 +192,5 @@ public enum ResourceEnum {
     public abstract String getName();
     public abstract int getQuantity();
     public abstract void add(int quantity);
-    public abstract void consume(int quantity);
+    public abstract int consume(int quantity);
 }

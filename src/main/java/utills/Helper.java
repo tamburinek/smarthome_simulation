@@ -22,51 +22,71 @@ public class Helper {
     }
 
     public static Device findDeviceForClean(ArrayList<Device> devices){
+        ArrayList<Device> devices1 = new ArrayList<>();
         for (Device device : devices) {
             if (device.getType() == DeviceType.CLEANING) {
                 if (!device.getState().isOccupied() && !device.getState().isBroken())
-                    return device;
+                    devices1.add(device);
             }
+        }
+        if (!devices1.isEmpty()){
+            return devices1.get(random.nextInt(devices1.size()));
         }
         return null;
     }
 
     public static Device findDeviceForJoy(ArrayList<Device> devices){
+        ArrayList<Device> devices1 = new ArrayList<>();
         for (Device device : devices) {
             if (device.getType() == DeviceType.JOY) {
                 if (!device.getState().isOccupied() && !device.getState().isBroken())
-                    return device;
+                    devices1.add(device);
             }
+        }
+        if (!devices1.isEmpty()){
+            return devices1.get(random.nextInt(devices1.size()));
         }
         return null;
     }
 
     public static Device findDeviceForSleep(ArrayList<Device> devices){
+        ArrayList<Device> devices1 = new ArrayList<>();
         for (Device device : devices) {
             if (device.getType() == DeviceType.SLEEPING) {
                 if (!device.getState().isOccupied() && !device.getState().isBroken())
-                    return device;
+                    devices1.add(device);
             }
+        }
+        if (!devices1.isEmpty()){
+            return devices1.get(random.nextInt(devices1.size()));
         }
         return null;
     }
 
     public static Device findDeviceToEat(ArrayList<Device> devices){
+        ArrayList<Device> devices1 = new ArrayList<>();
         for (Device device : devices) {
             if (device.getType() == DeviceType.EAT) {
                 if (!device.getState().isOccupied() && !device.getState().isBroken())
-                    return device;
+                    devices1.add(device);
             }
+        }
+        if (!devices1.isEmpty()){
+            return devices1.get(random.nextInt(devices1.size()));
         }
         return null;
     }
 
     public static Device findRandomDevice(ArrayList<Device> devices){
+        ArrayList<Device> devices1 = new ArrayList<>();
         for (Device device : devices) {
-            if (device.getType() == DeviceType.JOY || device.getType() == DeviceType.WORK || device.getType() == DeviceType.SPORT || device.getType() == DeviceType.EAT || device.getType() == DeviceType.SLEEPING) {
+            if (device.getType() != DeviceType.WORK) {
                 if (!device.getState().isOccupied() && !device.getState().isBroken())
-                    return device;
+                    devices1.add(device);
             }
+        }
+        if (!devices1.isEmpty()){
+            return devices1.get(random.nextInt(devices1.size()));
         }
         return null;
     }

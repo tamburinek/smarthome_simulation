@@ -1,6 +1,4 @@
-import devices.Bath;
-import devices.Device;
-import devices.Window;
+import devices.*;
 import enums.Gender;
 import enums.ResourceEnum;
 import event.Event;
@@ -13,6 +11,7 @@ import resource.Resource;
 import utills.Helper;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class FirstRun {
     public static void main(String[] args) {
@@ -39,10 +38,28 @@ public class FirstRun {
         Floor secondFloor = new Floor("second");
 
         Room bathroom = new Room("bathroom");
-        Device bath = new Bath("bath", 23, 10, 25, manual);
-        Device window = new Window("window", 10, 50, 50, manual);
-        bath.setLocation(bathroom);
+        Device bath = new Bath("bath", 23, 10, 60, manual);
         bathroom.addDevice(bath);
+        Device bed = new Bed("bed", 10, 2, 50, manual);
+        bathroom.addDevice(bed);
+
+        Device clothWash = new ClothWash("cloth wash", 10, 2, 20, manual);
+        bathroom.addDevice(clothWash);
+        Device computer = new Computer("computer", 10, 2, 80, manual);
+        bathroom.addDevice(computer);
+        Device dishWash = new DishWash("dish wash", 10, 2, 40, manual);
+        bathroom.addDevice(dishWash);
+        Device phone = new Phone("phone", 10, 2, 35, manual);
+        bathroom.addDevice(phone);
+        Device radio = new Radio("radio", 10, 2, 90, manual);
+        bathroom.addDevice(radio);
+        Device bed2 = new Bed("bed2", 10, 2, 10, manual);
+        bathroom.addDevice(bed2);
+        Device tv = new Television("tv", 10, 2, 60, manual);
+        bathroom.addDevice(tv);
+        Device workingComputer = new WorkingComputer("work", 10, 2, 0, manual);
+        bathroom.addDevice(workingComputer);
+
         secondFloor.addRoom(bathroom);
         floors.add(secondFloor);
 
@@ -89,6 +106,6 @@ public class FirstRun {
 
 
         //running simulation
-        runner.runSimulation(1);
+        runner.runSimulation(35);
     }
 }

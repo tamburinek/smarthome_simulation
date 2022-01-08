@@ -28,15 +28,17 @@ public abstract class Human extends Tracker {
     }
 
     public void claimSatisfy(Device device){
-        happiness = happiness + device.happiness();
-        clean = clean + device.cleaning();
-        fresh = fresh + device.fresh();
+        happiness = Math.min(happiness + device.happiness(), Constants.MAX_HAPPINESS);
+        clean = Math.min(clean + device.cleaning(), Constants.MAX_CLEAN);
+        fresh = Math.min(fresh + device.fresh(), Constants.MAX_FRESH);
+        hungry = Math.min(hungry + device.hungry(), Constants.MAX_HUNGRY);
     }
 
     public void doNothing(){
-        happiness = happiness - 1;
-        fresh = fresh - 1;
-        clean = clean - 1;
+        happiness = happiness - Constants.INDEX;
+        fresh = fresh - Constants.INDEX;
+        clean = clean - Constants.INDEX;
+        hungry = hungry - Constants.INDEX;
     }
 
     public int getAge() {
@@ -102,6 +104,10 @@ public abstract class Human extends Tracker {
     public String getName() {
         return name;
     }
+
+    public void printStats(){
+        System.out.println("Hungry: " + hungry + ", Clean: " + clean + ", Fresh: " + fresh + ", Happiness: " + happiness);
+    };
 
     @Override
     public String toString() {

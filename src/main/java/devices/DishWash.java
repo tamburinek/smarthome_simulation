@@ -44,4 +44,9 @@ public class DishWash extends Device{
             return -10;
         }
     }
+
+    @Override
+    public int hungry() {
+        return 0;
+    }
 }

@@ -40,4 +40,9 @@ public class ClothWash extends Device{
     public int fresh() {
         return -10;
     }
+
+    @Override
+    public int hungry() {
+        return 0;
+    }
 }

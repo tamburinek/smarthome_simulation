@@ -22,8 +22,8 @@ public abstract class Event {
 
     //todo here will be listener pattern
 
-    public static ArrayList<Event> eventsToDo = new ArrayList<>();
-    public static ArrayList<Event> currentEvents = new ArrayList<>();
+    public static ArrayList<Event> activitiesToDo = new ArrayList<>();
+    public static ArrayList<Event> currentActivities = new ArrayList<>();
     public static ArrayList<Event> notifications = new ArrayList<>();
     public static ArrayList<Event> notReadyEvents = new ArrayList<>();
 

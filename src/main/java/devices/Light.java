@@ -33,4 +33,9 @@ public class Light extends Device {
     public int fresh() {
         return 0;
     }
+
+    @Override
+    public int hungry() {
+        return 0;
+    }
 }

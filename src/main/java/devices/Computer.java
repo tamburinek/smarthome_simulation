@@ -35,4 +35,9 @@ public class Computer extends Device{
     public int fresh() {
         return -20;
     }
+
+    @Override
+    public int hungry() {
+        return 0;
+    }
 }

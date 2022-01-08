@@ -34,10 +34,10 @@ public class InUseState implements DeviceState{
     @Override
     public void doNothingNew(Device device, Human human) {
         device.consume(true);
-        if (device.tryBreak(true)){
+        /*if (device.tryBreak(true)){
             device.setHumanUsingDevice(null);
             device.setState(new BrokenState());
-        }
+        }*/
     }
 
     @Override
