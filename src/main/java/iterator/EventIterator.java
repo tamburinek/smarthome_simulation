@@ -2,9 +2,8 @@ package iterator;
 
 import enums.NotificationType;
 import event.Event;
-import event.NotificationEvent;
+import event.PrintingEvent;
 import npc.Human;
-import utills.Time;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -36,7 +35,7 @@ public class EventIterator implements Iterator{
     @Override
     public boolean next() {
 
-        NotificationEvent event = (NotificationEvent) Event.doneEvents.get(index);
+        PrintingEvent event = (PrintingEvent) Event.doneEvents.get(index);
 
         try {
             FileWriter myWriter = new FileWriter(file, true);

@@ -6,11 +6,11 @@ import npc.Human;
 
 import java.util.Date;
 
-public class NotificationEvent extends Event {
+public class PrintingEvent extends Event {
 
     private final NotificationType type;
 
-    public NotificationEvent(Device usingDevice, Human human, int duration, NotificationType type) {
+    public PrintingEvent(Device usingDevice, Human human, int duration, NotificationType type) {
         super(usingDevice, human, duration);
         this.type = type;
     }

@@ -12,6 +12,7 @@ import observer.Observer;
 import resource.Resource;
 import strategy.EasyStrategy;
 import utills.Helper;
+import vehicle.Bike;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -67,6 +68,8 @@ public class EasyRun {
         bathroom.addDevice(refrigerator);
         Device refrigerator2 = new Refrigerator("refrigerator2", 10, 2, 0, manual);
         bathroom.addDevice(refrigerator2);
+        Device bike = new Bike("bike", 10, 2, 0, manual);
+        bathroom.addDevice(bike);
 
         secondFloor.addRoom(bathroom);
         floors.add(secondFloor);
