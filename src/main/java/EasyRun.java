@@ -1,22 +1,14 @@
 import devices.*;
 import enums.Gender;
-import enums.ResourceEnum;
-import event.Event;
 import house.*;
 import manuals.Manual;
-import manuals.ManualImpl;
 import manuals.ManualProxyImpl;
 import npc.*;
-import observer.DeviceObserver;
-import observer.Observer;
-import resource.Resource;
 import strategy.EasyStrategy;
-import utills.Helper;
 import vehicle.Bike;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
+
 
 public class EasyRun {
     public static void main(String[] args) {

@@ -3,7 +3,6 @@ package devices;
 import enums.DeviceType;
 import enums.ResourceEnum;
 import manuals.Manual;
-import resource.Resource;
 
 public class Bath extends Device{
 
