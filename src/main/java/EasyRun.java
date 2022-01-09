@@ -24,8 +24,14 @@ public class EasyRun {
         Floor firstFloor = new Floor("first");
 
         Room garage = new Room("garage");
+        Device car = DeviceFactory.createCar("car", 10, 0, 0, manual);
+        garage.addDevice(car);
         Room entry = new Room("entry");
+        Device bike = DeviceFactory.createBike("bike", 10, 0, 0, manual);
+        entry.addDevice(bike);
         Room animalRoom = new Room("animal room");
+        Device refrigerator = DeviceFactory.createRefrigerator("refrigerator", 20, 0, 50, manual);
+        animalRoom.addDevice(refrigerator);
 
         firstFloor.addRoom(animalRoom);
         firstFloor.addRoom(garage);
@@ -36,41 +42,45 @@ public class EasyRun {
         Floor secondFloor = new Floor("second");
 
         Room bathroom = new Room("bathroom");
-        Device bath = new Bath("bath", 23, 1, 60, manual);
+        Device bath = DeviceFactory.createBath("bath", 23, 0, 60, manual);
         bathroom.addDevice(bath);
-        Device bed = new Bed("bed", 10, 2, 50, manual);
-        bathroom.addDevice(bed);
-
-        Device clothWash = DeviceFactory.createClothWash("cloth wash", 10, 1, 60, manual);
+        Device clothWash = DeviceFactory.createClothWash("cloth wash", 10, 0, 60, manual);
         bathroom.addDevice(clothWash);
-        Device computer = new Computer("computer", 20, 1, 80, manual);
-        bathroom.addDevice(computer);
-        Device dishWash = new DishWash("dish wash", 20, 2, 40, manual);
+        Device dishWash = DeviceFactory.createDishWash("dish wash", 20, 0, 40, manual);
         bathroom.addDevice(dishWash);
-        Device phone = new Phone("phone", 10, 2, 35, manual);
-        bathroom.addDevice(phone);
-        Device radio = new Radio("radio", 10, 2, 90, manual);
-        bathroom.addDevice(radio);
-        Device bed2 = new Bed("bed2", 10, 2, 30, manual);
-        bathroom.addDevice(bed2);
-        Device tv = new Television("tv", 10, 2, 60, manual);
-        bathroom.addDevice(tv);
-        Device workingComputer = new WorkingComputer("work", 0, 0, 0, manual);
+        Device workingComputer = DeviceFactory.createWorkPc();
         bathroom.addDevice(workingComputer);
-        Device refrigerator = new Refrigerator("refrigerator", 20, 1, 50, manual);
-        bathroom.addDevice(refrigerator);
-        Device refrigerator2 = new Refrigerator("refrigerator2", 40, 1, 50, manual);
-        bathroom.addDevice(refrigerator2);
-        Device refrigerator3 = new Refrigerator("refrigerator3", 60, 1, 50, manual);
-        bathroom.addDevice(refrigerator3);
-        Device bike = new Bike("bike", 10, 2, 0, manual);
-        bathroom.addDevice(bike);
 
+        Room kitchen = new Room("kitchen");
+        Device refrigerator2 = DeviceFactory.createRefrigerator("refrigerator2", 40, 0, 50, manual);
+        kitchen.addDevice(refrigerator2);
+        Device refrigerator3 = DeviceFactory.createRefrigerator("refrigerator3", 60, 0, 50, manual);
+        kitchen.addDevice(refrigerator3);
+
+        secondFloor.addRoom(kitchen);
         secondFloor.addRoom(bathroom);
         floors.add(secondFloor);
 
         //third floor
         Floor thirdFloor = new Floor("third");
+        Room kidsRoom = new Room("kids room");
+        Device bed = DeviceFactory.createBed("bed", 10, 0, 50, manual);
+        kidsRoom.addDevice(bed);
+        Device phone = DeviceFactory.createPhone("phone", 10, 0, 35, manual);
+        kidsRoom.addDevice(phone);
+        Device radio = DeviceFactory.createRadio("radio", 10, 0, 90, manual);
+        kidsRoom.addDevice(radio);
+        thirdFloor.addRoom(kidsRoom);
+
+        Room parentsRoom = new Room("parents room");
+        Device bed2 = DeviceFactory.createBed("bed2", 10, 0, 30, manual);
+        parentsRoom.addDevice(bed2);
+        Device tv = DeviceFactory.createTv("tv", 10, 0, 60, manual);
+        parentsRoom.addDevice(tv);
+        Device computer = DeviceFactory.createComputer("computer", 20, 0, 80, manual);
+        parentsRoom.addDevice(computer);
+
+        thirdFloor.addRoom(parentsRoom);
         floors.add(thirdFloor);
 
         //humans

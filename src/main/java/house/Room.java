@@ -27,7 +27,9 @@ public class Room extends Location {
 
     public void addDevice(Device device){
         devices.add(device);
-        device.setLocation(this);
+        if (device.getLocation() == null){
+            device.setLocation(this);
+        }
     }
 
     public Floor getFloor() {

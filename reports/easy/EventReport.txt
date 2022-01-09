@@ -1,79 +1,49 @@
 This is file of all notifications
 ------------------------------------
 
-1) Reading manual for bed
+1) Tue Oct 23 00:50:00 CEST 2012 - Ilona is tired
 
-2) Reading manual for phone
+2) Tue Oct 23 01:10:00 CEST 2012 - Maruska is tired
 
-3) Tue Oct 23 02:40:00 CEST 2012 - Ilona is tired
+3) Tue Oct 23 01:10:00 CEST 2012 - Mimino is dirty
 
-4) Tue Oct 23 02:50:00 CEST 2012 - Iveta is dirty
+4) Tue Oct 23 03:00:00 CEST 2012 - Maruska is dirty
 
-5) Tue Oct 23 03:20:00 CEST 2012 - Mimino is dirty
+5) Tue Oct 23 03:50:00 CEST 2012 - Iveta is dirty
 
-6) Reading manual for refrigerator
+6) Tue Oct 23 04:30:00 CEST 2012 - Ilona is dirty
 
-7) Reading manual for bed
+7) Tue Oct 23 04:30:00 CEST 2012 - Mimino is dirty
 
-8) Reading manual for refrigerator2
+8) Tue Oct 23 05:20:00 CEST 2012 - Pepa is dirty
 
-9) Reading manual for refrigerator3
+9) Tue Oct 23 06:50:00 CEST 2012 - Iveta is hungry
 
-10) Tue Oct 23 04:50:00 CEST 2012 - Mimino is tired
+10) Tue Oct 23 07:10:00 CEST 2012 - Mimino is hungry
 
-11) Tue Oct 23 05:10:00 CEST 2012 - Mimino is hungry
+11) Tue Oct 23 07:30:00 CEST 2012 - Honzik is dirty
 
-12) Reading manual for radio
+12) Tue Oct 23 08:00:00 CEST 2012 - Iveta is dirty
 
-13) Reading manual for refrigerator
+13) Tue Oct 23 09:50:00 CEST 2012 - Honzik is hungry
 
-14) Tue Oct 23 06:10:00 CEST 2012 - Honzik is dirty
+14) Tue Oct 23 10:20:00 CEST 2012 - Pepa is hungry
 
-15) Reading manual for computer
+15) Tue Oct 23 11:00:00 CEST 2012 - Maruska is hungry
 
-16) Reading manual for refrigerator2
+16) Tue Oct 23 11:20:00 CEST 2012 - Iveta is dirty
 
-17) Tue Oct 23 07:00:00 CEST 2012 - Iveta is dirty
+17) Tue Oct 23 12:40:00 CEST 2012 - Iveta is dirty
 
-18) Reading manual for radio
+18) Tue Oct 23 12:50:00 CEST 2012 - Maruska is tired
 
-19) Tue Oct 23 07:30:00 CEST 2012 - Mimino is dirty
+19) Tue Oct 23 12:50:00 CEST 2012 - Mimino is dirty
 
-20) Tue Oct 23 07:40:00 CEST 2012 - Mimino is dirty
+20) Tue Oct 23 13:00:00 CEST 2012 - Ilona is hungry
 
-21) Tue Oct 23 08:30:00 CEST 2012 - Ilona is hungry
+21) Tue Oct 23 14:10:00 CEST 2012 - Ilona is dirty
 
-22) Tue Oct 23 08:40:00 CEST 2012 - Iveta is hungry
+22) Tue Oct 23 15:10:00 CEST 2012 - Ilona is tired
 
-23) Reading manual for bed
-
-24) Tue Oct 23 09:30:00 CEST 2012 - Honzik is hungry
-
-25) Reading manual for cloth wash
-
-26) Tue Oct 23 10:20:00 CEST 2012 - Iveta is tired
-
-27) Tue Oct 23 10:30:00 CEST 2012 - Honzik is dirty
-
-28) Tue Oct 23 11:10:00 CEST 2012 - Pepa is hungry
-
-29) Tue Oct 23 11:20:00 CEST 2012 - Ilona is dirty
-
-30) Tue Oct 23 11:40:00 CEST 2012 - Honzik is tired
-
-31) Tue Oct 23 12:10:00 CEST 2012 - Ilona is tired
-
-32) Tue Oct 23 12:10:00 CEST 2012 - Maruska is hungry
-
-33) Tue Oct 23 12:40:00 CEST 2012 - Pepa is tired
-
-34) Reading manual for refrigerator2
-
-35) Tue Oct 23 14:20:00 CEST 2012 - Honzik is dirty
-
-36) Reading manual for bed
-
-37) Tue Oct 23 15:00:00 CEST 2012 - Maruska is dirty
-
-38) Reading manual for refrigerator3
+23) Tue Oct 23 16:00:00 CEST 2012 - Maruska is dirty
 

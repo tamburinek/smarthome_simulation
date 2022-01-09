@@ -1,36 +1,38 @@
 This is file of all consumes
 ------------------------------------
 
-1) bath consumed 2100 electricity and 0 gas and 2500 water
+1) refrigerator consumed 500 electricity and 0 gas and 500 water
 
-2) bed consumed 0 electricity and 0 gas and 0 water
+2) car consumed 0 electricity and 10000 gas and 0 water
 
-3) cloth wash consumed 2168 electricity and 0 gas and 2600 water
+3) bike consumed 0 electricity and 0 gas and 0 water
 
-4) computer consumed 1028 electricity and 0 gas and 0 water
+4) refrigerator2 consumed 500 electricity and 0 gas and 500 water
 
-5) dish wash consumed 2024 electricity and 0 gas and 2400 water
+5) refrigerator3 consumed 500 electricity and 0 gas and 500 water
 
-6) phone consumed 470 electricity and 0 gas and 0 water
+6) bath consumed 1416 electricity and 0 gas and 1600 water
 
-7) radio consumed 794 electricity and 0 gas and 0 water
+7) cloth wash consumed 1530 electricity and 0 gas and 1750 water
 
-8) bed2 consumed 0 electricity and 0 gas and 0 water
+8) dish wash consumed 2480 electricity and 0 gas and 3000 water
 
-9) tv consumed 1264 electricity and 0 gas and 0 water
+9) work consumed 0 electricity and 0 gas and 0 water
 
-10) work consumed 0 electricity and 0 gas and 0 water
+10) bed consumed 0 electricity and 0 gas and 0 water
 
-11) refrigerator consumed 470 electricity and 0 gas and 250 water
+11) phone consumed 500 electricity and 0 gas and 0 water
 
-12) refrigerator2 consumed 465 electricity and 0 gas and 500 water
+12) radio consumed 580 electricity and 0 gas and 0 water
 
-13) refrigerator3 consumed 480 electricity and 0 gas and 750 water
+13) bed2 consumed 0 electricity and 0 gas and 0 water
 
-14) bike consumed 0 electricity and 0 gas and 0 water
+14) tv consumed 1112 electricity and 0 gas and 0 water
 
-all consumed electricity 11263
+15) computer consumed 656 electricity and 0 gas and 0 water
+
+all consumed electricity 9774
 all consumed food 1500
-all consumed water 9000
-all consumed gas 0
+all consumed water 7850
+all consumed gas 10000
 all consumed money 0

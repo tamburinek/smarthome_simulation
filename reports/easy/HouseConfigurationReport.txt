@@ -5,28 +5,35 @@ House:
      Floor: first
           Room: animal room
                Devices:
+                    refrigerator
           Room: garage
                Devices:
+                    car
           Room: entry
                Devices:
+                    bike
      Floor: second
+          Room: kitchen
+               Devices:
+                    refrigerator2
+                    refrigerator3
           Room: bathroom
                Devices:
                     bath
-                    bed
                     cloth wash
-                    computer
                     dish wash
+                    work
+     Floor: third
+          Room: kids room
+               Devices:
+                    bed
                     phone
                     radio
+          Room: parents room
+               Devices:
                     bed2
                     tv
-                    work
-                    refrigerator
-                    refrigerator2
-                    refrigerator3
-                    bike
-     Floor: third
+                    computer
 
 Human and Animals:
      Pepa
