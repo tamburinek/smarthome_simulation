@@ -21,6 +21,17 @@ Projekt je udělán se špetkou humoru, proto lidi můžou často něco říkat.
 ### Použití aplikace
  Simulace se spouští ve třídách EasyRun, MediumRun a HardRun, kde se dají vytvořit nová zařízení, rozmístit zařízení do pokojů po domě a přidat do domácnosti lidi. Dá se změnit i počet desetiminutových iterací, po které simulace poběží.
 Reporty z běhu simulace se po proběhnutí vytváří a ukládají do složky reports. Obtížnosti se od sebe liší hlavně tím, kolik jednotek štěstí, hladu atd. se entitám ubírá při každém ticku. Při easy modu je hodně zařízení. Při hard modu je hodně entit. Také se při tžší obtížnosti více rozbíjejí zařízení a je náročnější je opravit. Na druhou stranu, čím lehčí je úroveň, tím kratší doba stačí uživatelům na použití deviců. V easy modu se žádný device nemůže rozbít!!! 
+### Seznam splněných požadavků:
+- **F1** - entit máme o dost více
+- **F2** - device má api na změnu stavu - state pattern
+- **F3** - HouseController zavolá každý tick funkci na consume na každém zařízení - podle stavu zařízení se odeberou suroviny
+- **F4** - device si drží pole spotřeby a na konci se to zobrazí v reportu
+- **F5** - vygeneruje se spousta reportů
+- **F6** - každá osoba, zvíře i device mají svojí lokaci, což hraje důležitou roli při převzetí eventů
+- **F7** - dítě například nemůže nic opravovat - musí se najít dospělý člověk
+- **F8** - reporty se generují pro 3 různé složitosti ve složce reports
+- **F9** - snažíme se to imitovat načítáním dlouhého souboru
+- **F10** - při náhodném vybrání device se hodí mincí a vybere se buď sport nebo použití device - 2 osoby nemůžou najednou využívat 1 stroj
 ### Class diagram
 ![class diagram](class-diagram.png)
 ### Use Case diagram
