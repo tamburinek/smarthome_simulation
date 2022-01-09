@@ -3,6 +3,7 @@ package iterator;
 import enums.NotificationType;
 import event.Event;
 import event.PrintingEvent;
+import npc.Animal;
 import npc.Human;
 
 import java.io.FileWriter;
@@ -41,7 +42,16 @@ public class EventIterator implements Iterator{
 
         try {
             FileWriter myWriter = new FileWriter(file, true);
-            if (event.getType() == NotificationType.STARTED_USING || event.getType() == NotificationType.STARTED_REPAIRING ){
+            if (event.getUsingDevice() == null && event.getType() == NotificationType.STARTED_USING ){
+                myWriter.write(index + 1 + ") " + event.getTime() + " - " +  event.getHuman().getName() + " started playing with animal and will be doing it for " + event.getDuration());
+            }
+            else if (event.getType() == NotificationType.STARTED_USING_ANIMAL || event.getType() == NotificationType.ENDED_USING_ANIMAL){
+                myWriter.write(index + 1 + ") " + event.getTime() + " - " + event.getType() + " " + event.getUsingDevice().getDeviceName());
+            }
+            else if (event.getUsingDevice() == null && event.getType() == NotificationType.ENDED_USING ){
+                myWriter.write(index + 1 + ") " + event.getTime() + " - " +  event.getHuman().getName() + " ended playing with animal");
+            }
+            else if (event.getType() == NotificationType.STARTED_USING || event.getType() == NotificationType.STARTED_REPAIRING ){
                 myWriter.write(index + 1 + ") " + event.getTime() + " - " + event.getHuman().getName() + " " + event.getType() +
                         " " + event.getUsingDevice().getDeviceName() + " and will be doing it for " + event.getDuration() + " minutes");
             }
@@ -71,6 +81,21 @@ public class EventIterator implements Iterator{
                     + " clean: " + human.getClean()
                     + " happiness: " + human.getHappiness()
                     + " fresh: "+ human.getFresh());
+            myWriter.write("\r\n");
+            myWriter.close();
+        } catch (IOException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
+    }
+
+    public void lastAnimal(Animal animal){
+        try {
+            FileWriter myWriter = new FileWriter(file, true);
+            myWriter.write("\r\n");
+            myWriter.write(animal.getName() + "'s stats after simulation are : "
+                    + "hunger: " + animal.getHungry()
+                    + " happiness: " + animal.getHappiness());
             myWriter.write("\r\n");
             myWriter.close();
         } catch (IOException e) {

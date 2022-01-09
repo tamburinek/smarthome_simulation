@@ -6,7 +6,6 @@ import manuals.Manual;
 import manuals.ManualProxyImpl;
 import npc.*;
 import strategy.EasyStrategy;
-import vehicle.Bike;
 
 import java.util.ArrayList;
 
@@ -26,11 +25,15 @@ public class EasyRun {
         Room garage = new Room("garage");
         Device car = DeviceFactory.createCar("car", 10, 0, 0, manual);
         garage.addDevice(car);
+        Device ski = DeviceFactory.createSki("ski", 10,0,0,manual);
+        garage.addDevice(ski);
         Device light = DeviceFactory.createLight("garage light", 10, 0, 0, manual);
         garage.addDevice(light);
         Room entry = new Room("entry");
-        Device bike = DeviceFactory.createBike("bike", 10, 0, 0, manual);
+        Device bike = DeviceFactory.createBike("first bike", 10, 0, 0, manual);
+        Device bike2 = DeviceFactory.createBike("second bike", 10, 0, 0, manual);
         entry.addDevice(bike);
+        entry.addDevice(bike2);
         Device entryLight = DeviceFactory.createLight("entry light", 10, 0, 0, manual);
         entry.addDevice(entryLight);
         Room animalRoom = new Room("animal room");
@@ -38,6 +41,8 @@ public class EasyRun {
         animalRoom.addDevice(animalLight);
         Device refrigerator = DeviceFactory.createRefrigerator("refrigerator", 20, 0, 50, manual);
         animalRoom.addDevice(refrigerator);
+        Device animalRefrigerator = DeviceFactory.createAnimalRef("animal refrigerator", 20, 0, 50, manual);
+        animalRoom.addDevice(animalRefrigerator);
 
         firstFloor.addRoom(animalRoom);
         firstFloor.addRoom(garage);

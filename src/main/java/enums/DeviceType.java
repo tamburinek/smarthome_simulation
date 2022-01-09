@@ -9,5 +9,6 @@ public enum DeviceType {
     WINDOW,
     WORK,
     TRANSPORT,
-    EAT
+    EAT,
+    ANIMAL
 }

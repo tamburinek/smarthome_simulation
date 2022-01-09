@@ -74,7 +74,27 @@ public class HouseController {
             }
 
             for (Animal animal : house.getAnimals() ) {
-                //todo
+
+                if (animal.isDoingSt() || !animal.isAlive()){
+                    continue;
+                }
+
+                animal.dropSomeStats();
+
+                if (animal.getHappiness() < 60){
+                    Human human = Helper.findPersonForActivity(16, house.getHumans());
+                    Event.allNotifications.add(new NeedsNotification(Time.getCurrentTime() + " - " + animal.getName() + " is sad"));
+                    if (human != null){
+                        Event.activitiesToDo.add(new AnimalEvent(null, human, animal, 20));
+                    }
+                }
+                else if (animal.getHungry() < 60){
+                    device = Helper.findDevice(house.getDevices(), DeviceType.ANIMAL);
+                    Event.allNotifications.add(new NeedsNotification(Time.getCurrentTime() + " - " + animal.getName() + " is hungry"));
+                    if (device != null){
+                        Event.activitiesToDo.add(new AnimalEvent(device, null, animal, device.getDuration()));
+                    }
+                }
             }
 
             for (Sensor sensor : house.getSensors()) {
@@ -110,6 +130,10 @@ public class HouseController {
         }
         for (Human human : house.getHumans()){
             iterator.last(human);
+        }
+
+        for (Animal animal : house.getAnimals()){
+            iterator.lastAnimal(animal);
         }
 
         while (iterator1.hasNext()){

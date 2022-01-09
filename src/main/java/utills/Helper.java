@@ -38,7 +38,7 @@ public class Helper {
     public static Device findRandomDevice(ArrayList<Device> devices){
         ArrayList<Device> devices1 = new ArrayList<>();
         for (Device device : devices) {
-            if (device.getType() != DeviceType.WORK && device.getType() != DeviceType.LIGHT) {
+            if (device.getType() != DeviceType.WORK && device.getType() != DeviceType.LIGHT && device.getType() != DeviceType.ANIMAL) {
                 if (!device.getState().isOccupied() && !device.getState().isBroken())
                     devices1.add(device);
             }
@@ -48,6 +48,7 @@ public class Helper {
         }
         return null;
     }
+
 
     public static Human findPersonForActivity(int requiredAge, ArrayList<Human> humans){
         ArrayList<Human> humans1 = new ArrayList<>();
