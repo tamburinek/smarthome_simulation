@@ -14,7 +14,7 @@ public class WorkingComputer extends Device{
 
     @Override
     public void consume(boolean usingDevice) {
-        ResourceEnum.MONEY.add(1000);
+        ResourceEnum.MONEY.add(10000);
     }
 
     @Override

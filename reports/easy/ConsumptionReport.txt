@@ -3,7 +3,7 @@ This is file of all consumes
 
 1) animal light consumed 200 electricity and 0 gas and 0 water
 
-2) refrigerator consumed 500 electricity and 0 gas and 250 water
+2) refrigerator consumed 500 electricity and 0 gas and 800 water
 
 3) animal refrigerator consumed 500 electricity and 0 gas and 0 water
 
@@ -19,23 +19,23 @@ This is file of all consumes
 
 9) entry light consumed 200 electricity and 0 gas and 0 water
 
-10) toilet consumed 0 electricity and 0 gas and 150 water
+10) toilet consumed 0 electricity and 0 gas and 0 water
 
 11) toilet light consumed 200 electricity and 0 gas and 0 water
 
 12) kitchen light consumed 200 electricity and 0 gas and 0 water
 
-13) refrigerator2 consumed 500 electricity and 0 gas and 1000 water
+13) refrigerator2 consumed 500 electricity and 0 gas and 250 water
 
 14) refrigerator3 consumed 500 electricity and 0 gas and 1250 water
 
 15) bathroom light consumed 200 electricity and 0 gas and 0 water
 
-16) bath consumed 504 electricity and 0 gas and 400 water
+16) bath consumed 960 electricity and 0 gas and 1000 water
 
-17) cloth wash consumed 1416 electricity and 0 gas and 1600 water
+17) cloth wash consumed 960 electricity and 0 gas and 1000 water
 
-18) dish wash consumed 1112 electricity and 0 gas and 1200 water
+18) dish wash consumed 1340 electricity and 0 gas and 1500 water
 
 19) work consumed 0 electricity and 0 gas and 0 water
 
@@ -45,18 +45,18 @@ This is file of all consumes
 
 22) phone consumed 500 electricity and 0 gas and 0 water
 
-23) radio consumed 276 electricity and 0 gas and 0 water
+23) radio consumed 618 electricity and 0 gas and 0 water
 
 24) parents room light consumed 200 electricity and 0 gas and 0 water
 
 25) bed2 consumed 0 electricity and 0 gas and 0 water
 
-26) tv consumed 770 electricity and 0 gas and 0 water
+26) tv consumed 504 electricity and 0 gas and 0 water
 
-27) computer consumed 428 electricity and 0 gas and 0 water
+27) computer consumed 732 electricity and 0 gas and 0 water
 
-all consumed electricity 8606
-all consumed food 2500
-all consumed water 5850
+all consumed electricity 9214
+all consumed food 2300
+all consumed water 5800
 all consumed gas 10000
 all consumed money 0
