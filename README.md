@@ -7,6 +7,7 @@ Jednotlivé iterace probíhají po 10 minutách, kdy se ve třídě HouseControl
 Každé zařízení spotřebovává prostředky rodiny - vodu, elektřinu a používáním se opotřebovává. Po příliš velkém opotřebení se může zařízení rozbít a vyžaduje zásah člověka, aby bylo opět uvedeno do provozu. To proběhne buď opravou svépomocí, 
 přivoláním opraváře nebo koupí nového kusu. Když člověk aktuálně nemá žádnou potřebu, hledá si libovolné volné zařízení, kterému se potom věnuje. Pokud není žádné volné zařízení, člověk čeká.  
 Za nákup nových prostředků (voda, plyn, elektřina) se platí penězi, pokud rodině dojdou peníze, musí jít dospělá osoba pracovat k pracovnímu počítači, kde peníze vydělá.
+Projekt je udělán se špetkou humoru, proto lidi můžou často něco říkat. Před spuštěním se samozřejmě dá nastavit jakou legendární hlášku entita vysloví.
 ### Seznam použitých design patternů:
  - **Iterator** - v package _iterator_ - iterátory použity při generaci reportů, kdy se prochází seznamem eventů a do souboru vypisují jednotlivé události.
  - **Factory** - v package _devices_ - zabalení vytváření nových instancí zařízení do příslušné metody
