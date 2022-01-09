@@ -21,6 +21,11 @@ public class Helper {
         return breakNumber < numberToBeat;
     }
 
+    public static boolean makeSound(){
+        double number = random.nextInt(100);
+        return number % 11 == 0;
+    }
+
     public static Device findDevice(ArrayList<Device> devices, DeviceType type){
         ArrayList<Device> devices1 = new ArrayList<>();
         for (Device device : devices) {

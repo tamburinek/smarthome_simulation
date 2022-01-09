@@ -1,255 +1,259 @@
 This is file of all notifications
 ------------------------------------
 
-1) Tue Oct 23 00:50:00 CEST 2012 - Mimino is tired
+1) hafhaf
 
-2) Tue Oct 23 01:50:00 CEST 2012 - Mourek is sad
+2) hafhaf
 
-3) Tue Oct 23 01:50:00 CEST 2012 - DogeCoin is sad
+3) hafhaf
 
-4) Tue Oct 23 01:50:00 CEST 2012 - Bitcoin is sad
+4) grgrgrgrgrgrrg
 
-5) Tue Oct 23 02:00:00 CEST 2012 - Mimino is tired
+5) hafhaf
 
-6) Tue Oct 23 02:00:00 CEST 2012 - Mourek is sad
+6) mrrrrrrrr
 
-7) Tue Oct 23 02:00:00 CEST 2012 - DogeCoin is sad
+7) Tue Oct 23 01:50:00 CEST 2012 - Penguin is sad
 
-8) Tue Oct 23 02:00:00 CEST 2012 - Bitcoin is sad
+8) Tue Oct 23 01:50:00 CEST 2012 - Mourek is sad
 
-9) Tue Oct 23 02:10:00 CEST 2012 - Mourek is sad
+9) Tue Oct 23 01:50:00 CEST 2012 - DogeCoin is sad
 
-10) Tue Oct 23 02:10:00 CEST 2012 - DogeCoin is sad
+10) Tue Oct 23 01:50:00 CEST 2012 - Bitcoin is sad
 
-11) Tue Oct 23 02:10:00 CEST 2012 - Bitcoin is sad
+11) grgrgrgrgrgrrg
 
-12) Tue Oct 23 02:20:00 CEST 2012 - Mourek is sad
+12) Tue Oct 23 02:00:00 CEST 2012 - Penguin is sad
 
-13) Tue Oct 23 02:20:00 CEST 2012 - DogeCoin is sad
+13) Tue Oct 23 02:00:00 CEST 2012 - Mourek is sad
 
-14) Tue Oct 23 02:30:00 CEST 2012 - Mourek is sad
+14) Tue Oct 23 02:00:00 CEST 2012 - DogeCoin is sad
 
-15) Tue Oct 23 02:30:00 CEST 2012 - DogeCoin is sad
+15) Tue Oct 23 02:00:00 CEST 2012 - Bitcoin is sad
 
-16) Tue Oct 23 02:40:00 CEST 2012 - Bitcoin is hungry
+16) Tue Oct 23 02:10:00 CEST 2012 - Penguin is sad
 
-17) Tue Oct 23 03:10:00 CEST 2012 - Iveta is tired
+17) Tue Oct 23 02:10:00 CEST 2012 - DogeCoin is sad
 
-18) Tue Oct 23 03:10:00 CEST 2012 - Mimino is tired
+18) Tue Oct 23 02:10:00 CEST 2012 - Bitcoin is sad
 
-19) Tue Oct 23 03:40:00 CEST 2012 - Pepa is dirty
+19) grgrgrgrgrgrrg
 
-20) Tue Oct 23 03:40:00 CEST 2012 - DogeCoin is hungry
+20) Tue Oct 23 02:20:00 CEST 2012 - Penguin is sad
 
-21) Tue Oct 23 04:00:00 CEST 2012 - Honzik is dirty
+21) Tue Oct 23 02:20:00 CEST 2012 - DogeCoin is sad
 
-22) Tue Oct 23 04:00:00 CEST 2012 - Maruska is dirty
+22) Tue Oct 23 02:20:00 CEST 2012 - Bitcoin is sad
 
-23) Tue Oct 23 04:20:00 CEST 2012 - Mourek is hungry
+23) Tue Oct 23 02:30:00 CEST 2012 - Penguin is sad
 
-24) Tue Oct 23 05:20:00 CEST 2012 - Honzik is tired
+24) Tue Oct 23 02:30:00 CEST 2012 - DogeCoin is sad
 
-25) Tue Oct 23 05:40:00 CEST 2012 - Mimino is dirty
+25) Tue Oct 23 02:30:00 CEST 2012 - Bitcoin is sad
 
-26) Tue Oct 23 06:40:00 CEST 2012 - Mimino is tired
+26) Tue Oct 23 02:40:00 CEST 2012 - Mimino is dirty
 
-27) Tue Oct 23 06:50:00 CEST 2012 - Bitcoin is sad
+27) Tue Oct 23 02:50:00 CEST 2012 - Pepa is dirty
 
-28) Tue Oct 23 07:00:00 CEST 2012 - Bitcoin is sad
+28) Tue Oct 23 02:50:00 CEST 2012 - Mourek is hungry
 
-29) Tue Oct 23 07:10:00 CEST 2012 - Honzik is dirty
+29) Tue Oct 23 03:20:00 CEST 2012 - Maruska is dirty
 
-30) Tue Oct 23 07:10:00 CEST 2012 - Mimino is tired
+30) Tue Oct 23 03:20:00 CEST 2012 - Bitcoin is hungry
 
-31) Tue Oct 23 07:10:00 CEST 2012 - Bitcoin is sad
+31) Tue Oct 23 03:40:00 CEST 2012 - Penguin is hungry
 
-32) Tue Oct 23 07:20:00 CEST 2012 - Bitcoin is sad
+32) Tue Oct 23 04:00:00 CEST 2012 - Mimino is dirty
 
-33) Tue Oct 23 07:30:00 CEST 2012 - Bitcoin is sad
+33) Tue Oct 23 04:20:00 CEST 2012 - DogeCoin is hungry
 
-34) Tue Oct 23 07:40:00 CEST 2012 - Bitcoin is sad
+34) Tue Oct 23 04:40:00 CEST 2012 - Honzik is dirty
 
-35) Tue Oct 23 07:50:00 CEST 2012 - DogeCoin is sad
+35) guguGaga
 
-36) Tue Oct 23 07:50:00 CEST 2012 - Bitcoin is sad
+36) Tue Oct 23 04:50:00 CEST 2012 - Mimino is tired
 
-37) Tue Oct 23 08:00:00 CEST 2012 - DogeCoin is sad
+37) grgrgrgrgrgrrg
 
-38) Tue Oct 23 08:10:00 CEST 2012 - Mimino is hungry
+38) Tue Oct 23 05:20:00 CEST 2012 - Mimino is hungry
 
-39) Tue Oct 23 08:10:00 CEST 2012 - DogeCoin is sad
+39) mrrrrrrrr
 
-40) Tue Oct 23 08:20:00 CEST 2012 - Bitcoin is hungry
+40) i hate parents
 
-41) Tue Oct 23 08:30:00 CEST 2012 - Mourek is sad
+41) hey bring me some beer
 
-42) Tue Oct 23 08:40:00 CEST 2012 - Mourek is sad
+42) Tue Oct 23 06:20:00 CEST 2012 - Maruska is tired
 
-43) Tue Oct 23 08:50:00 CEST 2012 - Mourek is sad
+43) mrrrrrrrr
 
-44) Tue Oct 23 09:00:00 CEST 2012 - Pepa is tired
+44) hafhaf
 
-45) Tue Oct 23 09:00:00 CEST 2012 - Mourek is sad
+45) Tue Oct 23 06:30:00 CEST 2012 - Mimino is tired
 
-46) Tue Oct 23 09:00:00 CEST 2012 - DogeCoin is hungry
+46) grgrgrgrgrgrrg
 
-47) Tue Oct 23 09:10:00 CEST 2012 - Mourek is sad
+47) grgrgrgrgrgrrg
 
-48) Tue Oct 23 09:20:00 CEST 2012 - Honzik is tired
+48) mrrrrrrrr
 
-49) Tue Oct 23 09:20:00 CEST 2012 - Mourek is sad
+49) Tue Oct 23 07:00:00 CEST 2012 - Mourek is sad
 
-50) Tue Oct 23 09:30:00 CEST 2012 - Mourek is sad
+50) Tue Oct 23 07:10:00 CEST 2012 - Mourek is sad
 
-51) Tue Oct 23 09:40:00 CEST 2012 - Mourek is sad
+51) Tue Oct 23 07:20:00 CEST 2012 - Mourek is sad
 
-52) Tue Oct 23 09:50:00 CEST 2012 - Mourek is sad
+52) Tue Oct 23 07:30:00 CEST 2012 - Mourek is sad
 
-53) Tue Oct 23 10:00:00 CEST 2012 - Mourek is sad
+53) Tue Oct 23 07:30:00 CEST 2012 - Bitcoin is sad
 
-54) Tue Oct 23 10:10:00 CEST 2012 - Mourek is sad
+54) Tue Oct 23 07:40:00 CEST 2012 - Ilona is dirty
 
-55) Tue Oct 23 10:20:00 CEST 2012 - Mourek is sad
+55) Tue Oct 23 07:40:00 CEST 2012 - Mourek is sad
 
-56) Tue Oct 23 10:30:00 CEST 2012 - Mourek is sad
+56) Tue Oct 23 07:40:00 CEST 2012 - Bitcoin is sad
 
-57) Tue Oct 23 10:40:00 CEST 2012 - Maruska is dirty
+57) Tue Oct 23 07:50:00 CEST 2012 - Penguin is sad
 
-58) Tue Oct 23 10:40:00 CEST 2012 - Mourek is sad
+58) Tue Oct 23 07:50:00 CEST 2012 - Mourek is sad
 
-59) Tue Oct 23 10:50:00 CEST 2012 - Mourek is sad
+59) Tue Oct 23 07:50:00 CEST 2012 - Bitcoin is sad
 
-60) Tue Oct 23 11:00:00 CEST 2012 - Mourek is sad
+60) Tue Oct 23 08:00:00 CEST 2012 - Penguin is sad
 
-61) Tue Oct 23 11:10:00 CEST 2012 - Honzik is tired
+61) Tue Oct 23 08:00:00 CEST 2012 - Mourek is sad
 
-62) Tue Oct 23 11:10:00 CEST 2012 - Mourek is sad
+62) Tue Oct 23 08:00:00 CEST 2012 - Bitcoin is sad
 
-63) Tue Oct 23 11:20:00 CEST 2012 - Mimino is dirty
+63) Tue Oct 23 08:10:00 CEST 2012 - Penguin is sad
 
-64) Tue Oct 23 11:20:00 CEST 2012 - Mourek is sad
+64) Tue Oct 23 08:10:00 CEST 2012 - Mourek is sad
 
-65) Tue Oct 23 11:30:00 CEST 2012 - Mourek is sad
+65) Tue Oct 23 08:10:00 CEST 2012 - Bitcoin is sad
 
-66) Tue Oct 23 11:40:00 CEST 2012 - Mourek is sad
+66) Tue Oct 23 08:20:00 CEST 2012 - Penguin is sad
 
-67) Tue Oct 23 11:50:00 CEST 2012 - Mourek is sad
+67) hafhaf
 
-68) Tue Oct 23 12:00:00 CEST 2012 - Mourek is sad
+68) Tue Oct 23 08:20:00 CEST 2012 - Bitcoin is sad
 
-69) Tue Oct 23 12:10:00 CEST 2012 - Mourek is sad
+69) Tue Oct 23 08:30:00 CEST 2012 - Penguin is sad
 
-70) Tue Oct 23 12:20:00 CEST 2012 - Mimino is tired
+70) Tue Oct 23 08:30:00 CEST 2012 - DogeCoin is sad
 
-71) Tue Oct 23 12:20:00 CEST 2012 - Mourek is sad
+71) Tue Oct 23 08:30:00 CEST 2012 - Bitcoin is sad
 
-72) Tue Oct 23 12:30:00 CEST 2012 - Mourek is sad
+72) i hate parents
 
-73) Tue Oct 23 12:30:00 CEST 2012 - Bitcoin is sad
+73) hafhaf
 
-74) Tue Oct 23 12:40:00 CEST 2012 - Mourek is sad
+74) Tue Oct 23 08:40:00 CEST 2012 - DogeCoin is sad
 
-75) Tue Oct 23 12:40:00 CEST 2012 - Bitcoin is sad
+75) Tue Oct 23 08:50:00 CEST 2012 - Maruska is dirty
 
-76) Tue Oct 23 12:50:00 CEST 2012 - Mourek is sad
+76) Tue Oct 23 08:50:00 CEST 2012 - Mimino is dirty
 
-77) Tue Oct 23 12:50:00 CEST 2012 - Bitcoin is sad
+77) hafhaf
 
-78) Tue Oct 23 13:00:00 CEST 2012 - Mourek is sad
+78) Tue Oct 23 08:50:00 CEST 2012 - DogeCoin is sad
 
-79) Tue Oct 23 13:00:00 CEST 2012 - Bitcoin is sad
+79) Tue Oct 23 09:00:00 CEST 2012 - DogeCoin is sad
 
-80) Tue Oct 23 13:10:00 CEST 2012 - Mourek is sad
+80) Tue Oct 23 09:10:00 CEST 2012 - DogeCoin is sad
 
-81) Tue Oct 23 13:10:00 CEST 2012 - DogeCoin is sad
+81) Tue Oct 23 09:20:00 CEST 2012 - Penguin is hungry
 
-82) Tue Oct 23 13:10:00 CEST 2012 - Bitcoin is sad
+82) Tue Oct 23 09:40:00 CEST 2012 - Iveta is tired
 
-83) Tue Oct 23 13:20:00 CEST 2012 - Mourek is sad
+83) Tue Oct 23 09:40:00 CEST 2012 - Bitcoin is hungry
 
-84) Tue Oct 23 13:20:00 CEST 2012 - DogeCoin is sad
+84) Tue Oct 23 10:00:00 CEST 2012 - Mourek is hungry
 
-85) Tue Oct 23 13:20:00 CEST 2012 - Bitcoin is sad
+85) hafhaf
 
-86) Tue Oct 23 13:30:00 CEST 2012 - DogeCoin is sad
+86) Tue Oct 23 10:20:00 CEST 2012 - DogeCoin is hungry
 
-87) Tue Oct 23 13:30:00 CEST 2012 - Bitcoin is sad
+87) grgrgrgrgrgrrg
 
-88) Tue Oct 23 13:40:00 CEST 2012 - DogeCoin is sad
+88) Tue Oct 23 11:40:00 CEST 2012 - Oldrich is hungry
 
-89) Tue Oct 23 13:40:00 CEST 2012 - Bitcoin is sad
+89) Tue Oct 23 11:40:00 CEST 2012 - Mimino is dirty
 
-90) Tue Oct 23 13:50:00 CEST 2012 - DogeCoin is sad
+90) Tue Oct 23 11:50:00 CEST 2012 - Maruska is tired
 
-91) Tue Oct 23 13:50:00 CEST 2012 - Bitcoin is sad
+91) Tue Oct 23 12:00:00 CEST 2012 - Ilona is tired
 
-92) Tue Oct 23 14:00:00 CEST 2012 - DogeCoin is sad
+92) hafhaf
 
-93) Tue Oct 23 14:00:00 CEST 2012 - Bitcoin is sad
+93) grgrgrgrgrgrrg
 
-94) Tue Oct 23 14:10:00 CEST 2012 - DogeCoin is sad
+94) Tue Oct 23 12:40:00 CEST 2012 - Oldrich is dirty
 
-95) Tue Oct 23 14:10:00 CEST 2012 - Bitcoin is sad
+95) grgrgrgrgrgrrg
 
-96) Tue Oct 23 14:20:00 CEST 2012 - DogeCoin is sad
+96) hafhaf
 
-97) Tue Oct 23 14:20:00 CEST 2012 - Bitcoin is sad
+97) mrrrrrrrr
 
-98) Tue Oct 23 14:30:00 CEST 2012 - DogeCoin is sad
+98) hafhaf
 
-99) Tue Oct 23 14:30:00 CEST 2012 - Bitcoin is sad
+99) hafhaf
 
-100) Tue Oct 23 14:40:00 CEST 2012 - DogeCoin is sad
+100) Tue Oct 23 14:00:00 CEST 2012 - Penguin is sad
 
-101) Tue Oct 23 14:40:00 CEST 2012 - Bitcoin is sad
+101) Tue Oct 23 14:10:00 CEST 2012 - Penguin is sad
 
-102) Tue Oct 23 14:50:00 CEST 2012 - DogeCoin is sad
+102) Tue Oct 23 14:10:00 CEST 2012 - Mourek is sad
 
-103) Tue Oct 23 14:50:00 CEST 2012 - Bitcoin is sad
+103) Tue Oct 23 14:20:00 CEST 2012 - Penguin is sad
 
-104) Tue Oct 23 15:00:00 CEST 2012 - DogeCoin is sad
+104) hey bring me some beer
 
-105) Tue Oct 23 15:00:00 CEST 2012 - Bitcoin is sad
+105) Tue Oct 23 14:30:00 CEST 2012 - Penguin is sad
 
-106) Tue Oct 23 15:10:00 CEST 2012 - DogeCoin is sad
+106) Tue Oct 23 14:30:00 CEST 2012 - DogeCoin is sad
 
-107) Tue Oct 23 15:10:00 CEST 2012 - Bitcoin is sad
+107) Tue Oct 23 14:40:00 CEST 2012 - Mourek is hungry
 
-108) Tue Oct 23 15:20:00 CEST 2012 - DogeCoin is sad
+108) Tue Oct 23 14:40:00 CEST 2012 - DogeCoin is sad
 
-109) Tue Oct 23 15:20:00 CEST 2012 - Bitcoin is sad
+109) Tue Oct 23 14:50:00 CEST 2012 - DogeCoin is sad
 
-110) Tue Oct 23 15:30:00 CEST 2012 - DogeCoin is sad
+110) Tue Oct 23 15:00:00 CEST 2012 - DogeCoin is sad
 
-111) Tue Oct 23 15:30:00 CEST 2012 - Bitcoin is sad
+111) hafhaf
 
-112) Tue Oct 23 15:40:00 CEST 2012 - DogeCoin is sad
+112) Tue Oct 23 15:00:00 CEST 2012 - Bitcoin is sad
 
-113) Tue Oct 23 15:40:00 CEST 2012 - Bitcoin is sad
+113) Tue Oct 23 15:10:00 CEST 2012 - Honzik is tired
 
-114) Tue Oct 23 15:50:00 CEST 2012 - Mimino is dirty
+114) Tue Oct 23 15:10:00 CEST 2012 - DogeCoin is sad
 
-115) Tue Oct 23 15:50:00 CEST 2012 - DogeCoin is sad
+115) Tue Oct 23 15:10:00 CEST 2012 - Bitcoin is sad
 
-116) Tue Oct 23 15:50:00 CEST 2012 - Bitcoin is sad
+116) Tue Oct 23 15:20:00 CEST 2012 - DogeCoin is sad
 
-117) Tue Oct 23 16:00:00 CEST 2012 - DogeCoin is sad
+117) Tue Oct 23 15:20:00 CEST 2012 - Bitcoin is sad
 
-118) Tue Oct 23 16:00:00 CEST 2012 - Bitcoin is sad
+118) Tue Oct 23 15:30:00 CEST 2012 - DogeCoin is sad
 
-119) Tue Oct 23 16:10:00 CEST 2012 - DogeCoin is sad
+119) hafhaf
 
-120) Tue Oct 23 16:10:00 CEST 2012 - Bitcoin is sad
+120) Tue Oct 23 15:30:00 CEST 2012 - Bitcoin is sad
 
-121) Tue Oct 23 16:20:00 CEST 2012 - DogeCoin is sad
+121) Tue Oct 23 15:40:00 CEST 2012 - Penguin is hungry
 
-122) Tue Oct 23 16:20:00 CEST 2012 - Bitcoin is sad
+122) Tue Oct 23 15:40:00 CEST 2012 - Bitcoin is sad
 
-123) Tue Oct 23 16:30:00 CEST 2012 - DogeCoin is sad
+123) Tue Oct 23 15:50:00 CEST 2012 - Bitcoin is sad
 
-124) Tue Oct 23 16:30:00 CEST 2012 - Bitcoin is sad
+124) Tue Oct 23 16:00:00 CEST 2012 - Bitcoin is sad
 
-125) Tue Oct 23 16:40:00 CEST 2012 - DogeCoin is sad
+125) Tue Oct 23 16:10:00 CEST 2012 - Bitcoin is sad
 
-126) Tue Oct 23 16:40:00 CEST 2012 - Bitcoin is sad
+126) Tue Oct 23 16:20:00 CEST 2012 - DogeCoin is hungry
+
+127) Tue Oct 23 16:40:00 CEST 2012 - Honzik is dirty
+
+128) Tue Oct 23 16:40:00 CEST 2012 - Mimino is tired
 

@@ -57,6 +57,7 @@ Human and Animals:
      Honzik
      Maruska
      Mimino
+     Penguin
      Mourek
      DogeCoin
      Bitcoin

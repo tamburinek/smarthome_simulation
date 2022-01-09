@@ -46,6 +46,10 @@ public class HouseController {
                     continue;
                 }
 
+                if (Helper.makeSound()){
+                    Event.allNotifications.add(new NeedsNotification(human.getSound()));
+                }
+
                 human.dropStats();
 
                 if (human.getClean() < 60){
@@ -78,7 +82,9 @@ public class HouseController {
                 if (animal.isDoingSt() || !animal.isAlive()){
                     continue;
                 }
-
+                if (Helper.makeSound()){
+                    Event.allNotifications.add(new NeedsNotification(animal.getSound()));
+                }
                 animal.dropSomeStats();
 
                 if (animal.getHappiness() < 60){

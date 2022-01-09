@@ -14,6 +14,7 @@ public abstract class Human extends Tracker {
     private final String name;
     private int age;
     private final Gender gender;
+    private String sound;
 
     private House house;
     private boolean isDoingSt = false;
@@ -26,10 +27,11 @@ public abstract class Human extends Tracker {
     private boolean isAlive = true;
 
 
-    public Human(String name, int age, Gender gender){
+    public Human(String name, int age, Gender gender,String sound){
         this.name = name;
         this.age = age;
         this.gender = gender;
+        this.sound = sound;
     }
 
     public void claimSatisfy(Device device){
@@ -128,6 +130,14 @@ public abstract class Human extends Tracker {
 
     public void setAlive(boolean alive) {
         isAlive = alive;
+    }
+
+    public String getSound() {
+        return sound;
+    }
+
+    public void setSound(String sound) {
+        this.sound = sound;
     }
 
     @Override

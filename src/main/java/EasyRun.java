@@ -136,9 +136,12 @@ public class EasyRun {
         Animal cat = new Cat("Mourek");
         Animal dog1 = new Dog("DogeCoin");
         Animal dog2 = new Dog("Bitcoin");
+        Animal penguin = new Penguin("Penguin");
+        penguin.setLocation(animalRoom);
         cat.setLocation(animalRoom);
         dog1.setLocation(animalRoom);
         dog2.setLocation(animalRoom);
+        animals.add(penguin);
         animals.add(cat);
         animals.add(dog1);
         animals.add(dog2);

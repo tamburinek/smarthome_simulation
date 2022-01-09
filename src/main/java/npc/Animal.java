@@ -8,7 +8,13 @@ import location.Tracker;
 public abstract class Animal extends Tracker {
 
     private String name;
+    private String sound;
     private House house;
+
+    public Animal(String name, String sound) {
+        this.name = name;
+        this.sound = sound;
+    }
 
     private int hungry = Constants.START_HUNGRY;
     private int happiness = Constants.START_HAPPINESS;
@@ -44,10 +50,6 @@ public abstract class Animal extends Tracker {
     }
 
     private boolean isDoingSt = false;
-
-    public Animal(String name) {
-        this.name = name;
-    }
 
     public String getName() {
         return name;
@@ -87,6 +89,14 @@ public abstract class Animal extends Tracker {
 
     public void setHappiness(int happiness) {
         this.happiness = happiness;
+    }
+
+    public String getSound() {
+        return sound;
+    }
+
+    public void setSound(String sound) {
+        this.sound = sound;
     }
 
     @Override
