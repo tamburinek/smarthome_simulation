@@ -8,20 +8,20 @@ public class EasyStrategy implements DifficultyStrategy{
     @Override
     public void setParams() {
         ResourceEnum.ELECTRICITY.setPrice(1);
-        ResourceEnum.ELECTRICITY.add(1000);
+        ResourceEnum.ELECTRICITY.add(100000);
         ResourceEnum.FOOD.setPrice(1);
-        ResourceEnum.FOOD.add(1000);
+        ResourceEnum.FOOD.add(100000);
         ResourceEnum.GAS.setPrice(1);
-        ResourceEnum.GAS.add(1000);
+        ResourceEnum.GAS.add(100000);
         ResourceEnum.WATER.setPrice(1);
-        ResourceEnum.WATER.add(1000);
-        ResourceEnum.MONEY.add(0);
+        ResourceEnum.WATER.add(100000);
+        ResourceEnum.MONEY.add(10000000);
 
-        Constants.INDEX = 2;
-        Constants.MAX_HUNGRY = 100;
-        Constants.MAX_CLEAN = 100;
-        Constants.MAX_HAPPINESS = 100;
-        Constants.MAX_FRESH = 100;
+        Constants.INDEX = 1;
+        Constants.MAX_HUNGRY = 300;
+        Constants.MAX_CLEAN = 300;
+        Constants.MAX_HAPPINESS = 300;
+        Constants.MAX_FRESH = 300;
     }
 
     @Override

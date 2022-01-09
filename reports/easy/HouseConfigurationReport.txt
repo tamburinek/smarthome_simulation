@@ -42,6 +42,7 @@ House:
                     bed
                     phone
                     radio
+                    baby ultimatum device
           Room: parents room
                Devices:
                     parents room light

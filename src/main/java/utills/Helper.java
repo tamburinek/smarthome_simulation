@@ -58,7 +58,7 @@ public class Helper {
     public static Human findPersonForActivity(int requiredAge, ArrayList<Human> humans){
         ArrayList<Human> humans1 = new ArrayList<>();
         for (Human human : humans) {
-            if (human.getAge() > requiredAge && human.isDoingSt()) {
+            if (human.getAge() > requiredAge) {
                 humans1.add(human);
             }
         }

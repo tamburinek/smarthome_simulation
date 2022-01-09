@@ -8,6 +8,7 @@ import iterator.EventIterator;
 import iterator.NotificationIterator;
 import notification.NeedsNotification;
 import npc.Animal;
+import npc.Baby;
 import npc.Human;
 import sensors.Sensor;
 import strategy.DifficultyStrategy;
@@ -27,7 +28,7 @@ public class HouseController {
     public void runSimulation(int rounds){
         difficulty.setParams();
         EventVisitor visitor = new EventVisitor();
-        Time.setCurrentTime(2012,10,23);
+        Time.setCurrentTime(2000,12,11);
 
         for (int i = 0; i < rounds; i++) {
             Time.addTime(10);
@@ -40,6 +41,7 @@ public class HouseController {
 
             Device device = null;
 
+            //humans
             for (Human human : house.getHumans()) {
 
                 if (human.isDoingSt() || !human.isAlive()){
@@ -47,10 +49,22 @@ public class HouseController {
                 }
 
                 if (Helper.makeSound()){
-                    Event.allNotifications.add(new NeedsNotification(human.getSound()));
+                    Event.allNotifications.add(new NeedsNotification(Time.getCurrentTime() + " - " + human.getSound()));
                 }
 
                 human.dropStats();
+
+                if (human instanceof Baby){
+                    if (human.getHappiness() < 40 || human.getFresh()<40 || human.getClean()<40 || human.getHungry()<40){
+                        device = Helper.findDevice(house.getDevices(), DeviceType.BABY);
+                        Human human2 = Helper.findPersonForActivity(15, house.getHumans());
+                        if (human2 != null && device!=null){
+                            Event.activitiesToDo.add(0,new BabyEvent(device, human2, device.getDuration(), (Baby) human));
+                        }
+                        Event.allNotifications.add(new NeedsNotification(Time.getCurrentTime() + " - " + human.getName() + " wants someone to help"));
+                    }
+                    continue;
+                }
 
                 if (human.getClean() < 60){
                     device = Helper.findDevice(house.getDevices(), DeviceType.CLEANING);
@@ -77,13 +91,14 @@ public class HouseController {
                 }
             }
 
+            //animals
             for (Animal animal : house.getAnimals() ) {
 
                 if (animal.isDoingSt() || !animal.isAlive()){
                     continue;
                 }
                 if (Helper.makeSound()){
-                    Event.allNotifications.add(new NeedsNotification(animal.getSound()));
+                    Event.allNotifications.add(new NeedsNotification(Time.getCurrentTime() + " - " + animal.getSound()));
                 }
                 animal.dropSomeStats();
 
@@ -109,6 +124,7 @@ public class HouseController {
                 }
             }
 
+            //checking if there are some broken devices
             for (Device deviceHelper : house.getDevices()) {
                 if (deviceHelper.getState().isBroken()) {
                     Human human = Helper.findPersonForActivity(16, house.getHumans());
@@ -122,7 +138,6 @@ public class HouseController {
         }
 
         //iterating final results
-
         String filename = "reports/" + difficulty.toString() + "/ActivityAndUsageReport.txt";
         String filename1 = "reports/" + difficulty.toString() + "/EventReport.txt";
         String filename2 = "reports/" + difficulty.toString() + "/ConsumptionReport.txt";

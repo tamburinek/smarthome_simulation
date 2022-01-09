@@ -12,7 +12,6 @@ public class EventVisitor implements Visitor {
                 if (!event.getHuman().isDoingSt() && !event.getBaby().isDoingSt()) {
                     event.getUsingDevice().startUsingDevice(event.getHuman());
                     event.getBaby().setDoingSt(true);
-                    event.getHuman().setDoingSt(true);
                     Event.currentActivities.add(event);
                     return true;
                 } else
@@ -27,6 +26,7 @@ public class EventVisitor implements Visitor {
             event.setDuration(event.getDuration() - 10);
             if (event.getDuration() <= 0) {
                 event.getBaby().setDoingSt(false);
+                event.getBaby().claimSatisfy(event.getUsingDevice());
                 event.getUsingDevice().stopUsingDevice(event.getHuman());
                 return true;
             }

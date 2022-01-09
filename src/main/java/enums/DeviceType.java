@@ -10,5 +10,6 @@ public enum DeviceType {
     WORK,
     TRANSPORT,
     EAT,
-    ANIMAL
+    ANIMAL,
+    BABY
 }

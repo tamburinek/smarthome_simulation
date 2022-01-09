@@ -40,5 +40,7 @@ public class DeviceFactory {
 
     public static Ski createSki(String name, int difficulty, int index, int effectivity,Manual manual){return new Ski(name, difficulty, index, effectivity, manual);}
 
+    public static BabyDeviceForEverything createBabyDevice(String name, int difficulty, int index, int effectivity,Manual manual){return new BabyDeviceForEverything(name, difficulty, index, effectivity, manual);}
+
     public static AnimalRefrigerator createAnimalRef(String name, int difficulty, int index, int effectivity,Manual manual){return new AnimalRefrigerator(name, difficulty, index, effectivity, manual);}
 }

@@ -93,6 +93,8 @@ public class EasyRun {
         kidsRoom.addDevice(phone);
         Device radio = DeviceFactory.createRadio("radio", 10, 0, 90, manual);
         kidsRoom.addDevice(radio);
+        Device babyDevice = DeviceFactory.createBabyDevice("baby ultimatum device", 10, 0, 90, manual);
+        kidsRoom.addDevice(babyDevice);
         thirdFloor.addRoom(kidsRoom);
 
         Room parentsRoom = new Room("parents room");
