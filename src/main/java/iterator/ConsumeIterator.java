@@ -39,7 +39,7 @@ public class ConsumeIterator implements Iterator{
         Device device = devices.get(index);
         try {
             FileWriter myWriter = new FileWriter(filename, true);
-            myWriter.write(device.getDeviceName() + " consumed "
+            myWriter.write(index + 1 + ") " + device.getDeviceName() + " consumed "
                     + device.getResourcesConsumed()[0] + " electricity and " + device.getResourcesConsumed()[1] + " gas and " +
                     device.getResourcesConsumed()[2] + " water");
             myWriter.write("\r\n");

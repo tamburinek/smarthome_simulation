@@ -33,7 +33,7 @@ public class NotificationIterator implements Iterator{
     public void next() {
         try {
             FileWriter myWriter = new FileWriter(file, true);
-            myWriter.write(Event.allNotifications.get(index).getReport());
+            myWriter.write(index + 1 + ") " + Event.allNotifications.get(index).getReport());
             myWriter.write("\r\n");
             myWriter.write("\r\n");
             myWriter.close();

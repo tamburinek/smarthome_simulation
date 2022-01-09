@@ -40,11 +40,11 @@ public class EventIterator implements Iterator{
         try {
             FileWriter myWriter = new FileWriter(file, true);
             if (event.getType() == NotificationType.STARTED_USING){
-                myWriter.write(event.getTime() + " - " + event.getHuman().getName() + " " + event.getType() +
+                myWriter.write(index + 1 + ") " + event.getTime() + " - " + event.getHuman().getName() + " " + event.getType() +
                         " " + event.getUsingDevice().getDeviceName() + " and will be using it for " + event.getDuration() + " minutes");
             }
             else {
-                myWriter.write(event.getTime() + " - " + event.getHuman().getName() + " " + event.getType() + " " + event.getUsingDevice().getDeviceName());
+                myWriter.write(index + 1 + ") " + event.getTime() + " - " + event.getHuman().getName() + " " + event.getType() + " " + event.getUsingDevice().getDeviceName());
             }
             myWriter.write("\r\n");
             myWriter.write("\r\n");

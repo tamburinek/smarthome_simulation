@@ -40,7 +40,7 @@ public class EasyRun {
         Device bed = new Bed("bed", 10, 2, 50, manual);
         bathroom.addDevice(bed);
 
-        Device clothWash = new ClothWash("cloth wash", 10, 2, 20, manual);
+        Device clothWash = DeviceFactory.createClothWash("cloth wash", 10, 2, 20, manual);
         bathroom.addDevice(clothWash);
         Device computer = new Computer("computer", 10, 2, 80, manual);
         bathroom.addDevice(computer);

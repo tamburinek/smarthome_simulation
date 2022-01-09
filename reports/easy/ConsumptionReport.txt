@@ -1,35 +1,35 @@
 This is file of all consumes
 
-bath consumed 1584 electricity and 0 gas and 1900 water
+1) bath consumed 1052 electricity and 0 gas and 1200 water
 
-bed consumed 0 electricity and 0 gas and 0 water
+2) bed consumed 0 electricity and 0 gas and 0 water
 
-cloth wash consumed 1660 electricity and 0 gas and 2000 water
+3) cloth wash consumed 1812 electricity and 0 gas and 2200 water
 
-computer consumed 292 electricity and 0 gas and 0 water
+4) computer consumed 292 electricity and 0 gas and 0 water
 
-dish wash consumed 1546 electricity and 0 gas and 1850 water
+5) dish wash consumed 1394 electricity and 0 gas and 1650 water
 
-phone consumed 350 electricity and 0 gas and 0 water
+6) phone consumed 350 electricity and 0 gas and 0 water
 
-radio consumed 406 electricity and 0 gas and 0 water
+7) radio consumed 558 electricity and 0 gas and 0 water
 
-bed2 consumed 0 electricity and 0 gas and 0 water
+8) bed2 consumed 0 electricity and 0 gas and 0 water
 
-tv consumed 596 electricity and 0 gas and 0 water
+9) tv consumed 748 electricity and 0 gas and 0 water
 
-work consumed 0 electricity and 0 gas and 0 water
+10) work consumed 0 electricity and 0 gas and 0 water
 
-refrigerator consumed 350 electricity and 0 gas and 550 water
+11) refrigerator consumed 350 electricity and 0 gas and 2250 water
 
-refrigerator2 consumed 350 electricity and 0 gas and 1500 water
+12) refrigerator2 consumed 350 electricity and 0 gas and 1350 water
 
-refrigerator3 consumed 350 electricity and 0 gas and 1500 water
+13) refrigerator3 consumed 350 electricity and 0 gas and 1500 water
 
-bike consumed 0 electricity and 0 gas and 0 water
+14) bike consumed 0 electricity and 0 gas and 0 water
 
-all consumed electricity 7484
-all consumed food 3550
-all consumed water 9300
+all consumed electricity 7256
+all consumed food 5100
+all consumed water 10150
 all consumed gas 0
 all consumed money 0
