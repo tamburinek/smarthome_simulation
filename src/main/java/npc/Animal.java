@@ -17,11 +17,13 @@ public abstract class Animal extends Tracker {
         hungry = Math.min(hungry + device.hungry(), Constants.MAX_HUNGRY);
     }
 
-    public abstract void playWithHuman(Human human);
+    public void claimSatisfy(Human human){
+        happiness = Constants.MAX_HAPPINESS;
+    }
 
     private boolean isAlive = true;
 
-    public void doNothing(){
+    public void dropSomeStats(){
         hungry = hungry - Constants.INDEX;
         happiness = happiness - Constants.INDEX;
         checkForDead();
@@ -31,6 +33,14 @@ public abstract class Animal extends Tracker {
         if (happiness <= 0 || hungry <= 0){
             isAlive = false;
         }
+    }
+
+    public boolean isAlive() {
+        return isAlive;
+    }
+
+    public void setAlive(boolean alive) {
+        isAlive = alive;
     }
 
     private boolean isDoingSt = false;

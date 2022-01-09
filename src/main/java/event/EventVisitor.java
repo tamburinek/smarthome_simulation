@@ -93,27 +93,46 @@ public class EventVisitor implements Visitor {
         return false;
     }
 
-    public boolean animalEvent(AnimalEvent event){
+    public boolean visitAnimalEvent(AnimalEvent event){
         if (Event.activitiesToDo.contains(event) || Event.notifications.contains(event)) {
-            if (event.getHuman().isIn(event.getAnimal().getLocation())) {
-                if (!event.getHuman().isDoingSt() && !event.getAnimal().isDoingSt()) {
-                    event.getAnimal().setDoingSt(true);
-                    event.getHuman().setDoingSt(true);
+            if (event.getHuman() == null){
+                if (!event.getAnimal().isDoingSt() && !event.getUsingDevice().getState().isOccupied()){
+                    Event.doneEvents.add(new PrintingEvent(event.getUsingDevice(),null, event.getDuration(),NotificationType.STARTED_USING_ANIMAL));
                     Event.currentActivities.add(event);
+                    event.getAnimal().setDoingSt(true);
                     return true;
-                } else
+                }
+            }else {
+                if (event.getHuman().isIn(event.getAnimal().getLocation())) {
+                    if (!event.getHuman().isDoingSt() && !event.getAnimal().isDoingSt()) {
+                        event.getAnimal().setDoingSt(true);
+                        event.getHuman().setDoingSt(true);
+                        Event.currentActivities.add(event);
+                        Event.doneEvents.add(new PrintingEvent(null,event.getHuman(), event.getDuration(),NotificationType.STARTED_USING));
+                        return true;
+                    } else
+                        return false;
+                } else {
+                    event.getHuman().setLocation(event.getAnimal().getLocation());
                     return false;
-            } else {
-                event.getHuman().setLocation(event.getAnimal().getLocation());
-                return false;
+                }
             }
         }
+
         if (Event.currentActivities.contains(event)) {
             event.setDuration(event.getDuration() - 10);
             if (event.getDuration() <= 0) {
-                Event.currentActivities.remove(event);
-                event.getHuman().setDoingSt(false);
-                event.getAnimal().setDoingSt(false);
+                if (event.getHuman() != null){
+                    event.getHuman().setDoingSt(false);
+                    event.getAnimal().setDoingSt(false);
+                    event.getAnimal().claimSatisfy(event.getHuman());
+                    Event.doneEvents.add(new PrintingEvent(null,event.getHuman(), event.getDuration(),NotificationType.ENDED_USING));
+                }
+                else{
+                    event.getAnimal().setDoingSt(false);
+                    event.getAnimal().claimSatisfy(event.getUsingDevice());
+                    Event.doneEvents.add(new PrintingEvent(event.getUsingDevice(), null, event.getDuration(),NotificationType.ENDED_USING_ANIMAL));
+                }
                 return true;
             }
         }

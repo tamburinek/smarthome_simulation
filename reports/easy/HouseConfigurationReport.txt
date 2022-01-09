@@ -7,13 +7,16 @@ House:
                Devices:
                     animal light
                     refrigerator
+                    animal refrigerator
           Room: garage
                Devices:
                     car
+                    ski
                     garage light
           Room: entry
                Devices:
-                    bike
+                    first bike
+                    second bike
                     entry light
      Floor: second
           Room: toilet

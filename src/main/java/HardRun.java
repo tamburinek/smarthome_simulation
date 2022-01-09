@@ -6,7 +6,6 @@ import iterator.ConfigurationIterator;
 import manuals.Manual;
 import manuals.ManualProxyImpl;
 import npc.*;
-import strategy.EasyStrategy;
 import strategy.HardStrategy;
 
 import java.util.ArrayList;
@@ -29,8 +28,10 @@ public class HardRun {
         Device light = DeviceFactory.createLight("garage light", 10, 0, 0, manual);
         garage.addDevice(light);
         Room entry = new Room("entry");
-        Device bike = DeviceFactory.createBike("bike", 10, 0, 0, manual);
+        Device bike = DeviceFactory.createBike("first bike", 10, 0, 0, manual);
+        Device bike2 = DeviceFactory.createBike("second bike", 10, 0, 0, manual);
         entry.addDevice(bike);
+        entry.addDevice(bike2);
         Device entryLight = DeviceFactory.createLight("entry light", 10, 0, 0, manual);
         entry.addDevice(entryLight);
         Room animalRoom = new Room("animal room");

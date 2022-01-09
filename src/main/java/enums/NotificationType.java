@@ -8,10 +8,23 @@ public enum NotificationType {
             return "started using";
         }
     },
+    STARTED_USING_ANIMAL {
+        @Override
+        public String toString() {
+            return "animal started using";
+        }
+    },
     ENDED_USING {
         @Override
         public String toString() {
             return "ended using";
+        }
+    },
+
+    ENDED_USING_ANIMAL {
+        @Override
+        public String toString() {
+            return "animal ended using";
         }
     },
     STARTED_REPAIRING {

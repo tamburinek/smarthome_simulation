@@ -9,7 +9,7 @@ public class DeviceObserver extends Observer{
 
     @Override
     public void update(NotificationType type) {
-        if (type == NotificationType.BROKE_IN_IDLE){
+        if (type == NotificationType.BROKE_IN_IDLE || type == NotificationType.STARTED_USING_ANIMAL || type == NotificationType.ENDED_USING_ANIMAL  ){
             Event.doneEvents.add(new PrintingEvent(device, null, device.getDuration(), type));
         }
         else{

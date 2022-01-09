@@ -18,6 +18,6 @@ public class AnimalEvent extends Event{
 
     @Override
     public boolean accept(EventVisitor visitor) {
-        return false;
+        return visitor.visitAnimalEvent(this);
     }
 }

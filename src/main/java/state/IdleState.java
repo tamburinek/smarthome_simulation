@@ -8,9 +8,14 @@ public class IdleState implements DeviceState{
 
     @Override
     public void useDevice(Device device, Human human) {
-        device.setHumanUsingDevice(human);
-        human.setDoingSt(true);
-        device.getObservers().update(NotificationType.STARTED_USING);
+        if (human != null){
+            device.setHumanUsingDevice(human);
+            human.setDoingSt(true);
+            device.getObservers().update(NotificationType.STARTED_USING);
+            device.setState(new InUseState());
+            return;
+        }
+        device.getObservers().update(NotificationType.STARTED_USING_ANIMAL);
         device.setState(new InUseState());
     }
 
