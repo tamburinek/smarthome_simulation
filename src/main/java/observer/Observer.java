@@ -9,7 +9,8 @@ public abstract class Observer {
 
     public abstract void update(NotificationType type);
 
-    public Observer(Device device){
-    this.device = device;
-    this.device.attach(this); }
+    public Observer(Device device) {
+        this.device = device;
+        this.device.attach(this);
+    }
 }
