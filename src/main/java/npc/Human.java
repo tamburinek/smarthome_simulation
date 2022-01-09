@@ -37,7 +37,7 @@ public abstract class Human extends Tracker {
         checkForDead();
     }
 
-    public void doNothing(){
+    public void dropStats(){
         happiness = happiness - Constants.INDEX;
         fresh = fresh - Constants.INDEX;
         clean = clean - Constants.INDEX;

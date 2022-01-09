@@ -17,7 +17,7 @@ public class EventIterator implements Iterator{
         this.file = file;
         try {
             FileWriter myWriter = new FileWriter(file);
-            myWriter.write("Let's start this madness");
+            myWriter.write("This is file of all events");
             myWriter.write("\r\n");
             myWriter.write("\r\n");
             myWriter.close();
@@ -33,7 +33,7 @@ public class EventIterator implements Iterator{
     }
 
     @Override
-    public boolean next() {
+    public void next() {
 
         PrintingEvent event = (PrintingEvent) Event.doneEvents.get(index);
 
@@ -55,7 +55,6 @@ public class EventIterator implements Iterator{
         }
 
         index++;
-        return true;
     }
 
     public void last(Human human){

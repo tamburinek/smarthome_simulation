@@ -4,11 +4,12 @@ import devices.Device;
 import enums.DeviceType;
 import event.*;
 import iterator.EventIterator;
+import iterator.NotificationIterator;
+import notification.NeedsNotification;
 import npc.Animal;
 import npc.Human;
 import sensors.Sensor;
 import strategy.DifficultyStrategy;
-import strategy.EasyStrategy;
 import utills.Helper;
 import utills.Time;
 
@@ -40,7 +41,7 @@ public class HouseController {
 
             for (Human human : house.getHumans()) {
 
-                human.doNothing();
+                human.dropStats();
 
                 if (human.isDoingSt() || !human.isAlive()){
                     continue;
@@ -48,15 +49,19 @@ public class HouseController {
 
                 if (human.getClean() < 60){
                     device = Helper.findDevice(house.getDevices(), DeviceType.CLEANING);
+                    Event.allNotifications.add(new NeedsNotification(Time.getCurrentTime() + " - " + human.getName() + " is dirty"));
                 }
                 else if (human.getHappiness() < 60){
                     device = Helper.findDevice(house.getDevices(), DeviceType.JOY);
+                    Event.allNotifications.add(new NeedsNotification(Time.getCurrentTime() + " - " + human.getName() + " is sad"));
                 }
                 else if (human.getFresh() < 60) {
                     device = Helper.findDevice(house.getDevices(), DeviceType.SLEEPING);
+                    Event.allNotifications.add(new NeedsNotification(Time.getCurrentTime() + " - " + human.getName() + " is tired"));
                 }
                 else if (human.getHungry() < 60) {
                     device = Helper.findDevice(house.getDevices(), DeviceType.EAT);
+                    Event.allNotifications.add(new NeedsNotification(Time.getCurrentTime() + " - " + human.getName() + " is hungry"));
                 }
                 else {
                     device = Helper.findRandomDevice(house.getDevices());
@@ -89,11 +94,16 @@ public class HouseController {
 
         if (difficulty.toString().equals("easy")){
             EventIterator iterator = new EventIterator("reports/easy/ActivityAndUsageReport.txt");
+            NotificationIterator iterator1  = new NotificationIterator("reports/easy/EventReport.txt");
+
             while (iterator.hasNext()){
                 iterator.next();
             }
             for (Human human : house.getHumans()){
                 iterator.last(human);
+            }
+            while (iterator1.hasNext()){
+                iterator1.next();
             }
         }
     }

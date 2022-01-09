@@ -110,7 +110,7 @@ public class EasyRun {
 
 
         //running simulation
-        runner.runSimulation(40);
+        runner.runSimulation(70);
 
     }
 }
