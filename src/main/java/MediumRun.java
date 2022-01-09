@@ -137,13 +137,16 @@ public class MediumRun {
         humans.add(Mimino);
 
         //animals
-        Animal cat = new Cat("Mourek");
-        Animal dog1 = new Dog("DogeCoin");
+        Animal cat = new Cat("Meggie");
+        Animal dog1 = new Dog("Etherium");
         Animal dog2 = new Dog("Bitcoin");
+        Animal penguin = new Penguin("Penguin");
+        penguin.setLocation(animalRoom);
         cat.setLocation(animalRoom);
         dog1.setLocation(animalRoom);
         dog2.setLocation(animalRoom);
         animals.add(cat);
+        animals.add(penguin);
         animals.add(dog1);
         animals.add(dog2);
 

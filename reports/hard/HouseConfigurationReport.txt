@@ -53,6 +53,9 @@ House:
                     resource sensor
 
 Human and Animals:
+     Bart
+     Lisa
+     Mimino druhe
      Oldrich
      Pepa
      Iveta
@@ -61,5 +64,9 @@ Human and Animals:
      Maruska
      Mimino
      Mourek
+     Kocourek
+     Hrstka
      DogeCoin
      Bitcoin
+     Penguin
+     Penguinik

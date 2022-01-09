@@ -1,5 +1,8 @@
 package enums;
 
+/**
+ * constants
+ */
 public class Constants {
 
     public static int MAX_HUNGRY = 100;

@@ -8,6 +8,9 @@ import utills.Time;
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * event class
+ */
 public abstract class Event {
 
     private final Device usingDevice;
@@ -22,13 +25,18 @@ public abstract class Event {
         this.time = Time.getCurrentTime();
     }
 
+    /**
+     * static event chains to waork with
+     */
     public static ArrayList<Event> activitiesToDo = new ArrayList<>();
     public static ArrayList<Event> currentActivities = new ArrayList<>();
     public static ArrayList<Event> notifications = new ArrayList<>();
-
     public static ArrayList<Event> doneEvents = new ArrayList<>();
     public static ArrayList<Notification> allNotifications = new ArrayList<>();
 
+    /**
+     *visitor pattern
+     */
     public abstract boolean accept(EventVisitor visitor);
 
 

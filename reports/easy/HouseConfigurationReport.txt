@@ -12,6 +12,8 @@ House:
                Devices:
                     car
                     ski
+                    second car
+                    second ski
                     garage light
           Room: entry
                Devices:
@@ -22,6 +24,7 @@ House:
           Room: toilet
                Devices:
                     toilet
+                    second toilet
                     toilet light
           Room: kitchen
                Devices:
@@ -39,15 +42,20 @@ House:
           Room: kids room
                Devices:
                     kids room light
+                    kids tv
                     bed
                     phone
                     radio
+                    second phone
+                    second radio
                     baby ultimatum device
           Room: parents room
                Devices:
                     parents room light
                     bed2
                     tv
+                    third phone
+                    third radio
                     computer
 
 

@@ -5,6 +5,9 @@ import enums.NotificationType;
 import event.Event;
 import event.PrintingEvent;
 
+/**
+ * observer pattern - checks for any update on device
+ */
 public class DeviceObserver extends Observer{
 
     @Override

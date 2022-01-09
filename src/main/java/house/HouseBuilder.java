@@ -6,6 +6,9 @@ import sensors.Sensor;
 
 import java.util.ArrayList;
 
+/**
+ * builder pattern
+ */
 public class HouseBuilder {
 
     private House house = new House();

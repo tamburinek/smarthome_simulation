@@ -3,7 +3,7 @@ This is file of all consumes
 
 1) animal light consumed 200 electricity and 0 gas and 0 water
 
-2) refrigerator consumed 500 electricity and 0 gas and 0 water
+2) refrigerator consumed 500 electricity and 0 gas and 250 water
 
 3) animal refrigerator consumed 500 electricity and 0 gas and 0 water
 
@@ -11,54 +11,70 @@ This is file of all consumes
 
 5) ski consumed 0 electricity and 0 gas and 0 water
 
-6) garage light consumed 200 electricity and 0 gas and 0 water
+6) second car consumed 0 electricity and 10000 gas and 0 water
 
-7) first bike consumed 0 electricity and 0 gas and 0 water
+7) second ski consumed 0 electricity and 0 gas and 0 water
 
-8) second bike consumed 0 electricity and 0 gas and 0 water
+8) garage light consumed 200 electricity and 0 gas and 0 water
 
-9) entry light consumed 200 electricity and 0 gas and 0 water
+9) first bike consumed 0 electricity and 0 gas and 0 water
 
-10) toilet consumed 0 electricity and 0 gas and 0 water
+10) second bike consumed 0 electricity and 0 gas and 0 water
 
-11) toilet light consumed 200 electricity and 0 gas and 0 water
+11) entry light consumed 200 electricity and 0 gas and 0 water
 
-12) kitchen light consumed 200 electricity and 0 gas and 0 water
+12) toilet consumed 0 electricity and 0 gas and 0 water
 
-13) refrigerator2 consumed 500 electricity and 0 gas and 400 water
+13) second toilet consumed 0 electricity and 0 gas and 0 water
 
-14) refrigerator3 consumed 500 electricity and 0 gas and 100 water
+14) toilet light consumed 200 electricity and 0 gas and 0 water
 
-15) bathroom light consumed 200 electricity and 0 gas and 0 water
+15) kitchen light consumed 200 electricity and 0 gas and 0 water
 
-16) bath consumed 770 electricity and 0 gas and 750 water
+16) refrigerator2 consumed 500 electricity and 0 gas and 300 water
 
-17) cloth wash consumed 314 electricity and 0 gas and 150 water
+17) refrigerator3 consumed 500 electricity and 0 gas and 100 water
 
-18) dish wash consumed 428 electricity and 0 gas and 300 water
+18) bathroom light consumed 200 electricity and 0 gas and 0 water
 
-19) work consumed 0 electricity and 0 gas and 0 water
+19) bath consumed 314 electricity and 0 gas and 150 water
 
-20) kids room light consumed 200 electricity and 0 gas and 0 water
+20) cloth wash consumed 1226 electricity and 0 gas and 1350 water
 
-21) bed consumed 0 electricity and 0 gas and 0 water
+21) dish wash consumed 770 electricity and 0 gas and 750 water
 
-22) phone consumed 500 electricity and 0 gas and 0 water
+22) work consumed 0 electricity and 0 gas and 0 water
 
-23) radio consumed 276 electricity and 0 gas and 0 water
+23) kids room light consumed 200 electricity and 0 gas and 0 water
 
-24) baby ultimatum device consumed 494 electricity and 494 gas and 494 water
+24) kids tv consumed 352 electricity and 0 gas and 0 water
 
-25) parents room light consumed 200 electricity and 0 gas and 0 water
+25) bed consumed 0 electricity and 0 gas and 0 water
 
-26) bed2 consumed 0 electricity and 0 gas and 0 water
+26) phone consumed 500 electricity and 0 gas and 0 water
 
-27) tv consumed 352 electricity and 0 gas and 0 water
+27) radio consumed 314 electricity and 0 gas and 0 water
 
-28) computer consumed 276 electricity and 0 gas and 0 water
+28) second phone consumed 500 electricity and 0 gas and 0 water
 
-all consumed electricity 7010
-all consumed food 800
-all consumed water 2194
-all consumed gas 10494
+29) second radio consumed 466 electricity and 0 gas and 0 water
+
+30) baby ultimatum device consumed 592 electricity and 592 gas and 592 water
+
+31) parents room light consumed 200 electricity and 0 gas and 0 water
+
+32) bed2 consumed 0 electricity and 0 gas and 0 water
+
+33) tv consumed 352 electricity and 0 gas and 0 water
+
+34) third phone consumed 500 electricity and 0 gas and 0 water
+
+35) third radio consumed 428 electricity and 0 gas and 0 water
+
+36) computer consumed 276 electricity and 0 gas and 0 water
+
+all consumed electricity 10190
+all consumed food 1050
+all consumed water 3492
+all consumed gas 20592
 all consumed money 400000

@@ -4,6 +4,10 @@ import manuals.Manual;
 import vehicle.Bike;
 import vehicle.Car;
 
+
+/**
+ * creates the device you want
+ */
 public class DeviceFactory {
 
     public static Bath createBath(String name, int difficulty, int index, int effectivity, Manual manual){return new Bath(name, difficulty, index, effectivity, manual);}

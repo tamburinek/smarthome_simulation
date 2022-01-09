@@ -5,6 +5,9 @@ import enums.ResourceEnum;
 import location.Work;
 import manuals.Manual;
 
+/**
+ * the only device that can generate money
+ */
 public class WorkingComputer extends Device{
 
     public WorkingComputer(String deviceName, int repairDifficulty, int brokenIndex, int effectivity) {

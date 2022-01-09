@@ -119,7 +119,10 @@ public class HardRun {
         Human Deda = new Adult("Oldrich", 71, Gender.MALE);
         Human Honzik = new Child("Honzik", 13, Gender.MALE);
         Human Maruska = new Child("Maruska", 15, Gender.FEMALE);
+        Human Bart = new Child("Bart", 19, Gender.MALE);
+        Human Lisa = new Child("Lisa", 21, Gender.FEMALE);
         Human Mimino = new Baby("Mimino", 2, Gender.MALE);
+        Human Mimino2 = new Baby("Mimino druhe", 3, Gender.MALE);
         Deda.setLocation(parentsRoom);
         Pepa.setLocation(garage);
         Iveta.setLocation(entry);
@@ -128,6 +131,13 @@ public class HardRun {
         Maruska.setLocation(kidsRoom);
         Mimino.setLocation(kidsRoom);
 
+        Bart.setLocation(kidsRoom);
+        Lisa.setLocation(parentsRoom);
+        Mimino2.setLocation(kidsRoom);
+
+        humans.add(Bart);
+        humans.add(Lisa);
+        humans.add(Mimino2);
         humans.add(Deda);
         humans.add(Pepa);
         humans.add(Iveta);
@@ -138,14 +148,26 @@ public class HardRun {
 
         //animals
         Animal cat = new Cat("Mourek");
+        Animal cat2 = new Cat("Kocourek");
         Animal dog1 = new Dog("DogeCoin");
+        Animal dog3 = new Dog("Hrstka");
         Animal dog2 = new Dog("Bitcoin");
+        Animal penguin = new Penguin("Penguin");
+        Animal penguin2 = new Penguin("Penguinik");
+        penguin2.setLocation(animalRoom);
         cat.setLocation(animalRoom);
+        cat2.setLocation(animalRoom);
         dog1.setLocation(animalRoom);
         dog2.setLocation(animalRoom);
+        dog3.setLocation(animalRoom);
+        penguin.setLocation(animalRoom);
         animals.add(cat);
+        animals.add(cat2);
+        animals.add(dog3);
         animals.add(dog1);
         animals.add(dog2);
+        animals.add(penguin);
+        animals.add(penguin2);
 
         HouseBuilder builder = new HouseBuilder();
         House testHouse = builder.houseName("test").floors(floors).animals(animals).humans(humans).sensors(sensors).getResult();

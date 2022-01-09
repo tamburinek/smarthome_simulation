@@ -1,5 +1,9 @@
 package enums;
 
+
+/**
+ * resource enum - it should be classes but at the start this was better way and now its late to change it
+ */
 public enum ResourceEnum {
 
     ELECTRICITY{

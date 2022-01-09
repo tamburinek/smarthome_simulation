@@ -5,6 +5,9 @@ import enums.DeviceType;
 import manuals.Manual;
 import npc.Human;
 
+/**
+ * vehicles
+ */
 public abstract class Vehicle extends Device {
 
     public Vehicle(String deviceName, int repairDifficulty, int brokenIndex, int effectivity, DeviceType type , Manual manual) {
