@@ -45,6 +45,9 @@ public class EventIterator implements Iterator{
                 myWriter.write(index + 1 + ") " + event.getTime() + " - " + event.getHuman().getName() + " " + event.getType() +
                         " " + event.getUsingDevice().getDeviceName() + " and will be using it for " + event.getDuration() + " minutes");
             }
+            else if (event.getType() == NotificationType.BROKE_IN_IDLE){
+                myWriter.write(index + 1 + ") " + event.getTime() + " - " + event.getUsingDevice().getDeviceName() + " " + event.getType());
+            }
             else {
                 myWriter.write(index + 1 + ") " + event.getTime() + " - " + event.getHuman().getName() + " " + event.getType() + " " + event.getUsingDevice().getDeviceName());
             }

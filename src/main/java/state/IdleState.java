@@ -37,10 +37,10 @@ public class IdleState implements DeviceState{
     @Override
     public void doNothingNew(Device device, Human human) {
         device.consume(false);
-        /*if (device.tryBreak(false)){
-            device.setHumanUsingDevice(null);
+        if (device.tryBreak(false)){
+            device.getObservers().update(NotificationType.BROKE_IN_IDLE);
             device.setState(new BrokenState());
-        }*/
+        }
     }
 
     @Override

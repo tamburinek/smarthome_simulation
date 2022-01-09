@@ -85,11 +85,13 @@ public class HouseController {
 
             for (Device deviceHelper : house.getDevices()) {
                 if (deviceHelper.getState().isBroken()) {
-                    Human human = Helper.findPersonForRepair(16, house.getHumans());
-                    Event event = new RepairEvent(device, human, deviceHelper.getDuration());
-                    Event.activitiesToDo.add(event);
+                    Human human = Helper.findPersonForActivity(16, house.getHumans());
+                    if (human != null){
+                        Event event = new RepairEvent(device, human, 0);
+                        Event.activitiesToDo.add(0,event);
+                    }
                 }
-                deviceHelper.getState().doNothingNew(deviceHelper, deviceHelper.getHumanUsingDevice());
+                deviceHelper.tick(deviceHelper.getHumanUsingDevice());
             }
         }
 

@@ -38,6 +38,12 @@ public enum NotificationType {
             return "called repairman";
         }
     },
+    BROKE_IN_IDLE {
+        @Override
+        public String toString() {
+            return "broke on it's own";
+        }
+    },
     DIED {
         @Override
         public String toString() {

@@ -28,14 +28,13 @@ public class InUseState implements DeviceState{
     @Override
     public void stopUsingDevice(Device device, Human human) {
         device.getObservers().update(NotificationType.ENDED_USING);
+        device.setState(new IdleState());
+        if (device.tryBreak(true)){
+            device.getObservers().update(NotificationType.BROKE);
+            device.setState(new BrokenState());
+        }
         human.setDoingSt(false);
         device.setHumanUsingDevice(null);
-        device.setState(new IdleState());
-        /*if (device.tryBreak(true)){
-            human.setDoingSt(false);
-            device.setHumanUsingDevice(null);
-            device.setState(new BrokenState());
-        }*/
     }
 
     @Override

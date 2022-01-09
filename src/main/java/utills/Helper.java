@@ -49,23 +49,11 @@ public class Helper {
         return null;
     }
 
-    public static Human findPersonForRepair(int requiredAge, ArrayList<Human> humans){
-        //ArrayList<Device> devices1 = new ArrayList<>();
-        for (Human human : humans) {
-            if (human.getAge() > requiredAge) {
-                if (!human.isDoingSt())
-                    return human;
-            }
-        }
-        return null;
-    }
-
-    public static Human findPersonForBaby(int requiredAge, ArrayList<Human> humans){
+    public static Human findPersonForActivity(int requiredAge, ArrayList<Human> humans){
         ArrayList<Human> humans1 = new ArrayList<>();
         for (Human human : humans) {
-            if (human.getAge() > requiredAge) {
-                if (!human.isDoingSt())
-                    humans1.add(human);
+            if (human.getAge() > requiredAge && human.isDoingSt()) {
+                humans1.add(human);
             }
         }
         if (!humans1.isEmpty()){
