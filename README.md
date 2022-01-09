@@ -10,6 +10,7 @@ Za nákup nových prostředků (voda, plyn, elektřina) se platí penězi, pokud
 ### Seznam použitých design patternů:
  - **Iterator** - v package _iterator_ - iterátory použity při generaci reportů, kdy se prochází seznamem eventů a do souboru vypisují jednotlivé události.
  - **Factory** - v package _devices_ - zabalení vytváření nových instancí zařízení do příslušné metody
+ - **Builder** - v package _house_ - slouži pro vytvoření domu při dodání podlaží, pokojů. 
  - **Strategy** - v package _strategy_ - vybírání obtížnosti počátečního nastavení domácnosti a jejích prostředků
  - **Singleton** - v package _location_ - každá lokalita se vytváří pouze jednou; není nutné mít např. dvakrát "outside"
  - **State** - v package _state_ - stejné metody pro ovládání device mají různý efekt v každém stavu device, např. když je zařízení ve stavu _off_, metoda _turnOffDevice_ nedělá nic
@@ -18,7 +19,7 @@ Za nákup nových prostředků (voda, plyn, elektřina) se platí penězi, pokud
  - **Lazy loading (virtual proxy)** - v package manuals - manuál ke každému zařízení se načte, až když ho člověk potřebuje
 ### Použití aplikace
  Simulace se spouští ve třídách EasyRun, MediumRun a HardRun, kde se dají vytvořit nová zařízení, rozmístit zařízení do pokojů po domě a přidat do domácnosti lidi. Dá se změnit i počet desetiminutových iterací, po které simulace poběží.
-Reporty z běhu simulace se po proběhnutí vytváří a ukládají do složky reports.
+Reporty z běhu simulace se po proběhnutí vytváří a ukládají do složky reports. Obtížnosti se od sebe liší hlavně tím, kolik jednotek štěstí, hladu atd. se entitám ubírá při každém ticku. Také se při tžší obtížnosti více rozbíjejí zařízení a je náročnější je opravit.
 ### Class diagram
 ![class diagram](class-diagram.png)
 ### Use Case diagram
