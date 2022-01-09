@@ -36,4 +36,8 @@ public class DeviceFactory {
 
     public static Car createCar(String name, int difficulty, int index, int effectivity,Manual manual){return new Car(name, difficulty, index, effectivity, manual);}
 
+    public static Toilet createToilet(String name, int difficulty, int index, int effectivity,Manual manual){return new Toilet(name, difficulty, index, effectivity, manual);}
+
+    public static Ski createSki(String name, int difficulty, int index, int effectivity,Manual manual){return new Ski(name, difficulty, index, effectivity, manual);}
+
 }

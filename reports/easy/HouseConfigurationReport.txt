@@ -5,20 +5,29 @@ House:
      Floor: first
           Room: animal room
                Devices:
+                    animal light
                     refrigerator
           Room: garage
                Devices:
                     car
+                    garage light
           Room: entry
                Devices:
                     bike
+                    entry light
      Floor: second
+          Room: toilet
+               Devices:
+                    toilet
+                    toilet light
           Room: kitchen
                Devices:
+                    kitchen light
                     refrigerator2
                     refrigerator3
           Room: bathroom
                Devices:
+                    bathroom light
                     bath
                     cloth wash
                     dish wash
@@ -26,16 +35,19 @@ House:
      Floor: third
           Room: kids room
                Devices:
+                    kids room light
                     bed
                     phone
                     radio
           Room: parents room
                Devices:
+                    parents room light
                     bed2
                     tv
                     computer
 
 Human and Animals:
+     Oldrich
      Pepa
      Iveta
      Ilona

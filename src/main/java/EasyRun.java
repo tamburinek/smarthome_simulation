@@ -26,10 +26,16 @@ public class EasyRun {
         Room garage = new Room("garage");
         Device car = DeviceFactory.createCar("car", 10, 0, 0, manual);
         garage.addDevice(car);
+        Device light = DeviceFactory.createLight("garage light", 10, 0, 0, manual);
+        garage.addDevice(light);
         Room entry = new Room("entry");
         Device bike = DeviceFactory.createBike("bike", 10, 0, 0, manual);
         entry.addDevice(bike);
+        Device entryLight = DeviceFactory.createLight("entry light", 10, 0, 0, manual);
+        entry.addDevice(entryLight);
         Room animalRoom = new Room("animal room");
+        Device animalLight = DeviceFactory.createLight("animal light", 10, 0, 0, manual);
+        animalRoom.addDevice(animalLight);
         Device refrigerator = DeviceFactory.createRefrigerator("refrigerator", 20, 0, 50, manual);
         animalRoom.addDevice(refrigerator);
 
@@ -41,7 +47,14 @@ public class EasyRun {
         //second floor
         Floor secondFloor = new Floor("second");
 
+        Room toiletRoom = new Room("toilet");
+        Device toilet = DeviceFactory.createToilet("toilet", 23, 0, 90, manual);
+        toiletRoom.addDevice(toilet);
+        Device toiletLight = DeviceFactory.createLight("toilet light", 10, 0, 0, manual);
+        toiletRoom.addDevice(toiletLight);
         Room bathroom = new Room("bathroom");
+        Device bathLight = DeviceFactory.createLight("bathroom light", 10, 0, 0, manual);
+        bathroom.addDevice(bathLight);
         Device bath = DeviceFactory.createBath("bath", 23, 0, 60, manual);
         bathroom.addDevice(bath);
         Device clothWash = DeviceFactory.createClothWash("cloth wash", 10, 0, 60, manual);
@@ -52,11 +65,14 @@ public class EasyRun {
         bathroom.addDevice(workingComputer);
 
         Room kitchen = new Room("kitchen");
+        Device kitchenLight = DeviceFactory.createLight("kitchen light", 10, 0, 0, manual);
+        kitchen.addDevice(kitchenLight);
         Device refrigerator2 = DeviceFactory.createRefrigerator("refrigerator2", 40, 0, 50, manual);
         kitchen.addDevice(refrigerator2);
         Device refrigerator3 = DeviceFactory.createRefrigerator("refrigerator3", 60, 0, 50, manual);
         kitchen.addDevice(refrigerator3);
 
+        secondFloor.addRoom(toiletRoom);
         secondFloor.addRoom(kitchen);
         secondFloor.addRoom(bathroom);
         floors.add(secondFloor);
@@ -64,6 +80,8 @@ public class EasyRun {
         //third floor
         Floor thirdFloor = new Floor("third");
         Room kidsRoom = new Room("kids room");
+        Device kidsRoomLight = DeviceFactory.createLight("kids room light", 10, 0, 0, manual);
+        kidsRoom.addDevice(kidsRoomLight);
         Device bed = DeviceFactory.createBed("bed", 10, 0, 50, manual);
         kidsRoom.addDevice(bed);
         Device phone = DeviceFactory.createPhone("phone", 10, 0, 35, manual);
@@ -73,6 +91,8 @@ public class EasyRun {
         thirdFloor.addRoom(kidsRoom);
 
         Room parentsRoom = new Room("parents room");
+        Device parents_room_light = DeviceFactory.createLight("parents room light", 10, 0, 0, manual);
+        parentsRoom.addDevice(parents_room_light);
         Device bed2 = DeviceFactory.createBed("bed2", 10, 0, 30, manual);
         parentsRoom.addDevice(bed2);
         Device tv = DeviceFactory.createTv("tv", 10, 0, 60, manual);
@@ -87,17 +107,19 @@ public class EasyRun {
         Human Pepa = new Adult("Pepa", 34, Gender.MALE);
         Human Iveta = new Adult("Iveta", 45, Gender.FEMALE);
         Human BabickaIlona = new Adult("Ilona", 69, Gender.FEMALE);
+        Human Deda = new Adult("Oldrich", 71, Gender.MALE);
         Human Honzik = new Child("Honzik", 13, Gender.MALE);
         Human Maruska = new Child("Maruska", 15, Gender.FEMALE);
         Human Mimino = new Baby("Mimino", 2, Gender.MALE);
+        Deda.setLocation(parentsRoom);
         Pepa.setLocation(garage);
         Iveta.setLocation(entry);
         BabickaIlona.setLocation(animalRoom);
         Honzik.setLocation(garage);
-        Maruska.setLocation(garage);
-        Mimino.setLocation(garage);
+        Maruska.setLocation(kidsRoom);
+        Mimino.setLocation(kidsRoom);
 
-
+        humans.add(Deda);
         humans.add(Pepa);
         humans.add(Iveta);
         humans.add(BabickaIlona);
