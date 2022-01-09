@@ -60,7 +60,7 @@ public class HouseController {
                     device = Helper.findDevice(house.getDevices(), DeviceType.SLEEPING);
                     Event.allNotifications.add(new NeedsNotification(Time.getCurrentTime() + " - " + human.getName() + " is tired"));
                 }
-                else if (human.getHungry() < 20) {
+                else if (human.getHungry() < 60) {
                     device = Helper.findDevice(house.getDevices(), DeviceType.EAT);
                     Event.allNotifications.add(new NeedsNotification(Time.getCurrentTime() + " - " + human.getName() + " is hungry"));
                 }

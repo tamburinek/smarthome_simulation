@@ -36,14 +36,14 @@ public class EasyRun {
         Floor secondFloor = new Floor("second");
 
         Room bathroom = new Room("bathroom");
-        Device bath = new Bath("bath", 23, 10, 60, manual);
+        Device bath = new Bath("bath", 23, 1, 60, manual);
         bathroom.addDevice(bath);
         Device bed = new Bed("bed", 10, 2, 50, manual);
         bathroom.addDevice(bed);
 
-        Device clothWash = DeviceFactory.createClothWash("cloth wash", 10, 2, 60, manual);
+        Device clothWash = DeviceFactory.createClothWash("cloth wash", 10, 1, 60, manual);
         bathroom.addDevice(clothWash);
-        Device computer = new Computer("computer", 20, 2, 80, manual);
+        Device computer = new Computer("computer", 20, 1, 80, manual);
         bathroom.addDevice(computer);
         Device dishWash = new DishWash("dish wash", 20, 2, 40, manual);
         bathroom.addDevice(dishWash);
@@ -57,11 +57,11 @@ public class EasyRun {
         bathroom.addDevice(tv);
         Device workingComputer = new WorkingComputer("work", 0, 0, 0, manual);
         bathroom.addDevice(workingComputer);
-        Device refrigerator = new Refrigerator("refrigerator", 20, 2, 50, manual);
+        Device refrigerator = new Refrigerator("refrigerator", 20, 1, 50, manual);
         bathroom.addDevice(refrigerator);
-        Device refrigerator2 = new Refrigerator("refrigerator2", 40, 2, 50, manual);
+        Device refrigerator2 = new Refrigerator("refrigerator2", 40, 1, 50, manual);
         bathroom.addDevice(refrigerator2);
-        Device refrigerator3 = new Refrigerator("refrigerator3", 60, 2, 50, manual);
+        Device refrigerator3 = new Refrigerator("refrigerator3", 60, 1, 50, manual);
         bathroom.addDevice(refrigerator3);
         Device bike = new Bike("bike", 10, 2, 0, manual);
         bathroom.addDevice(bike);
@@ -113,7 +113,7 @@ public class EasyRun {
 
 
         //running simulation
-        runner.runSimulation(70);
+        runner.runSimulation(100);
 
         ConfigurationIterator iterator = new ConfigurationIterator(testHouse,"reports/easy/HouseConfigurationReport.txt");
         iterator.next();
