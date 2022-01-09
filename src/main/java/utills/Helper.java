@@ -38,7 +38,7 @@ public class Helper {
     public static Device findRandomDevice(ArrayList<Device> devices){
         ArrayList<Device> devices1 = new ArrayList<>();
         for (Device device : devices) {
-            if (device.getType() != DeviceType.WORK || device.getType() != DeviceType.EAT ) {
+            if (device.getType() != DeviceType.WORK && device.getType() != DeviceType.EAT ) {
                 if (!device.getState().isOccupied() && !device.getState().isBroken())
                     devices1.add(device);
             }

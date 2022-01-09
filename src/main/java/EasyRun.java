@@ -55,7 +55,7 @@ public class EasyRun {
         bathroom.addDevice(bed2);
         Device tv = new Television("tv", 10, 2, 60, manual);
         bathroom.addDevice(tv);
-        Device workingComputer = new WorkingComputer("work", 10, 2, 0, manual);
+        Device workingComputer = new WorkingComputer("work", 0, 0, 0, manual);
         bathroom.addDevice(workingComputer);
         Device refrigerator = new Refrigerator("refrigerator", 10, 2, 50, manual);
         bathroom.addDevice(refrigerator);
