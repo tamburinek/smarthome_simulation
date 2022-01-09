@@ -6,6 +6,7 @@ import house.House;
 import house.Room;
 import npc.Animal;
 import npc.Human;
+import sensors.Sensor;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -61,6 +62,11 @@ public class ConfigurationIterator implements Iterator{
                     writeHouse("                    " + device.getDeviceName());
                 }
             }
+        }
+        writeHouse("\n\r");
+        writeHouse("               Sensors:");
+        for (Sensor sensor : house.getSensors()) {
+            writeHouse("                    " + sensor.getName());
         }
     }
 

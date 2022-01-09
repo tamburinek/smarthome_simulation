@@ -11,4 +11,9 @@ public class ResourceSensor implements Sensor{
     public void makeNotification() {
 
     }
+
+    @Override
+    public String getName() {
+        return null;
+    }
 }

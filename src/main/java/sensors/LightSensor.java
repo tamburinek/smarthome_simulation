@@ -13,4 +13,9 @@ public class LightSensor implements Sensor{
     public void makeNotification() {
 
     }
+
+    @Override
+    public String getName() {
+        return null;
+    }
 }

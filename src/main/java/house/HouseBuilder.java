@@ -2,6 +2,7 @@ package house;
 
 import npc.Animal;
 import npc.Human;
+import sensors.Sensor;
 
 import java.util.ArrayList;
 
@@ -25,6 +26,11 @@ public class HouseBuilder {
 
     public HouseBuilder animals(ArrayList<Animal> animals){
         house.setAnimals(animals);
+        return this;
+    }
+
+    public HouseBuilder sensors(ArrayList<Sensor> sensors){
+        house.setSensors(sensors);
         return this;
     }
 

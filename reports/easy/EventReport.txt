@@ -3,271 +3,209 @@ This is file of all notifications
 
 1) Mon Dec 11 00:10:00 CET 2000 - hey bring me some beer
 
-2) Mon Dec 11 00:30:00 CET 2000 - hafhaf
+2) Mon Dec 11 00:10:00 CET 2000 - grgrgrgrgrgrrg
 
-3) Mon Dec 11 01:00:00 CET 2000 - Pepa is dirty
+3) Mon Dec 11 00:10:00 CET 2000 - Penguin is hungry
 
-4) Mon Dec 11 01:40:00 CET 2000 - guguGaga
+4) Mon Dec 11 00:10:00 CET 2000 - Mourek is hungry
 
-5) Mon Dec 11 01:40:00 CET 2000 - hafhaf
+5) Mon Dec 11 00:10:00 CET 2000 - hafhaf
 
-6) Mon Dec 11 01:50:00 CET 2000 - Mimino wants someone to help
+6) Mon Dec 11 00:10:00 CET 2000 - DogeCoin is hungry
 
-7) Mon Dec 11 02:00:00 CET 2000 - Iveta is dirty
+7) Mon Dec 11 00:10:00 CET 2000 - Bitcoin is hungry
 
-8) Mon Dec 11 02:00:00 CET 2000 - Honzik is dirty
+8) Mon Dec 11 00:50:00 CET 2000 - Iveta is tired
 
-9) Mon Dec 11 02:00:00 CET 2000 - Mimino wants someone to help
+9) Mon Dec 11 01:10:00 CET 2000 - hey bring me some beer
 
-10) Mon Dec 11 02:00:00 CET 2000 - hafhaf
+10) Mon Dec 11 01:10:00 CET 2000 - Ilona is dirty
 
-11) Mon Dec 11 02:10:00 CET 2000 - Maruska is dirty
+11) Mon Dec 11 01:50:00 CET 2000 - Mimino wants someone to help
 
-12) Mon Dec 11 02:10:00 CET 2000 - Mimino wants someone to help
+12) Mon Dec 11 01:50:00 CET 2000 - hafhaf
 
-13) Mon Dec 11 02:10:00 CET 2000 - hafhaf
+13) Mon Dec 11 02:00:00 CET 2000 - Mimino wants someone to help
 
-14) Mon Dec 11 02:20:00 CET 2000 - guguGaga
+14) Mon Dec 11 02:10:00 CET 2000 - Honzik is dirty
 
-15) Mon Dec 11 02:20:00 CET 2000 - Mimino wants someone to help
+15) Mon Dec 11 02:10:00 CET 2000 - Mimino wants someone to help
 
-16) Mon Dec 11 02:20:00 CET 2000 - grgrgrgrgrgrrg
+16) Mon Dec 11 02:20:00 CET 2000 - Mimino wants someone to help
 
-17) Mon Dec 11 02:20:00 CET 2000 - hafhaf
+17) Mon Dec 11 02:30:00 CET 2000 - hafhaf
 
-18) Mon Dec 11 02:30:00 CET 2000 - Mimino wants someone to help
+18) Mon Dec 11 02:40:00 CET 2000 - hey bring me some beer
 
-19) Mon Dec 11 02:40:00 CET 2000 - Mimino wants someone to help
+19) Mon Dec 11 02:40:00 CET 2000 - i hate parents
 
-20) Mon Dec 11 02:40:00 CET 2000 - grgrgrgrgrgrrg
+20) Mon Dec 11 02:40:00 CET 2000 - Maruska is dirty
 
-21) Mon Dec 11 02:50:00 CET 2000 - Honzik is tired
+21) Mon Dec 11 02:50:00 CET 2000 - Iveta is dirty
 
-22) Mon Dec 11 02:50:00 CET 2000 - grgrgrgrgrgrrg
+22) Mon Dec 11 03:00:00 CET 2000 - guguGaga
 
-23) Mon Dec 11 02:50:00 CET 2000 - hafhaf
+23) Mon Dec 11 03:00:00 CET 2000 - mrrrrrrrr
 
-24) Mon Dec 11 03:10:00 CET 2000 - guguGaga
+24) Mon Dec 11 03:10:00 CET 2000 - mrrrrrrrr
 
 25) Mon Dec 11 03:10:00 CET 2000 - hafhaf
 
-26) Mon Dec 11 03:20:00 CET 2000 - i hate parents
+26) Mon Dec 11 03:30:00 CET 2000 - Oldrich is dirty
 
-27) Mon Dec 11 03:20:00 CET 2000 - hafhaf
+27) Mon Dec 11 03:30:00 CET 2000 - i hate parents
 
-28) Mon Dec 11 03:30:00 CET 2000 - grgrgrgrgrgrrg
+28) Mon Dec 11 03:30:00 CET 2000 - Maruska is tired
 
-29) Mon Dec 11 03:30:00 CET 2000 - Penguin is sad
+29) Mon Dec 11 03:30:00 CET 2000 - grgrgrgrgrgrrg
 
-30) Mon Dec 11 03:30:00 CET 2000 - mrrrrrrrr
+30) Mon Dec 11 03:40:00 CET 2000 - mrrrrrrrr
 
-31) Mon Dec 11 03:30:00 CET 2000 - Mourek is sad
+31) Mon Dec 11 03:50:00 CET 2000 - hafhaf
 
-32) Mon Dec 11 03:30:00 CET 2000 - DogeCoin is sad
+32) Mon Dec 11 04:20:00 CET 2000 - Oldrich is hungry
 
-33) Mon Dec 11 03:30:00 CET 2000 - Bitcoin is sad
+33) Mon Dec 11 04:20:00 CET 2000 - Penguin is sad
 
-34) Mon Dec 11 03:40:00 CET 2000 - Ilona is dirty
+34) Mon Dec 11 04:20:00 CET 2000 - Mourek is sad
 
-35) Mon Dec 11 03:40:00 CET 2000 - Penguin is sad
+35) Mon Dec 11 04:20:00 CET 2000 - DogeCoin is sad
 
-36) Mon Dec 11 03:40:00 CET 2000 - Mourek is sad
+36) Mon Dec 11 04:20:00 CET 2000 - hafhaf
 
-37) Mon Dec 11 03:40:00 CET 2000 - hafhaf
+37) Mon Dec 11 04:20:00 CET 2000 - Bitcoin is sad
 
-38) Mon Dec 11 03:40:00 CET 2000 - DogeCoin is sad
+38) Mon Dec 11 04:30:00 CET 2000 - Penguin is sad
 
-39) Mon Dec 11 03:40:00 CET 2000 - Bitcoin is sad
+39) Mon Dec 11 04:30:00 CET 2000 - Mourek is sad
 
-40) Mon Dec 11 03:50:00 CET 2000 - Honzik is hungry
+40) Mon Dec 11 04:30:00 CET 2000 - hafhaf
 
-41) Mon Dec 11 03:50:00 CET 2000 - Penguin is sad
+41) Mon Dec 11 04:30:00 CET 2000 - DogeCoin is sad
 
-42) Mon Dec 11 03:50:00 CET 2000 - Mourek is sad
+42) Mon Dec 11 04:30:00 CET 2000 - Bitcoin is sad
 
-43) Mon Dec 11 03:50:00 CET 2000 - DogeCoin is sad
+43) Mon Dec 11 04:40:00 CET 2000 - guguGaga
 
-44) Mon Dec 11 03:50:00 CET 2000 - Bitcoin is sad
+44) Mon Dec 11 04:40:00 CET 2000 - Penguin is sad
 
-45) Mon Dec 11 04:00:00 CET 2000 - grgrgrgrgrgrrg
+45) Mon Dec 11 04:40:00 CET 2000 - Mourek is sad
 
-46) Mon Dec 11 04:00:00 CET 2000 - Penguin is sad
+46) Mon Dec 11 04:40:00 CET 2000 - Bitcoin is sad
 
-47) Mon Dec 11 04:00:00 CET 2000 - Mourek is sad
+47) Mon Dec 11 04:50:00 CET 2000 - guguGaga
 
-48) Mon Dec 11 04:00:00 CET 2000 - DogeCoin is sad
+48) Mon Dec 11 04:50:00 CET 2000 - Penguin is sad
 
-49) Mon Dec 11 04:00:00 CET 2000 - Bitcoin is sad
+49) Mon Dec 11 04:50:00 CET 2000 - Mourek is sad
 
-50) Mon Dec 11 04:10:00 CET 2000 - Penguin is sad
+50) Mon Dec 11 04:50:00 CET 2000 - Bitcoin is sad
 
-51) Mon Dec 11 04:10:00 CET 2000 - mrrrrrrrr
+51) Mon Dec 11 05:00:00 CET 2000 - Bitcoin is sad
 
-52) Mon Dec 11 04:10:00 CET 2000 - Mourek is sad
+52) Mon Dec 11 05:10:00 CET 2000 - Bitcoin is sad
 
-53) Mon Dec 11 04:10:00 CET 2000 - DogeCoin is sad
+53) Mon Dec 11 05:20:00 CET 2000 - Bitcoin is sad
 
-54) Mon Dec 11 04:10:00 CET 2000 - Bitcoin is sad
+54) Mon Dec 11 05:30:00 CET 2000 - Bitcoin is sad
 
-55) Mon Dec 11 04:20:00 CET 2000 - Penguin is sad
+55) Mon Dec 11 05:40:00 CET 2000 - guguGaga
 
-56) Mon Dec 11 04:20:00 CET 2000 - Mourek is sad
+56) Mon Dec 11 05:40:00 CET 2000 - hafhaf
 
-57) Mon Dec 11 04:20:00 CET 2000 - DogeCoin is sad
+57) Mon Dec 11 06:10:00 CET 2000 - hafhaf
 
-58) Mon Dec 11 04:20:00 CET 2000 - Bitcoin is sad
+58) Mon Dec 11 06:20:00 CET 2000 - hey bring me some beer
 
-59) Mon Dec 11 04:30:00 CET 2000 - Penguin is sad
+59) Mon Dec 11 06:20:00 CET 2000 - Iveta is dirty
 
-60) Mon Dec 11 04:30:00 CET 2000 - Mourek is sad
+60) Mon Dec 11 06:30:00 CET 2000 - Maruska is dirty
 
-61) Mon Dec 11 04:30:00 CET 2000 - DogeCoin is sad
+61) Mon Dec 11 06:30:00 CET 2000 - grgrgrgrgrgrrg
 
-62) Mon Dec 11 04:30:00 CET 2000 - Bitcoin is sad
+62) Mon Dec 11 06:50:00 CET 2000 - hafhaf
 
-63) Mon Dec 11 04:40:00 CET 2000 - Penguin is sad
+63) Mon Dec 11 07:10:00 CET 2000 - hafhaf
 
-64) Mon Dec 11 04:40:00 CET 2000 - Mourek is sad
+64) Mon Dec 11 07:20:00 CET 2000 - Maruska is hungry
 
-65) Mon Dec 11 04:40:00 CET 2000 - DogeCoin is sad
+65) Mon Dec 11 07:20:00 CET 2000 - hafhaf
 
-66) Mon Dec 11 04:40:00 CET 2000 - hafhaf
+66) Mon Dec 11 07:50:00 CET 2000 - Honzik is hungry
 
-67) Mon Dec 11 04:40:00 CET 2000 - Bitcoin is sad
+67) Mon Dec 11 07:50:00 CET 2000 - guguGaga
 
-68) Mon Dec 11 04:50:00 CET 2000 - Penguin is sad
+68) Mon Dec 11 08:10:00 CET 2000 - mrrrrrrrr
 
-69) Mon Dec 11 04:50:00 CET 2000 - Mourek is sad
+69) Mon Dec 11 08:20:00 CET 2000 - hafhaf
 
-70) Mon Dec 11 04:50:00 CET 2000 - DogeCoin is sad
+70) Mon Dec 11 08:40:00 CET 2000 - mrrrrrrrr
 
-71) Mon Dec 11 04:50:00 CET 2000 - Bitcoin is sad
+71) Mon Dec 11 09:00:00 CET 2000 - hafhaf
 
-72) Mon Dec 11 05:00:00 CET 2000 - Penguin is sad
+72) Mon Dec 11 09:10:00 CET 2000 - guguGaga
 
-73) Mon Dec 11 05:00:00 CET 2000 - DogeCoin is sad
+73) Mon Dec 11 09:10:00 CET 2000 - mrrrrrrrr
 
-74) Mon Dec 11 05:00:00 CET 2000 - Bitcoin is sad
+74) Mon Dec 11 09:20:00 CET 2000 - hey bring me some beer
 
-75) Mon Dec 11 05:10:00 CET 2000 - Penguin is sad
+75) Mon Dec 11 09:20:00 CET 2000 - Ilona is dirty
 
-76) Mon Dec 11 05:10:00 CET 2000 - DogeCoin is sad
+76) Mon Dec 11 09:40:00 CET 2000 - Oldrich is dirty
 
-77) Mon Dec 11 05:10:00 CET 2000 - Bitcoin is sad
+77) Mon Dec 11 09:50:00 CET 2000 - hafhaf
 
-78) Mon Dec 11 05:20:00 CET 2000 - i hate parents
+78) Mon Dec 11 10:00:00 CET 2000 - hafhaf
 
-79) Mon Dec 11 05:20:00 CET 2000 - Maruska is dirty
+79) Mon Dec 11 10:10:00 CET 2000 - Ilona is hungry
 
-80) Mon Dec 11 05:20:00 CET 2000 - Penguin is sad
+80) Mon Dec 11 10:20:00 CET 2000 - hafhaf
 
-81) Mon Dec 11 05:20:00 CET 2000 - Mourek is hungry
+81) Mon Dec 11 10:30:00 CET 2000 - Oldrich is tired
 
-82) Mon Dec 11 05:20:00 CET 2000 - DogeCoin is sad
+82) Mon Dec 11 11:00:00 CET 2000 - guguGaga
 
-83) Mon Dec 11 05:30:00 CET 2000 - Honzik is dirty
+83) Mon Dec 11 11:20:00 CET 2000 - grgrgrgrgrgrrg
 
-84) Mon Dec 11 05:30:00 CET 2000 - guguGaga
+84) Mon Dec 11 11:30:00 CET 2000 - hey bring me some beer
 
-85) Mon Dec 11 05:30:00 CET 2000 - grgrgrgrgrgrrg
+85) Mon Dec 11 11:30:00 CET 2000 - Honzik is dirty
 
-86) Mon Dec 11 05:30:00 CET 2000 - Penguin is sad
+86) Mon Dec 11 11:40:00 CET 2000 - guguGaga
 
-87) Mon Dec 11 05:30:00 CET 2000 - DogeCoin is sad
+87) Mon Dec 11 11:50:00 CET 2000 - mrrrrrrrr
 
-88) Mon Dec 11 05:40:00 CET 2000 - Penguin is sad
+88) Mon Dec 11 12:00:00 CET 2000 - guguGaga
 
-89) Mon Dec 11 05:40:00 CET 2000 - Bitcoin is hungry
+89) Mon Dec 11 12:00:00 CET 2000 - hafhaf
 
-90) Mon Dec 11 05:50:00 CET 2000 - Penguin is sad
+90) Mon Dec 11 12:20:00 CET 2000 - guguGaga
 
-91) Mon Dec 11 06:00:00 CET 2000 - DogeCoin is hungry
+91) Mon Dec 11 12:20:00 CET 2000 - grgrgrgrgrgrrg
 
-92) Mon Dec 11 06:10:00 CET 2000 - Maruska is tired
+92) Mon Dec 11 12:30:00 CET 2000 - grgrgrgrgrgrrg
 
-93) Mon Dec 11 06:40:00 CET 2000 - Penguin is hungry
+93) Mon Dec 11 12:50:00 CET 2000 - Ilona is tired
 
-94) Mon Dec 11 07:10:00 CET 2000 - Maruska is hungry
+94) Mon Dec 11 13:00:00 CET 2000 - guguGaga
 
-95) Mon Dec 11 07:10:00 CET 2000 - mrrrrrrrr
+95) Mon Dec 11 14:00:00 CET 2000 - hafhaf
 
-96) Mon Dec 11 07:20:00 CET 2000 - mrrrrrrrr
+96) Mon Dec 11 14:10:00 CET 2000 - grgrgrgrgrgrrg
 
-97) Mon Dec 11 08:00:00 CET 2000 - hafhaf
+97) Mon Dec 11 14:20:00 CET 2000 - i hate parents
 
-98) Mon Dec 11 08:10:00 CET 2000 - guguGaga
+98) Mon Dec 11 14:20:00 CET 2000 - Honzik is dirty
 
-99) Mon Dec 11 08:20:00 CET 2000 - Maruska is dirty
+99) Mon Dec 11 15:40:00 CET 2000 - hafhaf
 
-100) Mon Dec 11 08:40:00 CET 2000 - i hate parents
+100) Mon Dec 11 15:50:00 CET 2000 - hafhaf
 
-101) Mon Dec 11 08:40:00 CET 2000 - grgrgrgrgrgrrg
+101) Mon Dec 11 16:00:00 CET 2000 - mrrrrrrrr
 
-102) Mon Dec 11 09:10:00 CET 2000 - i hate parents
+102) Mon Dec 11 16:10:00 CET 2000 - hafhaf
 
-103) Mon Dec 11 09:10:00 CET 2000 - hafhaf
+103) Mon Dec 11 16:30:00 CET 2000 - hafhaf
 
-104) Mon Dec 11 09:20:00 CET 2000 - hafhaf
-
-105) Mon Dec 11 09:40:00 CET 2000 - Pepa is dirty
-
-106) Mon Dec 11 10:10:00 CET 2000 - mrrrrrrrr
-
-107) Mon Dec 11 10:30:00 CET 2000 - Pepa is hungry
-
-108) Mon Dec 11 10:40:00 CET 2000 - guguGaga
-
-109) Mon Dec 11 10:50:00 CET 2000 - grgrgrgrgrgrrg
-
-110) Mon Dec 11 11:20:00 CET 2000 - guguGaga
-
-111) Mon Dec 11 11:20:00 CET 2000 - mrrrrrrrr
-
-112) Mon Dec 11 11:40:00 CET 2000 - guguGaga
-
-113) Mon Dec 11 11:50:00 CET 2000 - hafhaf
-
-114) Mon Dec 11 12:00:00 CET 2000 - mrrrrrrrr
-
-115) Mon Dec 11 12:20:00 CET 2000 - grgrgrgrgrgrrg
-
-116) Mon Dec 11 12:30:00 CET 2000 - Honzik is dirty
-
-117) Mon Dec 11 12:40:00 CET 2000 - hey bring me some beer
-
-118) Mon Dec 11 13:00:00 CET 2000 - hafhaf
-
-119) Mon Dec 11 13:10:00 CET 2000 - mrrrrrrrr
-
-120) Mon Dec 11 14:10:00 CET 2000 - guguGaga
-
-121) Mon Dec 11 14:20:00 CET 2000 - grgrgrgrgrgrrg
-
-122) Mon Dec 11 14:20:00 CET 2000 - hafhaf
-
-123) Mon Dec 11 14:30:00 CET 2000 - hafhaf
-
-124) Mon Dec 11 14:40:00 CET 2000 - hafhaf
-
-125) Mon Dec 11 15:00:00 CET 2000 - guguGaga
-
-126) Mon Dec 11 15:10:00 CET 2000 - mrrrrrrrr
-
-127) Mon Dec 11 15:20:00 CET 2000 - grgrgrgrgrgrrg
-
-128) Mon Dec 11 15:40:00 CET 2000 - hafhaf
-
-129) Mon Dec 11 15:50:00 CET 2000 - hafhaf
-
-130) Mon Dec 11 16:00:00 CET 2000 - Honzik is tired
-
-131) Mon Dec 11 16:00:00 CET 2000 - hafhaf
-
-132) Mon Dec 11 16:10:00 CET 2000 - hafhaf
-
-133) Mon Dec 11 16:30:00 CET 2000 - Honzik is tired
-
-134) Mon Dec 11 16:40:00 CET 2000 - Pepa is dirty
-
-135) Mon Dec 11 16:40:00 CET 2000 - grgrgrgrgrgrrg
+104) Mon Dec 11 16:40:00 CET 2000 - Maruska is tired
 

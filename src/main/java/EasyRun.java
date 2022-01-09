@@ -5,6 +5,7 @@ import iterator.ConfigurationIterator;
 import manuals.Manual;
 import manuals.ManualProxyImpl;
 import npc.*;
+import sensors.Sensor;
 import strategy.EasyStrategy;
 
 import java.util.ArrayList;
@@ -16,6 +17,7 @@ public class EasyRun {
         ArrayList<Floor> floors = new ArrayList<>();
         ArrayList<Animal> animals = new ArrayList<>();
         ArrayList<Human> humans = new ArrayList<>();
+        ArrayList<Sensor> sensors = new ArrayList<>();
 
         Manual manual = new ManualProxyImpl();
 
@@ -149,7 +151,7 @@ public class EasyRun {
         animals.add(dog2);
 
         HouseBuilder builder = new HouseBuilder();
-        House testHouse = builder.houseName("test").floors(floors).animals(animals).humans(humans).getResult();
+        House testHouse = builder.houseName("test").floors(floors).animals(animals).humans(humans).sensors(sensors).getResult();
         HouseController runner = new HouseController(testHouse, new EasyStrategy());
 
 
