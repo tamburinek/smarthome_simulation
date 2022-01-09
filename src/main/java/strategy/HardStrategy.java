@@ -15,4 +15,10 @@ public class HardStrategy implements DifficultyStrategy{
         ResourceEnum.WATER.add(0);
         ResourceEnum.MONEY.add(0);
     }
+
+    @Override
+    public String toString() {
+        return "hard";
+    }
+
 }

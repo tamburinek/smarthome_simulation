@@ -3,6 +3,7 @@ package house;
 import devices.Device;
 import enums.DeviceType;
 import event.*;
+import iterator.ConsumeIterator;
 import iterator.EventIterator;
 import iterator.NotificationIterator;
 import notification.NeedsNotification;
@@ -92,19 +93,29 @@ public class HouseController {
             }
         }
 
-        if (difficulty.toString().equals("easy")){
-            EventIterator iterator = new EventIterator("reports/easy/ActivityAndUsageReport.txt");
-            NotificationIterator iterator1  = new NotificationIterator("reports/easy/EventReport.txt");
+        //iterating final results
 
-            while (iterator.hasNext()){
-                iterator.next();
-            }
-            for (Human human : house.getHumans()){
-                iterator.last(human);
-            }
-            while (iterator1.hasNext()){
-                iterator1.next();
-            }
+        String filename = "reports/" + difficulty.toString() + "/ActivityAndUsageReport.txt";
+        String filename1 = "reports/" + difficulty.toString() + "/EventReport.txt";
+        String filename2 = "reports/" + difficulty.toString() + "/ConsumptionReport.txt";
+
+        EventIterator iterator = new EventIterator(filename);
+        NotificationIterator iterator1  = new NotificationIterator(filename1);
+        ConsumeIterator iterator2 = new ConsumeIterator(filename2);
+
+        while (iterator.hasNext()){
+            iterator.next();
+        }
+        for (Human human : house.getHumans()){
+            iterator.last(human);
+        }
+
+        while (iterator1.hasNext()){
+            iterator1.next();
+        }
+
+        while (iterator2.hasNext()){
+            iterator2.next();
         }
     }
 }

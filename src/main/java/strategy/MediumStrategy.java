@@ -15,4 +15,9 @@ public class MediumStrategy implements DifficultyStrategy{
         ResourceEnum.WATER.add(10);
         ResourceEnum.MONEY.add(10);
     }
+
+    @Override
+    public String toString() {
+        return "medium";
+    }
 }
