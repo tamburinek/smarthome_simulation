@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ManualImpl implements Manual {
     @Override
-    public List<String> getManual() {
+    public List<String> readingManual() {
         List<String> pages = new ArrayList<>();
         for (int i = 0; i < 1000; i++) {
             pages.add("Manual page " + i);

@@ -1,8 +1,7 @@
 package event;
 
 import enums.NotificationType;
-
-import java.util.Random;
+import notification.BrokeNotification;
 
 public class EventVisitor implements Visitor {
 
@@ -73,6 +72,8 @@ public class EventVisitor implements Visitor {
                     event.getUsingDevice().setHumanUsingDevice(event.getHuman());
                     Event.doneEvents.add(new PrintingEvent(event.getUsingDevice(), event.getHuman(), event.getUsingDevice().getRepairDifficulty(), NotificationType.STARTED_REPAIRING));
                     Event.currentActivities.add(event);
+                    event.getUsingDevice().getManual().readingManual();
+                    Event.allNotifications.add(new BrokeNotification("Reading manual for " + event.getUsingDevice().getDeviceName()));
                     return true;
                 } else
                     return false;

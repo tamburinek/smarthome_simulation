@@ -1,5 +1,8 @@
 package manuals;
 
+import event.Event;
+import notification.BrokeNotification;
+
 import java.util.List;
 
 public class ManualProxyImpl implements Manual {
@@ -7,11 +10,10 @@ public class ManualProxyImpl implements Manual {
     private Manual manual;
 
     @Override
-    public List<String> getManual() {
+    public List<String> readingManual() {
         if (manual == null) {
-            System.out.println("Fetching manual");
             manual = new ManualImpl();
         }
-        return manual.getManual();
+        return manual.readingManual();
     }
 }
