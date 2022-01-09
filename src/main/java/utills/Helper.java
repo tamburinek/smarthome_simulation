@@ -15,7 +15,7 @@ public class Helper {
         double numberToBeat = device.getBrokenIndex();
         double breakNumber = random.nextInt(100);
         if (using){
-            numberToBeat = (numberToBeat * 0.1);
+            breakNumber = (breakNumber * 0.1);
         }
 
         return breakNumber < numberToBeat;

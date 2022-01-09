@@ -1,493 +1,575 @@
 This is file of all events
 ------------------------------------
 
-1) Tue Oct 23 00:30:00 CEST 2012 - Pepa started using bed and will be doing it for 50 minutes
+1) Tue Oct 23 00:30:00 CEST 2012 - Pepa started using radio and will be doing it for 10 minutes
 
-2) Tue Oct 23 00:30:00 CEST 2012 - Iveta started using cloth wash and will be doing it for 40 minutes
+2) Tue Oct 23 00:30:00 CEST 2012 - Iveta started using bed and will be doing it for 50 minutes
 
-3) Tue Oct 23 00:30:00 CEST 2012 - Ilona started using bed2 and will be doing it for 70 minutes
+3) Tue Oct 23 00:30:00 CEST 2012 - Honzik started using computer and will be doing it for 20 minutes
 
-4) Tue Oct 23 00:30:00 CEST 2012 - Honzik started using computer and will be doing it for 20 minutes
+4) Tue Oct 23 00:30:00 CEST 2012 - Maruska started using cloth wash and will be doing it for 40 minutes
 
-5) Tue Oct 23 00:30:00 CEST 2012 - Maruska started using tv and will be doing it for 40 minutes
+5) Tue Oct 23 00:30:00 CEST 2012 - Mimino started using phone and will be doing it for 65 minutes
 
-6) Tue Oct 23 00:50:00 CEST 2012 - Honzik ended using computer
+6) Tue Oct 23 00:40:00 CEST 2012 - Pepa ended using radio
 
-7) Tue Oct 23 01:00:00 CEST 2012 - Honzik started using radio and will be doing it for 10 minutes
+7) Tue Oct 23 00:50:00 CEST 2012 - Honzik ended using computer
 
-8) Tue Oct 23 01:00:00 CEST 2012 - phone broke on its own
+8) Tue Oct 23 00:50:00 CEST 2012 - Pepa started using dish wash and will be doing it for 60 minutes
 
-9) Tue Oct 23 01:10:00 CEST 2012 - Iveta ended using cloth wash
+9) Tue Oct 23 00:50:00 CEST 2012 - bike broke on its own
 
-10) Tue Oct 23 01:10:00 CEST 2012 - Maruska ended using tv
+10) Tue Oct 23 01:00:00 CEST 2012 - Honzik started using bed2 and will be doing it for 70 minutes
 
-11) Tue Oct 23 01:10:00 CEST 2012 - Honzik ended using radio
+11) Tue Oct 23 01:10:00 CEST 2012 - Maruska ended using cloth wash
 
-12) Tue Oct 23 01:10:00 CEST 2012 - Mimino started using cloth wash and will be doing it for 40 minutes
+12) Tue Oct 23 01:20:00 CEST 2012 - Iveta ended using bed
 
-13) Tue Oct 23 01:20:00 CEST 2012 - Pepa ended using bed
+13) Tue Oct 23 01:20:00 CEST 2012 - Iveta started repairing bike and will be doing it for 10 minutes
 
-14) Tue Oct 23 01:20:00 CEST 2012 - Iveta started using computer and will be doing it for 20 minutes
+14) Tue Oct 23 01:20:00 CEST 2012 - Ilona started using bed and will be doing it for 50 minutes
 
-15) Tue Oct 23 01:20:00 CEST 2012 - Honzik started using tv and will be doing it for 40 minutes
+15) Tue Oct 23 01:20:00 CEST 2012 - Maruska started using bath and will be doing it for 40 minutes
 
-16) Tue Oct 23 01:20:00 CEST 2012 - Maruska started using dish wash and will be doing it for 60 minutes
+16) Tue Oct 23 01:30:00 CEST 2012 - Iveta ended repairing bike
 
-17) Tue Oct 23 01:20:00 CEST 2012 - radio broke on its own
+17) Tue Oct 23 01:40:00 CEST 2012 - Mimino ended using phone
 
-18) Tue Oct 23 01:30:00 CEST 2012 - Pepa started using bed and will be doing it for 50 minutes
+18) Tue Oct 23 01:40:00 CEST 2012 - Iveta started using tv and will be doing it for 40 minutes
 
-19) Tue Oct 23 01:40:00 CEST 2012 - Ilona ended using bed2
+19) Tue Oct 23 01:50:00 CEST 2012 - Pepa ended using dish wash
 
-20) Tue Oct 23 01:40:00 CEST 2012 - Iveta ended using computer
+20) Tue Oct 23 01:50:00 CEST 2012 - Pepa broke dish wash
 
-21) Tue Oct 23 01:40:00 CEST 2012 - Iveta started repairing radio and will be doing it for 10 minutes
+21) Tue Oct 23 01:50:00 CEST 2012 - Mimino started using radio and will be doing it for 10 minutes
 
-22) Tue Oct 23 01:40:00 CEST 2012 - Ilona started repairing phone and will be doing it for 10 minutes
+22) Tue Oct 23 02:00:00 CEST 2012 - Maruska ended using bath
 
-23) Tue Oct 23 01:50:00 CEST 2012 - Mimino ended using cloth wash
+23) Tue Oct 23 02:00:00 CEST 2012 - Mimino ended using radio
 
-24) Tue Oct 23 01:50:00 CEST 2012 - Iveta ended repairing radio
+24) Tue Oct 23 02:00:00 CEST 2012 - Pepa started using cloth wash and will be doing it for 40 minutes
 
-25) Tue Oct 23 01:50:00 CEST 2012 - Ilona ended repairing phone
+25) Tue Oct 23 02:10:00 CEST 2012 - Honzik ended using bed2
 
-26) Tue Oct 23 02:00:00 CEST 2012 - Honzik ended using tv
+26) Tue Oct 23 02:10:00 CEST 2012 - Ilona ended using bed
 
-27) Tue Oct 23 02:00:00 CEST 2012 - Iveta started using bed2 and will be doing it for 70 minutes
+27) Tue Oct 23 02:10:00 CEST 2012 - Ilona started repairing dish wash and will be doing it for 20 minutes
 
-28) Tue Oct 23 02:00:00 CEST 2012 - Ilona started using radio and will be doing it for 10 minutes
+28) Tue Oct 23 02:10:00 CEST 2012 - Maruska started using bath and will be doing it for 40 minutes
 
-29) Tue Oct 23 02:00:00 CEST 2012 - Mimino started using computer and will be doing it for 20 minutes
+29) Tue Oct 23 02:10:00 CEST 2012 - Mimino started using radio and will be doing it for 10 minutes
 
-30) Tue Oct 23 02:10:00 CEST 2012 - Ilona ended using radio
+30) Tue Oct 23 02:20:00 CEST 2012 - Iveta ended using tv
 
-31) Tue Oct 23 02:10:00 CEST 2012 - Honzik started using cloth wash and will be doing it for 40 minutes
+31) Tue Oct 23 02:20:00 CEST 2012 - Iveta broke tv
 
-32) Tue Oct 23 02:20:00 CEST 2012 - Maruska ended using dish wash
+32) Tue Oct 23 02:20:00 CEST 2012 - Ilona ended repairing dish wash
 
-33) Tue Oct 23 02:20:00 CEST 2012 - Pepa ended using bed
+33) Tue Oct 23 02:20:00 CEST 2012 - Mimino ended using radio
 
-34) Tue Oct 23 02:20:00 CEST 2012 - Mimino ended using computer
+34) Tue Oct 23 02:20:00 CEST 2012 - Honzik started using phone and will be doing it for 65 minutes
 
-35) Tue Oct 23 02:20:00 CEST 2012 - Ilona started using bike and will be doing it for 100 minutes
+35) Tue Oct 23 02:30:00 CEST 2012 - Iveta started using dish wash and will be doing it for 60 minutes
 
-36) Tue Oct 23 02:30:00 CEST 2012 - Pepa started using dish wash and will be doing it for 60 minutes
+36) Tue Oct 23 02:30:00 CEST 2012 - Ilona started using bed and will be doing it for 50 minutes
 
-37) Tue Oct 23 02:30:00 CEST 2012 - Maruska started using tv and will be doing it for 40 minutes
+37) Tue Oct 23 02:40:00 CEST 2012 - Pepa ended using cloth wash
 
-38) Tue Oct 23 02:30:00 CEST 2012 - Mimino started using bed and will be doing it for 50 minutes
+38) Tue Oct 23 02:50:00 CEST 2012 - Maruska ended using bath
 
-39) Tue Oct 23 02:50:00 CEST 2012 - Honzik ended using cloth wash
+39) Tue Oct 23 02:50:00 CEST 2012 - Pepa started using radio and will be doing it for 10 minutes
 
-40) Tue Oct 23 03:00:00 CEST 2012 - Honzik started using phone and will be doing it for 65 minutes
+40) Tue Oct 23 03:00:00 CEST 2012 - Pepa ended using radio
 
-41) Tue Oct 23 03:10:00 CEST 2012 - Iveta ended using bed2
+41) Tue Oct 23 03:00:00 CEST 2012 - Maruska started using cloth wash and will be doing it for 40 minutes
 
-42) Tue Oct 23 03:10:00 CEST 2012 - Maruska ended using tv
+42) Tue Oct 23 03:00:00 CEST 2012 - refrigerator broke on its own
 
-43) Tue Oct 23 03:20:00 CEST 2012 - Mimino ended using bed
+43) Tue Oct 23 03:10:00 CEST 2012 - Pepa started using bath and will be doing it for 40 minutes
 
-44) Tue Oct 23 03:20:00 CEST 2012 - Iveta started using tv and will be doing it for 40 minutes
+44) Tue Oct 23 03:20:00 CEST 2012 - Ilona ended using bed
 
-45) Tue Oct 23 03:20:00 CEST 2012 - Maruska started using bath and will be doing it for 40 minutes
+45) Tue Oct 23 03:20:00 CEST 2012 - Ilona started repairing tv and will be doing it for 10 minutes
 
-46) Tue Oct 23 03:30:00 CEST 2012 - Pepa ended using dish wash
+46) Tue Oct 23 03:30:00 CEST 2012 - Honzik ended using phone
 
-47) Tue Oct 23 03:30:00 CEST 2012 - Mimino started using bed and will be doing it for 50 minutes
+47) Tue Oct 23 03:30:00 CEST 2012 - Iveta ended using dish wash
 
-48) Tue Oct 23 03:30:00 CEST 2012 - dish wash broke on its own
+48) Tue Oct 23 03:30:00 CEST 2012 - Ilona ended repairing tv
 
-49) Tue Oct 23 03:40:00 CEST 2012 - Pepa started using radio and will be doing it for 10 minutes
+49) Tue Oct 23 03:30:00 CEST 2012 - Iveta started repairing refrigerator and will be doing it for 20 minutes
 
-50) Tue Oct 23 03:50:00 CEST 2012 - Pepa ended using radio
+50) Tue Oct 23 03:30:00 CEST 2012 - Mimino started using dish wash and will be doing it for 60 minutes
 
-51) Tue Oct 23 03:50:00 CEST 2012 - Pepa started repairing dish wash and will be doing it for 20 minutes
+51) Tue Oct 23 03:40:00 CEST 2012 - Maruska ended using cloth wash
 
-52) Tue Oct 23 04:00:00 CEST 2012 - Ilona ended using bike
+52) Tue Oct 23 03:40:00 CEST 2012 - Iveta ended repairing refrigerator
 
-53) Tue Oct 23 04:00:00 CEST 2012 - Iveta ended using tv
+53) Tue Oct 23 03:40:00 CEST 2012 - Honzik started using bed and will be doing it for 50 minutes
 
-54) Tue Oct 23 04:00:00 CEST 2012 - Maruska ended using bath
+54) Tue Oct 23 03:50:00 CEST 2012 - Pepa ended using bath
 
-55) Tue Oct 23 04:00:00 CEST 2012 - Pepa ended repairing dish wash
+55) Tue Oct 23 03:50:00 CEST 2012 - Iveta started using tv and will be doing it for 40 minutes
 
-56) Tue Oct 23 04:10:00 CEST 2012 - Honzik ended using phone
+56) Tue Oct 23 03:50:00 CEST 2012 - Ilona started using cloth wash and will be doing it for 40 minutes
 
-57) Tue Oct 23 04:10:00 CEST 2012 - Pepa started using bike and will be doing it for 100 minutes
+57) Tue Oct 23 03:50:00 CEST 2012 - Maruska started using bed2 and will be doing it for 70 minutes
 
-58) Tue Oct 23 04:10:00 CEST 2012 - Iveta started using tv and will be doing it for 40 minutes
+58) Tue Oct 23 03:50:00 CEST 2012 - refrigerator2 broke on its own
 
-59) Tue Oct 23 04:10:00 CEST 2012 - Ilona started using cloth wash and will be doing it for 40 minutes
+59) Tue Oct 23 04:00:00 CEST 2012 - Pepa started using phone and will be doing it for 65 minutes
 
-60) Tue Oct 23 04:10:00 CEST 2012 - Maruska started using bed2 and will be doing it for 70 minutes
+60) Tue Oct 23 04:30:00 CEST 2012 - Mimino ended using dish wash
 
-61) Tue Oct 23 04:20:00 CEST 2012 - Mimino ended using bed
+61) Tue Oct 23 04:30:00 CEST 2012 - Honzik ended using bed
 
-62) Tue Oct 23 04:20:00 CEST 2012 - Honzik started using phone and will be doing it for 65 minutes
+62) Tue Oct 23 04:30:00 CEST 2012 - Honzik broke bed
 
-63) Tue Oct 23 04:20:00 CEST 2012 - dish wash broke on its own
+63) Tue Oct 23 04:30:00 CEST 2012 - Iveta ended using tv
 
-64) Tue Oct 23 04:30:00 CEST 2012 - Mimino started using bed and will be doing it for 50 minutes
+64) Tue Oct 23 04:30:00 CEST 2012 - Ilona ended using cloth wash
 
-65) Tue Oct 23 04:50:00 CEST 2012 - Iveta ended using tv
+65) Tue Oct 23 04:30:00 CEST 2012 - Iveta started repairing refrigerator2 and will be doing it for 40 minutes
 
-66) Tue Oct 23 04:50:00 CEST 2012 - Ilona ended using cloth wash
+66) Tue Oct 23 04:40:00 CEST 2012 - Iveta ended repairing refrigerator2
 
-67) Tue Oct 23 04:50:00 CEST 2012 - Iveta started repairing dish wash and will be doing it for 20 minutes
+67) Tue Oct 23 04:40:00 CEST 2012 - Ilona started using tv and will be doing it for 40 minutes
 
-68) Tue Oct 23 05:00:00 CEST 2012 - Iveta ended repairing dish wash
+68) Tue Oct 23 04:40:00 CEST 2012 - Honzik started using dish wash and will be doing it for 60 minutes
 
-69) Tue Oct 23 05:00:00 CEST 2012 - Ilona started using radio and will be doing it for 10 minutes
+69) Tue Oct 23 04:40:00 CEST 2012 - Mimino started using cloth wash and will be doing it for 40 minutes
 
-70) Tue Oct 23 05:10:00 CEST 2012 - Ilona ended using radio
+70) Tue Oct 23 04:50:00 CEST 2012 - Iveta started using bath and will be doing it for 40 minutes
 
-71) Tue Oct 23 05:10:00 CEST 2012 - Iveta started using cloth wash and will be doing it for 40 minutes
+71) Tue Oct 23 05:00:00 CEST 2012 - Maruska ended using bed2
 
-72) Tue Oct 23 05:20:00 CEST 2012 - Maruska ended using bed2
+72) Tue Oct 23 05:00:00 CEST 2012 - Maruska broke bed2
 
-73) Tue Oct 23 05:20:00 CEST 2012 - Mimino ended using bed
+73) Tue Oct 23 05:10:00 CEST 2012 - Pepa ended using phone
 
-74) Tue Oct 23 05:20:00 CEST 2012 - Ilona started using refrigerator and will be doing it for 50 minutes
+74) Tue Oct 23 05:10:00 CEST 2012 - Pepa started repairing bed and will be doing it for 10 minutes
 
-75) Tue Oct 23 05:30:00 CEST 2012 - Honzik ended using phone
+75) Tue Oct 23 05:10:00 CEST 2012 - Maruska started using computer and will be doing it for 20 minutes
 
-76) Tue Oct 23 05:30:00 CEST 2012 - Maruska started using radio and will be doing it for 10 minutes
+76) Tue Oct 23 05:20:00 CEST 2012 - Ilona ended using tv
 
-77) Tue Oct 23 05:30:00 CEST 2012 - Mimino started using bath and will be doing it for 40 minutes
+77) Tue Oct 23 05:20:00 CEST 2012 - Ilona broke tv
 
-78) Tue Oct 23 05:40:00 CEST 2012 - Maruska ended using radio
+78) Tue Oct 23 05:20:00 CEST 2012 - Mimino ended using cloth wash
 
-79) Tue Oct 23 05:40:00 CEST 2012 - Honzik started using bed2 and will be doing it for 70 minutes
+79) Tue Oct 23 05:20:00 CEST 2012 - Pepa ended repairing bed
 
-80) Tue Oct 23 05:40:00 CEST 2012 - radio broke on its own
+80) Tue Oct 23 05:20:00 CEST 2012 - Ilona started repairing bed2 and will be doing it for 10 minutes
 
-81) Tue Oct 23 05:50:00 CEST 2012 - Pepa ended using bike
+81) Tue Oct 23 05:30:00 CEST 2012 - Iveta ended using bath
 
-82) Tue Oct 23 05:50:00 CEST 2012 - Iveta ended using cloth wash
+82) Tue Oct 23 05:30:00 CEST 2012 - Maruska ended using computer
 
-83) Tue Oct 23 05:50:00 CEST 2012 - Maruska started using phone and will be doing it for 65 minutes
+83) Tue Oct 23 05:30:00 CEST 2012 - Ilona ended repairing bed2
 
-84) Tue Oct 23 06:00:00 CEST 2012 - Pepa started using dish wash and will be doing it for 60 minutes
+84) Tue Oct 23 05:30:00 CEST 2012 - Pepa started using radio and will be doing it for 10 minutes
 
-85) Tue Oct 23 06:00:00 CEST 2012 - Iveta started using computer and will be doing it for 20 minutes
+85) Tue Oct 23 05:30:00 CEST 2012 - Mimino started using bike and will be doing it for 100 minutes
 
-86) Tue Oct 23 06:10:00 CEST 2012 - Ilona ended using refrigerator
+86) Tue Oct 23 05:40:00 CEST 2012 - Honzik ended using dish wash
 
-87) Tue Oct 23 06:10:00 CEST 2012 - Mimino ended using bath
+87) Tue Oct 23 05:40:00 CEST 2012 - Pepa ended using radio
 
-88) Tue Oct 23 06:10:00 CEST 2012 - Ilona started repairing radio and will be doing it for 10 minutes
+88) Tue Oct 23 05:40:00 CEST 2012 - Pepa broke radio
 
-89) Tue Oct 23 06:20:00 CEST 2012 - Iveta ended using computer
+89) Tue Oct 23 05:40:00 CEST 2012 - Pepa started repairing tv and will be doing it for 10 minutes
 
-90) Tue Oct 23 06:20:00 CEST 2012 - Ilona ended repairing radio
+90) Tue Oct 23 05:40:00 CEST 2012 - Iveta started using phone and will be doing it for 65 minutes
 
-91) Tue Oct 23 06:20:00 CEST 2012 - Mimino started using bike and will be doing it for 100 minutes
+91) Tue Oct 23 05:40:00 CEST 2012 - Ilona started using cloth wash and will be doing it for 40 minutes
 
-92) Tue Oct 23 06:30:00 CEST 2012 - Iveta started using cloth wash and will be doing it for 40 minutes
+92) Tue Oct 23 05:40:00 CEST 2012 - Maruska started using bed and will be doing it for 50 minutes
 
-93) Tue Oct 23 06:30:00 CEST 2012 - Ilona started using tv and will be doing it for 40 minutes
+93) Tue Oct 23 05:40:00 CEST 2012 - computer broke on its own
 
-94) Tue Oct 23 06:50:00 CEST 2012 - Honzik ended using bed2
+94) Tue Oct 23 05:40:00 CEST 2012 - bed2 broke on its own
 
-95) Tue Oct 23 07:00:00 CEST 2012 - Maruska ended using phone
+95) Tue Oct 23 05:50:00 CEST 2012 - Pepa ended repairing tv
 
-96) Tue Oct 23 07:00:00 CEST 2012 - Pepa ended using dish wash
+96) Tue Oct 23 06:00:00 CEST 2012 - Pepa started using dish wash and will be doing it for 60 minutes
 
-97) Tue Oct 23 07:00:00 CEST 2012 - Honzik started using radio and will be doing it for 10 minutes
+97) Tue Oct 23 06:20:00 CEST 2012 - Ilona ended using cloth wash
 
-98) Tue Oct 23 07:00:00 CEST 2012 - bed broke on its own
+98) Tue Oct 23 06:20:00 CEST 2012 - Ilona started repairing computer and will be doing it for 20 minutes
 
-99) Tue Oct 23 07:10:00 CEST 2012 - Iveta ended using cloth wash
+99) Tue Oct 23 06:30:00 CEST 2012 - Maruska ended using bed
 
-100) Tue Oct 23 07:10:00 CEST 2012 - Ilona ended using tv
+100) Tue Oct 23 06:30:00 CEST 2012 - Ilona ended repairing computer
 
-101) Tue Oct 23 07:10:00 CEST 2012 - Honzik ended using radio
+101) Tue Oct 23 06:30:00 CEST 2012 - Ilona started repairing radio and will be doing it for 10 minutes
 
-102) Tue Oct 23 07:10:00 CEST 2012 - Pepa started using bath and will be doing it for 40 minutes
+102) Tue Oct 23 06:40:00 CEST 2012 - Ilona ended repairing radio
 
-103) Tue Oct 23 07:20:00 CEST 2012 - Iveta started using bed2 and will be doing it for 70 minutes
+103) Tue Oct 23 06:40:00 CEST 2012 - Ilona started repairing bed2 and will be doing it for 10 minutes
 
-104) Tue Oct 23 07:20:00 CEST 2012 - Ilona started using cloth wash and will be doing it for 40 minutes
+104) Tue Oct 23 06:40:00 CEST 2012 - Maruska started using bed and will be doing it for 50 minutes
 
-105) Tue Oct 23 07:50:00 CEST 2012 - Pepa ended using bath
+105) Tue Oct 23 06:40:00 CEST 2012 - tv broke on its own
 
-106) Tue Oct 23 07:50:00 CEST 2012 - Pepa started repairing bed and will be doing it for 10 minutes
+106) Tue Oct 23 06:50:00 CEST 2012 - Iveta ended using phone
 
-107) Tue Oct 23 08:00:00 CEST 2012 - Mimino ended using bike
+107) Tue Oct 23 06:50:00 CEST 2012 - Ilona ended repairing bed2
 
-108) Tue Oct 23 08:00:00 CEST 2012 - Ilona ended using cloth wash
+108) Tue Oct 23 06:50:00 CEST 2012 - Honzik started using bed2 and will be doing it for 70 minutes
 
-109) Tue Oct 23 08:00:00 CEST 2012 - Pepa ended repairing bed
+109) Tue Oct 23 07:00:00 CEST 2012 - Pepa ended using dish wash
 
-110) Tue Oct 23 08:00:00 CEST 2012 - Maruska started using bed and will be doing it for 50 minutes
+110) Tue Oct 23 07:00:00 CEST 2012 - Iveta started using computer and will be doing it for 20 minutes
 
-111) Tue Oct 23 08:00:00 CEST 2012 - Honzik started using cloth wash and will be doing it for 40 minutes
+111) Tue Oct 23 07:00:00 CEST 2012 - Ilona started using bath and will be doing it for 40 minutes
 
-112) Tue Oct 23 08:10:00 CEST 2012 - Pepa started using refrigerator2 and will be doing it for 50 minutes
+112) Tue Oct 23 07:10:00 CEST 2012 - Mimino ended using bike
 
-113) Tue Oct 23 08:10:00 CEST 2012 - Ilona started using radio and will be doing it for 10 minutes
+113) Tue Oct 23 07:10:00 CEST 2012 - Pepa started using radio and will be doing it for 10 minutes
 
-114) Tue Oct 23 08:20:00 CEST 2012 - Ilona ended using radio
+114) Tue Oct 23 07:20:00 CEST 2012 - Iveta ended using computer
 
-115) Tue Oct 23 08:30:00 CEST 2012 - Iveta ended using bed2
+115) Tue Oct 23 07:20:00 CEST 2012 - Iveta broke computer
 
-116) Tue Oct 23 08:30:00 CEST 2012 - Ilona started using computer and will be doing it for 20 minutes
+116) Tue Oct 23 07:20:00 CEST 2012 - Pepa ended using radio
 
-117) Tue Oct 23 08:40:00 CEST 2012 - Honzik ended using cloth wash
+117) Tue Oct 23 07:20:00 CEST 2012 - Pepa broke radio
 
-118) Tue Oct 23 08:40:00 CEST 2012 - Iveta started using bed2 and will be doing it for 70 minutes
+118) Tue Oct 23 07:20:00 CEST 2012 - Pepa started repairing tv and will be doing it for 10 minutes
 
-119) Tue Oct 23 08:50:00 CEST 2012 - Maruska ended using bed
+119) Tue Oct 23 07:30:00 CEST 2012 - Maruska ended using bed
 
-120) Tue Oct 23 08:50:00 CEST 2012 - Ilona ended using computer
+120) Tue Oct 23 07:30:00 CEST 2012 - Pepa ended repairing tv
 
-121) Tue Oct 23 08:50:00 CEST 2012 - Honzik started using cloth wash and will be doing it for 40 minutes
+121) Tue Oct 23 07:30:00 CEST 2012 - Pepa started repairing radio and will be doing it for 10 minutes
 
-122) Tue Oct 23 08:50:00 CEST 2012 - bed broke on its own
+122) Tue Oct 23 07:30:00 CEST 2012 - Iveta started using cloth wash and will be doing it for 40 minutes
 
-123) Tue Oct 23 09:00:00 CEST 2012 - Pepa ended using refrigerator2
+123) Tue Oct 23 07:40:00 CEST 2012 - Ilona ended using bath
 
-124) Tue Oct 23 09:00:00 CEST 2012 - Mimino started using refrigerator2 and will be doing it for 50 minutes
+124) Tue Oct 23 07:40:00 CEST 2012 - Pepa ended repairing radio
 
-125) Tue Oct 23 09:00:00 CEST 2012 - Ilona started using tv and will be doing it for 40 minutes
+125) Tue Oct 23 07:40:00 CEST 2012 - Ilona started repairing computer and will be doing it for 20 minutes
 
-126) Tue Oct 23 09:00:00 CEST 2012 - Maruska started using dish wash and will be doing it for 60 minutes
+126) Tue Oct 23 07:40:00 CEST 2012 - Maruska started using dish wash and will be doing it for 60 minutes
 
-127) Tue Oct 23 09:10:00 CEST 2012 - Pepa started using computer and will be doing it for 20 minutes
+127) Tue Oct 23 07:40:00 CEST 2012 - Mimino started using bed and will be doing it for 50 minutes
 
-128) Tue Oct 23 09:30:00 CEST 2012 - Honzik ended using cloth wash
+128) Tue Oct 23 07:50:00 CEST 2012 - Ilona ended repairing computer
 
-129) Tue Oct 23 09:30:00 CEST 2012 - Pepa ended using computer
+129) Tue Oct 23 07:50:00 CEST 2012 - Pepa started using phone and will be doing it for 65 minutes
 
-130) Tue Oct 23 09:40:00 CEST 2012 - Ilona ended using tv
+130) Tue Oct 23 08:00:00 CEST 2012 - Honzik ended using bed2
 
-131) Tue Oct 23 09:40:00 CEST 2012 - Ilona started repairing bed and will be doing it for 10 minutes
+131) Tue Oct 23 08:00:00 CEST 2012 - Ilona started using radio and will be doing it for 10 minutes
 
-132) Tue Oct 23 09:40:00 CEST 2012 - Pepa started using radio and will be doing it for 10 minutes
+132) Tue Oct 23 08:10:00 CEST 2012 - Iveta ended using cloth wash
 
-133) Tue Oct 23 09:40:00 CEST 2012 - Honzik started using refrigerator3 and will be doing it for 50 minutes
+133) Tue Oct 23 08:10:00 CEST 2012 - Ilona ended using radio
 
-134) Tue Oct 23 09:50:00 CEST 2012 - Iveta ended using bed2
+134) Tue Oct 23 08:10:00 CEST 2012 - Honzik started using bath and will be doing it for 40 minutes
 
-135) Tue Oct 23 09:50:00 CEST 2012 - Mimino ended using refrigerator2
+135) Tue Oct 23 08:20:00 CEST 2012 - Iveta started using cloth wash and will be doing it for 40 minutes
 
-136) Tue Oct 23 09:50:00 CEST 2012 - Ilona ended repairing bed
+136) Tue Oct 23 08:20:00 CEST 2012 - Ilona started using tv and will be doing it for 40 minutes
 
-137) Tue Oct 23 09:50:00 CEST 2012 - Pepa ended using radio
+137) Tue Oct 23 08:30:00 CEST 2012 - Mimino ended using bed
 
-138) Tue Oct 23 10:00:00 CEST 2012 - Maruska ended using dish wash
+138) Tue Oct 23 08:40:00 CEST 2012 - Maruska ended using dish wash
 
-139) Tue Oct 23 10:00:00 CEST 2012 - Pepa started using bed2 and will be doing it for 70 minutes
+139) Tue Oct 23 08:50:00 CEST 2012 - Honzik ended using bath
 
-140) Tue Oct 23 10:00:00 CEST 2012 - Iveta started using refrigerator2 and will be doing it for 50 minutes
+140) Tue Oct 23 08:50:00 CEST 2012 - Maruska started using bike and will be doing it for 100 minutes
 
-141) Tue Oct 23 10:00:00 CEST 2012 - Ilona started using bath and will be doing it for 40 minutes
+141) Tue Oct 23 08:50:00 CEST 2012 - Mimino started using dish wash and will be doing it for 60 minutes
 
-142) Tue Oct 23 10:00:00 CEST 2012 - Mimino started using cloth wash and will be doing it for 40 minutes
+142) Tue Oct 23 09:00:00 CEST 2012 - Pepa ended using phone
 
-143) Tue Oct 23 10:10:00 CEST 2012 - Maruska started using tv and will be doing it for 40 minutes
+143) Tue Oct 23 09:00:00 CEST 2012 - Iveta ended using cloth wash
 
-144) Tue Oct 23 10:30:00 CEST 2012 - Honzik ended using refrigerator3
+144) Tue Oct 23 09:00:00 CEST 2012 - Ilona ended using tv
 
-145) Tue Oct 23 10:40:00 CEST 2012 - Ilona ended using bath
+145) Tue Oct 23 09:00:00 CEST 2012 - Honzik started using bed and will be doing it for 50 minutes
 
-146) Tue Oct 23 10:40:00 CEST 2012 - Mimino ended using cloth wash
+146) Tue Oct 23 09:10:00 CEST 2012 - Pepa started using refrigerator and will be doing it for 50 minutes
 
-147) Tue Oct 23 10:40:00 CEST 2012 - Honzik started using bike and will be doing it for 100 minutes
+147) Tue Oct 23 09:10:00 CEST 2012 - Iveta started using radio and will be doing it for 10 minutes
 
-148) Tue Oct 23 10:50:00 CEST 2012 - Iveta ended using refrigerator2
+148) Tue Oct 23 09:20:00 CEST 2012 - Iveta ended using radio
 
-149) Tue Oct 23 10:50:00 CEST 2012 - Maruska ended using tv
+149) Tue Oct 23 09:20:00 CEST 2012 - Iveta broke radio
 
-150) Tue Oct 23 10:50:00 CEST 2012 - Ilona started using computer and will be doing it for 20 minutes
+150) Tue Oct 23 09:30:00 CEST 2012 - Iveta started using refrigerator2 and will be doing it for 50 minutes
 
-151) Tue Oct 23 10:50:00 CEST 2012 - Mimino started using radio and will be doing it for 10 minutes
+151) Tue Oct 23 09:50:00 CEST 2012 - Mimino ended using dish wash
 
-152) Tue Oct 23 11:00:00 CEST 2012 - Mimino ended using radio
+152) Tue Oct 23 09:50:00 CEST 2012 - Honzik ended using bed
 
-153) Tue Oct 23 11:00:00 CEST 2012 - Iveta started using dish wash and will be doing it for 60 minutes
+153) Tue Oct 23 10:00:00 CEST 2012 - Pepa ended using refrigerator
 
-154) Tue Oct 23 11:00:00 CEST 2012 - Maruska started using refrigerator and will be doing it for 50 minutes
+154) Tue Oct 23 10:00:00 CEST 2012 - Pepa started repairing radio and will be doing it for 10 minutes
 
-155) Tue Oct 23 11:10:00 CEST 2012 - Pepa ended using bed2
+155) Tue Oct 23 10:00:00 CEST 2012 - Honzik started using dish wash and will be doing it for 60 minutes
 
-156) Tue Oct 23 11:10:00 CEST 2012 - Ilona ended using computer
+156) Tue Oct 23 10:00:00 CEST 2012 - Mimino started using refrigerator3 and will be doing it for 50 minutes
 
-157) Tue Oct 23 11:10:00 CEST 2012 - Mimino started using phone and will be doing it for 65 minutes
+157) Tue Oct 23 10:00:00 CEST 2012 - bed2 broke on its own
 
-158) Tue Oct 23 11:20:00 CEST 2012 - Pepa started using radio and will be doing it for 10 minutes
+158) Tue Oct 23 10:10:00 CEST 2012 - Pepa ended repairing radio
 
-159) Tue Oct 23 11:30:00 CEST 2012 - Pepa ended using radio
+159) Tue Oct 23 10:10:00 CEST 2012 - Ilona started using radio and will be doing it for 10 minutes
 
-160) Tue Oct 23 11:30:00 CEST 2012 - Ilona started using radio and will be doing it for 10 minutes
+160) Tue Oct 23 10:20:00 CEST 2012 - Iveta ended using refrigerator2
 
-161) Tue Oct 23 11:40:00 CEST 2012 - Ilona ended using radio
+161) Tue Oct 23 10:20:00 CEST 2012 - Ilona ended using radio
 
-162) Tue Oct 23 11:40:00 CEST 2012 - Pepa started using tv and will be doing it for 40 minutes
+162) Tue Oct 23 10:20:00 CEST 2012 - Ilona started repairing bed2 and will be doing it for 10 minutes
 
-163) Tue Oct 23 11:40:00 CEST 2012 - refrigerator2 broke on its own
+163) Tue Oct 23 10:20:00 CEST 2012 - Pepa started using bath and will be doing it for 40 minutes
 
-164) Tue Oct 23 11:50:00 CEST 2012 - Maruska ended using refrigerator
+164) Tue Oct 23 10:30:00 CEST 2012 - Maruska ended using bike
 
-165) Tue Oct 23 11:50:00 CEST 2012 - Ilona started using bath and will be doing it for 40 minutes
+165) Tue Oct 23 10:30:00 CEST 2012 - Maruska broke bike
 
-166) Tue Oct 23 12:00:00 CEST 2012 - Iveta ended using dish wash
+166) Tue Oct 23 10:30:00 CEST 2012 - Ilona ended repairing bed2
 
-167) Tue Oct 23 12:00:00 CEST 2012 - Maruska started using cloth wash and will be doing it for 40 minutes
+167) Tue Oct 23 10:30:00 CEST 2012 - Iveta started using bed and will be doing it for 50 minutes
 
-168) Tue Oct 23 12:10:00 CEST 2012 - Iveta started using bed2 and will be doing it for 70 minutes
+168) Tue Oct 23 10:40:00 CEST 2012 - Ilona started using refrigerator2 and will be doing it for 50 minutes
 
-169) Tue Oct 23 12:20:00 CEST 2012 - Honzik ended using bike
+169) Tue Oct 23 10:40:00 CEST 2012 - Maruska started using cloth wash and will be doing it for 40 minutes
 
-170) Tue Oct 23 12:20:00 CEST 2012 - Mimino ended using phone
+170) Tue Oct 23 10:50:00 CEST 2012 - Mimino ended using refrigerator3
 
-171) Tue Oct 23 12:20:00 CEST 2012 - Pepa ended using tv
+171) Tue Oct 23 10:50:00 CEST 2012 - bed2 broke on its own
 
-172) Tue Oct 23 12:20:00 CEST 2012 - Pepa started repairing refrigerator2 and will be doing it for 40 minutes
+172) Tue Oct 23 11:00:00 CEST 2012 - Honzik ended using dish wash
 
-173) Tue Oct 23 12:30:00 CEST 2012 - Ilona ended using bath
+173) Tue Oct 23 11:00:00 CEST 2012 - Pepa ended using bath
 
-174) Tue Oct 23 12:30:00 CEST 2012 - Pepa ended repairing refrigerator2
+174) Tue Oct 23 11:10:00 CEST 2012 - Pepa started using computer and will be doing it for 20 minutes
 
-175) Tue Oct 23 12:30:00 CEST 2012 - Honzik started using dish wash and will be doing it for 60 minutes
+175) Tue Oct 23 11:10:00 CEST 2012 - Honzik started using radio and will be doing it for 10 minutes
 
-176) Tue Oct 23 12:30:00 CEST 2012 - Mimino started using computer and will be doing it for 20 minutes
+176) Tue Oct 23 11:10:00 CEST 2012 - Mimino started using dish wash and will be doing it for 60 minutes
 
-177) Tue Oct 23 12:40:00 CEST 2012 - Maruska ended using cloth wash
+177) Tue Oct 23 11:20:00 CEST 2012 - Iveta ended using bed
 
-178) Tue Oct 23 12:40:00 CEST 2012 - Pepa started using bath and will be doing it for 40 minutes
+178) Tue Oct 23 11:20:00 CEST 2012 - Maruska ended using cloth wash
 
-179) Tue Oct 23 12:40:00 CEST 2012 - Ilona started using bed and will be doing it for 50 minutes
+179) Tue Oct 23 11:20:00 CEST 2012 - Honzik ended using radio
 
-180) Tue Oct 23 12:50:00 CEST 2012 - Mimino ended using computer
+180) Tue Oct 23 11:20:00 CEST 2012 - Iveta started repairing bike and will be doing it for 10 minutes
 
-181) Tue Oct 23 12:50:00 CEST 2012 - Maruska started using bike and will be doing it for 100 minutes
+181) Tue Oct 23 11:30:00 CEST 2012 - Ilona ended using refrigerator2
 
-182) Tue Oct 23 13:00:00 CEST 2012 - Mimino started using radio and will be doing it for 10 minutes
+182) Tue Oct 23 11:30:00 CEST 2012 - Ilona broke refrigerator2
 
-183) Tue Oct 23 13:00:00 CEST 2012 - cloth wash broke on its own
+183) Tue Oct 23 11:30:00 CEST 2012 - Pepa ended using computer
 
-184) Tue Oct 23 13:00:00 CEST 2012 - tv broke on its own
+184) Tue Oct 23 11:30:00 CEST 2012 - Iveta ended repairing bike
 
-185) Tue Oct 23 13:10:00 CEST 2012 - Mimino ended using radio
+185) Tue Oct 23 11:30:00 CEST 2012 - Iveta started repairing bed2 and will be doing it for 10 minutes
 
-186) Tue Oct 23 13:20:00 CEST 2012 - Iveta ended using bed2
+186) Tue Oct 23 11:30:00 CEST 2012 - Honzik started using refrigerator3 and will be doing it for 50 minutes
 
-187) Tue Oct 23 13:20:00 CEST 2012 - Pepa ended using bath
+187) Tue Oct 23 11:40:00 CEST 2012 - Iveta ended repairing bed2
 
-188) Tue Oct 23 13:20:00 CEST 2012 - Iveta started repairing cloth wash and will be doing it for 10 minutes
+188) Tue Oct 23 11:40:00 CEST 2012 - Pepa started using phone and will be doing it for 65 minutes
 
-189) Tue Oct 23 13:20:00 CEST 2012 - Mimino started using radio and will be doing it for 10 minutes
+189) Tue Oct 23 11:40:00 CEST 2012 - Ilona started using tv and will be doing it for 40 minutes
 
-190) Tue Oct 23 13:30:00 CEST 2012 - Honzik ended using dish wash
+190) Tue Oct 23 11:50:00 CEST 2012 - Iveta started using bike and will be doing it for 100 minutes
 
-191) Tue Oct 23 13:30:00 CEST 2012 - Ilona ended using bed
+191) Tue Oct 23 12:10:00 CEST 2012 - Mimino ended using dish wash
 
-192) Tue Oct 23 13:30:00 CEST 2012 - Iveta ended repairing cloth wash
+192) Tue Oct 23 12:10:00 CEST 2012 - Mimino broke dish wash
 
-193) Tue Oct 23 13:30:00 CEST 2012 - Mimino ended using radio
+193) Tue Oct 23 12:20:00 CEST 2012 - Honzik ended using refrigerator3
 
-194) Tue Oct 23 13:30:00 CEST 2012 - Iveta started repairing tv and will be doing it for 10 minutes
+194) Tue Oct 23 12:20:00 CEST 2012 - Ilona ended using tv
 
-195) Tue Oct 23 13:30:00 CEST 2012 - Pepa started using bed2 and will be doing it for 70 minutes
+195) Tue Oct 23 12:20:00 CEST 2012 - Ilona broke tv
 
-196) Tue Oct 23 13:40:00 CEST 2012 - Iveta ended repairing tv
+196) Tue Oct 23 12:20:00 CEST 2012 - Maruska started using refrigerator3 and will be doing it for 50 minutes
 
-197) Tue Oct 23 13:40:00 CEST 2012 - Ilona started using cloth wash and will be doing it for 40 minutes
+197) Tue Oct 23 12:20:00 CEST 2012 - Mimino started using bed and will be doing it for 50 minutes
 
-198) Tue Oct 23 13:40:00 CEST 2012 - Honzik started using radio and will be doing it for 10 minutes
+198) Tue Oct 23 12:30:00 CEST 2012 - Ilona started using cloth wash and will be doing it for 40 minutes
 
-199) Tue Oct 23 13:50:00 CEST 2012 - Honzik ended using radio
+199) Tue Oct 23 12:30:00 CEST 2012 - Honzik started using radio and will be doing it for 10 minutes
 
-200) Tue Oct 23 13:50:00 CEST 2012 - Iveta started using tv and will be doing it for 40 minutes
+200) Tue Oct 23 12:40:00 CEST 2012 - Honzik ended using radio
 
-201) Tue Oct 23 13:50:00 CEST 2012 - refrigerator2 broke on its own
+201) Tue Oct 23 12:50:00 CEST 2012 - Pepa ended using phone
 
-202) Tue Oct 23 14:00:00 CEST 2012 - Honzik started using radio and will be doing it for 10 minutes
+202) Tue Oct 23 12:50:00 CEST 2012 - Pepa started repairing refrigerator2 and will be doing it for 40 minutes
 
-203) Tue Oct 23 14:10:00 CEST 2012 - Honzik ended using radio
+203) Tue Oct 23 12:50:00 CEST 2012 - Honzik started using bed2 and will be doing it for 70 minutes
 
-204) Tue Oct 23 14:20:00 CEST 2012 - Ilona ended using cloth wash
+204) Tue Oct 23 13:00:00 CEST 2012 - Pepa ended repairing refrigerator2
 
-205) Tue Oct 23 14:20:00 CEST 2012 - Ilona started repairing refrigerator2 and will be doing it for 40 minutes
+205) Tue Oct 23 13:00:00 CEST 2012 - Pepa started repairing tv and will be doing it for 10 minutes
 
-206) Tue Oct 23 14:20:00 CEST 2012 - Mimino started using cloth wash and will be doing it for 40 minutes
+206) Tue Oct 23 13:10:00 CEST 2012 - Maruska ended using refrigerator3
 
-207) Tue Oct 23 14:20:00 CEST 2012 - Honzik started using radio and will be doing it for 10 minutes
+207) Tue Oct 23 13:10:00 CEST 2012 - Maruska broke refrigerator3
 
-208) Tue Oct 23 14:30:00 CEST 2012 - Maruska ended using bike
+208) Tue Oct 23 13:10:00 CEST 2012 - Mimino ended using bed
 
-209) Tue Oct 23 14:30:00 CEST 2012 - Iveta ended using tv
+209) Tue Oct 23 13:10:00 CEST 2012 - Ilona ended using cloth wash
 
-210) Tue Oct 23 14:30:00 CEST 2012 - Ilona ended repairing refrigerator2
+210) Tue Oct 23 13:10:00 CEST 2012 - Ilona broke cloth wash
 
-211) Tue Oct 23 14:30:00 CEST 2012 - Honzik ended using radio
+211) Tue Oct 23 13:10:00 CEST 2012 - Pepa ended repairing tv
 
-212) Tue Oct 23 14:40:00 CEST 2012 - Pepa ended using bed2
+212) Tue Oct 23 13:10:00 CEST 2012 - Ilona started repairing dish wash and will be doing it for 20 minutes
 
-213) Tue Oct 23 14:40:00 CEST 2012 - Iveta started using dish wash and will be doing it for 60 minutes
+213) Tue Oct 23 13:20:00 CEST 2012 - Ilona ended repairing dish wash
 
-214) Tue Oct 23 14:40:00 CEST 2012 - Ilona started using bike and will be doing it for 100 minutes
+214) Tue Oct 23 13:20:00 CEST 2012 - Ilona started repairing refrigerator3 and will be doing it for 60 minutes
 
-215) Tue Oct 23 14:40:00 CEST 2012 - Honzik started using radio and will be doing it for 10 minutes
+215) Tue Oct 23 13:20:00 CEST 2012 - Pepa started using radio and will be doing it for 10 minutes
 
-216) Tue Oct 23 14:40:00 CEST 2012 - Maruska started using bed and will be doing it for 50 minutes
+216) Tue Oct 23 13:20:00 CEST 2012 - Maruska started using bed and will be doing it for 50 minutes
 
-217) Tue Oct 23 14:50:00 CEST 2012 - Honzik ended using radio
+217) Tue Oct 23 13:20:00 CEST 2012 - Mimino started using tv and will be doing it for 40 minutes
 
-218) Tue Oct 23 14:50:00 CEST 2012 - Pepa started using tv and will be doing it for 40 minutes
+218) Tue Oct 23 13:30:00 CEST 2012 - Iveta ended using bike
 
-219) Tue Oct 23 15:00:00 CEST 2012 - Mimino ended using cloth wash
+219) Tue Oct 23 13:30:00 CEST 2012 - Ilona ended repairing refrigerator3
 
-220) Tue Oct 23 15:00:00 CEST 2012 - Honzik started using phone and will be doing it for 65 minutes
+220) Tue Oct 23 13:30:00 CEST 2012 - Pepa ended using radio
 
-221) Tue Oct 23 15:10:00 CEST 2012 - Mimino started using computer and will be doing it for 20 minutes
+221) Tue Oct 23 13:30:00 CEST 2012 - Iveta started repairing cloth wash and will be doing it for 10 minutes
 
-222) Tue Oct 23 15:30:00 CEST 2012 - Maruska ended using bed
+222) Tue Oct 23 13:40:00 CEST 2012 - Iveta ended repairing cloth wash
 
-223) Tue Oct 23 15:30:00 CEST 2012 - Pepa ended using tv
+223) Tue Oct 23 13:40:00 CEST 2012 - Pepa started using radio and will be doing it for 10 minutes
 
-224) Tue Oct 23 15:30:00 CEST 2012 - Mimino ended using computer
+224) Tue Oct 23 13:40:00 CEST 2012 - Ilona started using bike and will be doing it for 100 minutes
 
-225) Tue Oct 23 15:40:00 CEST 2012 - Iveta ended using dish wash
+225) Tue Oct 23 13:50:00 CEST 2012 - Pepa ended using radio
 
-226) Tue Oct 23 15:40:00 CEST 2012 - Pepa started using bed and will be doing it for 50 minutes
+226) Tue Oct 23 13:50:00 CEST 2012 - Iveta started using dish wash and will be doing it for 60 minutes
 
-227) Tue Oct 23 15:40:00 CEST 2012 - Maruska started using cloth wash and will be doing it for 40 minutes
+227) Tue Oct 23 14:00:00 CEST 2012 - Honzik ended using bed2
 
-228) Tue Oct 23 15:40:00 CEST 2012 - Mimino started using bed2 and will be doing it for 70 minutes
+228) Tue Oct 23 14:00:00 CEST 2012 - Mimino ended using tv
 
-229) Tue Oct 23 15:50:00 CEST 2012 - Iveta started using dish wash and will be doing it for 60 minutes
+229) Tue Oct 23 14:00:00 CEST 2012 - Pepa started using cloth wash and will be doing it for 40 minutes
 
-230) Tue Oct 23 16:10:00 CEST 2012 - Honzik ended using phone
+230) Tue Oct 23 14:00:00 CEST 2012 - radio broke on its own
 
-231) Tue Oct 23 16:10:00 CEST 2012 - refrigerator2 broke on its own
+231) Tue Oct 23 14:10:00 CEST 2012 - Maruska ended using bed
 
-232) Tue Oct 23 16:20:00 CEST 2012 - Ilona ended using bike
+232) Tue Oct 23 14:10:00 CEST 2012 - Honzik started using bed2 and will be doing it for 70 minutes
 
-233) Tue Oct 23 16:20:00 CEST 2012 - Maruska ended using cloth wash
+233) Tue Oct 23 14:10:00 CEST 2012 - Mimino started using bath and will be doing it for 40 minutes
 
-234) Tue Oct 23 16:20:00 CEST 2012 - Honzik started using radio and will be doing it for 10 minutes
+234) Tue Oct 23 14:20:00 CEST 2012 - Maruska started using computer and will be doing it for 20 minutes
 
-235) Tue Oct 23 16:30:00 CEST 2012 - Pepa ended using bed
+235) Tue Oct 23 14:40:00 CEST 2012 - Pepa ended using cloth wash
 
-236) Tue Oct 23 16:30:00 CEST 2012 - Honzik ended using radio
+236) Tue Oct 23 14:40:00 CEST 2012 - Maruska ended using computer
 
-237) Tue Oct 23 16:30:00 CEST 2012 - Ilona started using cloth wash and will be doing it for 40 minutes
+237) Tue Oct 23 14:40:00 CEST 2012 - Pepa started repairing radio and will be doing it for 10 minutes
 
-238) Tue Oct 23 16:30:00 CEST 2012 - Maruska started using bike and will be doing it for 100 minutes
+238) Tue Oct 23 14:50:00 CEST 2012 - Iveta ended using dish wash
 
-239) Tue Oct 23 16:40:00 CEST 2012 - Pepa started using bath and will be doing it for 40 minutes
+239) Tue Oct 23 14:50:00 CEST 2012 - Mimino ended using bath
 
+240) Tue Oct 23 14:50:00 CEST 2012 - Mimino broke bath
 
-Pepa's stats after simulation are : hunger: 80 clean: 52 happiness: 98 fresh: 98
+241) Tue Oct 23 14:50:00 CEST 2012 - Pepa ended repairing radio
 
-Iveta's stats after simulation are : hunger: 90 clean: 69 happiness: 98 fresh: 98
+242) Tue Oct 23 14:50:00 CEST 2012 - Maruska started using cloth wash and will be doing it for 40 minutes
 
-Ilona's stats after simulation are : hunger: 64 clean: 66 happiness: 98 fresh: 64
+243) Tue Oct 23 15:00:00 CEST 2012 - Pepa started using bed and will be doing it for 50 minutes
 
-Honzik's stats after simulation are : hunger: 72 clean: 65 happiness: 98 fresh: 98
+244) Tue Oct 23 15:00:00 CEST 2012 - Iveta started using dish wash and will be doing it for 60 minutes
 
-Maruska's stats after simulation are : hunger: 80 clean: 91 happiness: 98 fresh: 86
+245) Tue Oct 23 15:00:00 CEST 2012 - Mimino started using tv and will be doing it for 40 minutes
 
-Mimino's stats after simulation are : hunger: 82 clean: 94 happiness: 98 fresh: 58
+246) Tue Oct 23 15:20:00 CEST 2012 - Ilona ended using bike
+
+247) Tue Oct 23 15:20:00 CEST 2012 - Honzik ended using bed2
+
+248) Tue Oct 23 15:30:00 CEST 2012 - Maruska ended using cloth wash
+
+249) Tue Oct 23 15:30:00 CEST 2012 - Honzik started using bed2 and will be doing it for 70 minutes
+
+250) Tue Oct 23 15:40:00 CEST 2012 - Mimino ended using tv
+
+251) Tue Oct 23 15:40:00 CEST 2012 - Ilona started using cloth wash and will be doing it for 40 minutes
+
+252) Tue Oct 23 15:40:00 CEST 2012 - Maruska started using computer and will be doing it for 20 minutes
+
+253) Tue Oct 23 15:50:00 CEST 2012 - Pepa ended using bed
+
+254) Tue Oct 23 15:50:00 CEST 2012 - Pepa broke bed
+
+255) Tue Oct 23 15:50:00 CEST 2012 - Pepa started repairing bath and will be doing it for 23 minutes
+
+256) Tue Oct 23 15:50:00 CEST 2012 - Mimino started using radio and will be doing it for 10 minutes
+
+257) Tue Oct 23 15:50:00 CEST 2012 - phone broke on its own
+
+258) Tue Oct 23 16:00:00 CEST 2012 - Iveta ended using dish wash
+
+259) Tue Oct 23 16:00:00 CEST 2012 - Maruska ended using computer
+
+260) Tue Oct 23 16:00:00 CEST 2012 - Pepa ended repairing bath
+
+261) Tue Oct 23 16:00:00 CEST 2012 - Mimino ended using radio
+
+262) Tue Oct 23 16:00:00 CEST 2012 - dish wash broke on its own
+
+263) Tue Oct 23 16:10:00 CEST 2012 - Pepa started using computer and will be doing it for 20 minutes
+
+264) Tue Oct 23 16:10:00 CEST 2012 - Maruska started using radio and will be doing it for 10 minutes
+
+265) Tue Oct 23 16:20:00 CEST 2012 - Ilona ended using cloth wash
+
+266) Tue Oct 23 16:20:00 CEST 2012 - Maruska ended using radio
+
+267) Tue Oct 23 16:20:00 CEST 2012 - Ilona started repairing phone and will be doing it for 10 minutes
+
+268) Tue Oct 23 16:20:00 CEST 2012 - Mimino started using radio and will be doing it for 10 minutes
+
+269) Tue Oct 23 16:30:00 CEST 2012 - Pepa ended using computer
+
+270) Tue Oct 23 16:30:00 CEST 2012 - Ilona ended repairing phone
+
+271) Tue Oct 23 16:30:00 CEST 2012 - Mimino ended using radio
+
+272) Tue Oct 23 16:30:00 CEST 2012 - Pepa started repairing dish wash and will be doing it for 20 minutes
+
+273) Tue Oct 23 16:30:00 CEST 2012 - Ilona started repairing bed and will be doing it for 10 minutes
+
+274) Tue Oct 23 16:30:00 CEST 2012 - Iveta started using computer and will be doing it for 20 minutes
+
+275) Tue Oct 23 16:30:00 CEST 2012 - Maruska started using bath and will be doing it for 40 minutes
+
+276) Tue Oct 23 16:40:00 CEST 2012 - Honzik ended using bed2
+
+277) Tue Oct 23 16:40:00 CEST 2012 - Pepa ended repairing dish wash
+
+278) Tue Oct 23 16:40:00 CEST 2012 - Ilona ended repairing bed
+
+279) Tue Oct 23 16:40:00 CEST 2012 - Mimino started using tv and will be doing it for 40 minutes
+
+280) Tue Oct 23 16:40:00 CEST 2012 - cloth wash broke on its own
+
+
+Pepa's stats after simulation are : hunger: 82 clean: 82 happiness: 98 fresh: 76
+
+Iveta's stats after simulation are : hunger: 80 clean: 81 happiness: 98 fresh: 98
+
+Ilona's stats after simulation are : hunger: 78 clean: 85 happiness: 98 fresh: 50
+
+Honzik's stats after simulation are : hunger: 90 clean: 51 happiness: 98 fresh: 98
+
+Maruska's stats after simulation are : hunger: 88 clean: 91 happiness: 98 fresh: 60
+
+Mimino's stats after simulation are : hunger: 82 clean: 72 happiness: 98 fresh: 98

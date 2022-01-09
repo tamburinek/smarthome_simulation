@@ -3,73 +3,71 @@ This is file of all notifications
 
 1) Tue Oct 23 00:50:00 CEST 2012 - Honzik is tired
 
-2) Tue Oct 23 01:10:00 CEST 2012 - Maruska is dirty
+2) Tue Oct 23 02:20:00 CEST 2012 - Iveta is dirty
 
-3) Tue Oct 23 01:50:00 CEST 2012 - Iveta is tired
+3) Tue Oct 23 03:30:00 CEST 2012 - Ilona is dirty
 
-4) Tue Oct 23 02:00:00 CEST 2012 - Honzik is dirty
+4) Tue Oct 23 03:40:00 CEST 2012 - Ilona is dirty
 
-5) Tue Oct 23 02:20:00 CEST 2012 - Pepa is dirty
+5) Tue Oct 23 04:30:00 CEST 2012 - Honzik is dirty
 
-6) Tue Oct 23 02:20:00 CEST 2012 - Mimino is tired
+6) Tue Oct 23 04:40:00 CEST 2012 - Iveta is dirty
 
-7) Tue Oct 23 03:10:00 CEST 2012 - Maruska is dirty
+7) Tue Oct 23 07:10:00 CEST 2012 - Mimino is tired
 
-8) Tue Oct 23 04:00:00 CEST 2012 - Ilona is dirty
+8) Tue Oct 23 07:20:00 CEST 2012 - Mimino is tired
 
-9) Tue Oct 23 05:00:00 CEST 2012 - Iveta is dirty
+9) Tue Oct 23 07:30:00 CEST 2012 - Maruska is dirty
 
-10) Tue Oct 23 05:10:00 CEST 2012 - Ilona is hungry
+10) Tue Oct 23 07:30:00 CEST 2012 - Mimino is tired
 
-11) Tue Oct 23 05:20:00 CEST 2012 - Mimino is dirty
+11) Tue Oct 23 08:00:00 CEST 2012 - Honzik is dirty
 
-12) Tue Oct 23 05:50:00 CEST 2012 - Pepa is dirty
+12) Tue Oct 23 08:30:00 CEST 2012 - Mimino is dirty
 
-13) Tue Oct 23 07:00:00 CEST 2012 - Pepa is dirty
+13) Tue Oct 23 08:40:00 CEST 2012 - Mimino is dirty
 
-14) Tue Oct 23 07:10:00 CEST 2012 - Iveta is tired
+14) Tue Oct 23 09:00:00 CEST 2012 - Pepa is hungry
 
-15) Tue Oct 23 07:10:00 CEST 2012 - Ilona is dirty
+15) Tue Oct 23 09:00:00 CEST 2012 - Iveta is tired
 
-16) Tue Oct 23 08:00:00 CEST 2012 - Pepa is hungry
+16) Tue Oct 23 09:20:00 CEST 2012 - Iveta is hungry
 
-17) Tue Oct 23 08:00:00 CEST 2012 - Mimino is hungry
+17) Tue Oct 23 09:50:00 CEST 2012 - Mimino is hungry
 
-18) Tue Oct 23 09:30:00 CEST 2012 - Pepa is tired
+18) Tue Oct 23 10:20:00 CEST 2012 - Iveta is tired
 
-19) Tue Oct 23 09:30:00 CEST 2012 - Honzik is hungry
+19) Tue Oct 23 10:30:00 CEST 2012 - Ilona is hungry
 
-20) Tue Oct 23 09:50:00 CEST 2012 - Pepa is tired
+20) Tue Oct 23 10:30:00 CEST 2012 - Maruska is dirty
 
-21) Tue Oct 23 09:50:00 CEST 2012 - Iveta is hungry
+21) Tue Oct 23 10:50:00 CEST 2012 - Mimino is dirty
 
-22) Tue Oct 23 09:50:00 CEST 2012 - Ilona is dirty
+22) Tue Oct 23 11:00:00 CEST 2012 - Mimino is dirty
 
-23) Tue Oct 23 09:50:00 CEST 2012 - Mimino is dirty
+23) Tue Oct 23 11:20:00 CEST 2012 - Honzik is hungry
 
-24) Tue Oct 23 10:40:00 CEST 2012 - Mimino is tired
+24) Tue Oct 23 11:20:00 CEST 2012 - Maruska is hungry
 
-25) Tue Oct 23 10:50:00 CEST 2012 - Maruska is hungry
+25) Tue Oct 23 12:10:00 CEST 2012 - Mimino is tired
 
-26) Tue Oct 23 11:50:00 CEST 2012 - Maruska is dirty
+26) Tue Oct 23 12:20:00 CEST 2012 - Ilona is dirty
 
-27) Tue Oct 23 12:20:00 CEST 2012 - Honzik is dirty
+27) Tue Oct 23 13:10:00 CEST 2012 - Maruska is tired
 
-28) Tue Oct 23 12:30:00 CEST 2012 - Pepa is dirty
+28) Tue Oct 23 13:40:00 CEST 2012 - Iveta is dirty
 
-29) Tue Oct 23 12:50:00 CEST 2012 - Mimino is tired
+29) Tue Oct 23 14:00:00 CEST 2012 - Mimino is dirty
 
-30) Tue Oct 23 13:30:00 CEST 2012 - Honzik is tired
+30) Tue Oct 23 14:40:00 CEST 2012 - Maruska is dirty
 
-31) Tue Oct 23 13:50:00 CEST 2012 - Honzik is tired
+31) Tue Oct 23 15:20:00 CEST 2012 - Ilona is dirty
 
-32) Tue Oct 23 14:30:00 CEST 2012 - Iveta is dirty
+32) Tue Oct 23 15:30:00 CEST 2012 - Ilona is dirty
 
-33) Tue Oct 23 14:30:00 CEST 2012 - Maruska is tired
+33) Tue Oct 23 16:00:00 CEST 2012 - Maruska is tired
 
-34) Tue Oct 23 15:30:00 CEST 2012 - Maruska is dirty
+34) Tue Oct 23 16:40:00 CEST 2012 - Ilona is tired
 
-35) Tue Oct 23 15:30:00 CEST 2012 - Mimino is tired
-
-36) Tue Oct 23 16:30:00 CEST 2012 - Pepa is dirty
+35) Tue Oct 23 16:40:00 CEST 2012 - Honzik is dirty
 
