@@ -19,7 +19,7 @@ Za nákup nových prostředků (voda, plyn, elektřina) se platí penězi, pokud
  - **Lazy loading (virtual proxy)** - v package manuals - manuál ke každému zařízení se načte, až když ho člověk potřebuje
 ### Použití aplikace
  Simulace se spouští ve třídách EasyRun, MediumRun a HardRun, kde se dají vytvořit nová zařízení, rozmístit zařízení do pokojů po domě a přidat do domácnosti lidi. Dá se změnit i počet desetiminutových iterací, po které simulace poběží.
-Reporty z běhu simulace se po proběhnutí vytváří a ukládají do složky reports.
+Reporty z běhu simulace se po proběhnutí vytváří a ukládají do složky reports. Obtížnosti se od sebe liší hlavně tím, kolik jednotek štěstí, hladu atd. se entitám ubírá při každém ticku. Také se při tžší obtížnosti více rozbíjejí zařízení a je náročnější je opravit.
 ### Class diagram
 ![class diagram](class-diagram.png)
 ### Use Case diagram
