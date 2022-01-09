@@ -10,6 +10,7 @@ Za nákup nových prostředků (voda, plyn, elektřina) se platí penězi, pokud
 ### Seznam použitých design patternů:
  - **Iterator** - v package _iterator_ - iterátory použity při generaci reportů, kdy se prochází seznamem eventů a do souboru vypisují jednotlivé události.
  - **Factory** - v package _devices_ - zabalení vytváření nových instancí zařízení do příslušné metody
+ - **Builder** - v package _house_ - slouži pro vytvoření domu při dodání podlaží, pokojů. 
  - **Strategy** - v package _strategy_ - vybírání obtížnosti počátečního nastavení domácnosti a jejích prostředků
  - **Singleton** - v package _location_ - každá lokalita se vytváří pouze jednou; není nutné mít např. dvakrát "outside"
  - **State** - v package _state_ - stejné metody pro ovládání device mají různý efekt v každém stavu device, např. když je zařízení ve stavu _off_, metoda _turnOffDevice_ nedělá nic
