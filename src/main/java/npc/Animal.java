@@ -19,22 +19,34 @@ public abstract class Animal extends Tracker {
     private int hungry = Constants.START_HUNGRY;
     private int happiness = Constants.START_HAPPINESS;
 
+    /**
+     * getting stats from Device
+     */
     public void claimSatisfy(Device device){
         hungry = Math.min(hungry + device.hungry(), Constants.MAX_HUNGRY);
     }
 
+    /**
+     * getting stats from Human - Human is here for overload
+     */
     public void claimSatisfy(Human human){
         happiness = Constants.MAX_HAPPINESS;
     }
 
     private boolean isAlive = true;
 
+    /**
+     * every tick animal loses stats
+     */
     public void dropSomeStats(){
         hungry = hungry - Constants.INDEX;
         happiness = happiness - Constants.INDEX;
         checkForDead();
     }
 
+    /**
+     * check if animal is not dead
+     */
     private void checkForDead(){
         if (happiness <= 0 || hungry <= 0){
             isAlive = false;

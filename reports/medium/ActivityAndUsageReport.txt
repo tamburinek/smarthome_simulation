@@ -3,105 +3,255 @@ This is file of all events
 
 1) Mon Dec 11 00:20:00 CET 2000 - Iveta started using first bike and will be doing it for 100 minutes
 
-2) Mon Dec 11 00:30:00 CET 2000 - Oldrich started using second bike and will be doing it for 100 minutes
+2) Mon Dec 11 00:20:00 CET 2000 - Ilona started using refrigerator and will be doing it for 50 minutes
 
-3) Mon Dec 11 01:00:00 CET 2000 - kitchen light broke on its own
+3) Mon Dec 11 00:30:00 CET 2000 - Oldrich started using toilet and will be doing it for 10 minutes
 
-4) Mon Dec 11 01:10:00 CET 2000 - parents room light broke on its own
+4) Mon Dec 11 00:30:00 CET 2000 - Pepa started using refrigerator2 and will be doing it for 50 minutes
 
-5) Mon Dec 11 01:40:00 CET 2000 - cloth wash broke on its own
+5) Mon Dec 11 00:30:00 CET 2000 - Honzik started using bath and will be doing it for 40 minutes
 
-6) Mon Dec 11 02:00:00 CET 2000 - Iveta ended using first bike
+6) Mon Dec 11 00:30:00 CET 2000 - Maruska started using tv and will be doing it for 40 minutes
 
-7) Mon Dec 11 02:00:00 CET 2000 - Iveta started repairing parents room light and will be doing it for 10 minutes
+7) Mon Dec 11 00:30:00 CET 2000 - Ilona started using work and will be doing it for 100 minutes
 
-8) Mon Dec 11 02:00:00 CET 2000 - bathroom light broke on its own
+8) Mon Dec 11 00:40:00 CET 2000 - Oldrich ended using toilet
 
-9) Mon Dec 11 02:10:00 CET 2000 - Oldrich ended using second bike
+9) Mon Dec 11 00:40:00 CET 2000 - bathroom light broke on its own
 
-10) Mon Dec 11 02:10:00 CET 2000 - Iveta ended repairing parents room light
+10) Mon Dec 11 01:00:00 CET 2000 - Oldrich started using second bike and will be doing it for 100 minutes
 
-11) Mon Dec 11 02:10:00 CET 2000 - Honzik started using second bike and will be doing it for 100 minutes
+11) Mon Dec 11 01:10:00 CET 2000 - Ilona ended using refrigerator
 
-12) Mon Dec 11 02:10:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
+12) Mon Dec 11 01:10:00 CET 2000 - Honzik ended using bath
 
-13) Mon Dec 11 02:30:00 CET 2000 - Iveta ended playing with animal
+13) Mon Dec 11 01:10:00 CET 2000 - Maruska ended using tv
 
-14) Mon Dec 11 02:40:00 CET 2000 - bed2 broke on its own
+14) Mon Dec 11 01:20:00 CET 2000 - Pepa ended using refrigerator2
 
-15) Mon Dec 11 03:50:00 CET 2000 - Honzik ended using second bike
+15) Mon Dec 11 01:20:00 CET 2000 - Pepa started repairing bathroom light and will be doing it for 10 minutes
 
-16) Mon Dec 11 03:50:00 CET 2000 - Maruska started using second bike and will be doing it for 100 minutes
+16) Mon Dec 11 01:30:00 CET 2000 - Pepa ended repairing bathroom light
 
-17) Mon Dec 11 04:00:00 CET 2000 - first bike broke on its own
+17) Mon Dec 11 01:30:00 CET 2000 - Ilona started using baby ultimatum device and will be doing it for 10 minutes
 
-18) Mon Dec 11 04:10:00 CET 2000 - Honzik started using dish wash and will be doing it for 60 minutes
+18) Mon Dec 11 01:30:00 CET 2000 - Honzik started using toilet and will be doing it for 10 minutes
 
-19) Mon Dec 11 05:10:00 CET 2000 - Honzik ended using dish wash
+19) Mon Dec 11 01:30:00 CET 2000 - Maruska started using dish wash and will be doing it for 60 minutes
 
-20) Mon Dec 11 05:30:00 CET 2000 - Maruska ended using second bike
+20) Mon Dec 11 01:30:00 CET 2000 - garage light broke on its own
 
-21) Mon Dec 11 05:30:00 CET 2000 - Honzik started using bed and will be doing it for 50 minutes
+21) Mon Dec 11 01:40:00 CET 2000 - Ilona ended using baby ultimatum device
 
-22) Mon Dec 11 05:50:00 CET 2000 - Maruska started using bath and will be doing it for 40 minutes
+22) Mon Dec 11 01:40:00 CET 2000 - Honzik ended using toilet
 
-23) Mon Dec 11 05:50:00 CET 2000 - computer broke on its own
+23) Mon Dec 11 01:40:00 CET 2000 - computer broke on its own
 
-24) Mon Dec 11 06:20:00 CET 2000 - Honzik ended using bed
+24) Mon Dec 11 02:00:00 CET 2000 - Iveta ended using first bike
 
-25) Mon Dec 11 06:30:00 CET 2000 - Maruska ended using bath
+25) Mon Dec 11 02:10:00 CET 2000 - Ilona ended using work
 
-26) Mon Dec 11 06:40:00 CET 2000 - Honzik started using dish wash and will be doing it for 60 minutes
+26) Mon Dec 11 02:20:00 CET 2000 - Honzik started using car and will be doing it for 100 minutes
 
-27) Mon Dec 11 06:50:00 CET 2000 - Maruska started using refrigerator3 and will be doing it for 50 minutes
+27) Mon Dec 11 02:30:00 CET 2000 - Maruska ended using dish wash
 
-28) Mon Dec 11 07:00:00 CET 2000 - tv broke on its own
+28) Mon Dec 11 02:40:00 CET 2000 - Oldrich ended using second bike
 
-29) Mon Dec 11 07:40:00 CET 2000 - Honzik ended using dish wash
+29) Mon Dec 11 02:40:00 CET 2000 - Oldrich started playing with animal and will be doing it for 20
 
-30) Mon Dec 11 07:40:00 CET 2000 - Honzik broke dish wash
+30) Mon Dec 11 02:50:00 CET 2000 - Maruska started using refrigerator and will be doing it for 50 minutes
 
-31) Mon Dec 11 07:40:00 CET 2000 - Maruska ended using refrigerator3
+31) Mon Dec 11 03:00:00 CET 2000 - Oldrich ended playing with animal
 
-32) Mon Dec 11 07:50:00 CET 2000 - radio broke on its own
+32) Mon Dec 11 03:00:00 CET 2000 - Oldrich started playing with animal and will be doing it for 20
 
-33) Mon Dec 11 08:00:00 CET 2000 - Honzik started using second bike and will be doing it for 100 minutes
+33) Mon Dec 11 03:20:00 CET 2000 - Oldrich ended playing with animal
 
-34) Mon Dec 11 08:20:00 CET 2000 - bath broke on its own
+34) Mon Dec 11 03:20:00 CET 2000 - Oldrich started playing with animal and will be doing it for 20
 
-35) Mon Dec 11 09:00:00 CET 2000 - bed broke on its own
+35) Mon Dec 11 03:40:00 CET 2000 - Maruska ended using refrigerator
 
-36) Mon Dec 11 09:10:00 CET 2000 - garage light broke on its own
+36) Mon Dec 11 03:40:00 CET 2000 - Oldrich ended playing with animal
 
-37) Mon Dec 11 09:30:00 CET 2000 - refrigerator2 broke on its own
+37) Mon Dec 11 03:40:00 CET 2000 - Oldrich started playing with animal and will be doing it for 20
 
-38) Mon Dec 11 09:40:00 CET 2000 - Honzik ended using second bike
+38) Mon Dec 11 04:00:00 CET 2000 - Honzik ended using car
 
-39) Mon Dec 11 10:10:00 CET 2000 - refrigerator broke on its own
+39) Mon Dec 11 04:00:00 CET 2000 - Oldrich ended playing with animal
 
-40) Mon Dec 11 11:00:00 CET 2000 - toilet light broke on its own
+40) Mon Dec 11 04:00:00 CET 2000 - Oldrich started repairing garage light and will be doing it for 10 minutes
 
-41) Mon Dec 11 12:10:00 CET 2000 - animal light broke on its own
+41) Mon Dec 11 04:00:00 CET 2000 - Ilona started using tv and will be doing it for 40 minutes
 
-42) Mon Dec 11 12:40:00 CET 2000 - refrigerator3 broke on its own
+42) Mon Dec 11 04:00:00 CET 2000 - Maruska started using first bike and will be doing it for 100 minutes
+
+43) Mon Dec 11 04:10:00 CET 2000 - Oldrich ended repairing garage light
+
+44) Mon Dec 11 04:10:00 CET 2000 - Oldrich started repairing computer and will be doing it for 20 minutes
+
+45) Mon Dec 11 04:20:00 CET 2000 - Oldrich ended repairing computer
+
+46) Mon Dec 11 04:20:00 CET 2000 - Oldrich started playing with animal and will be doing it for 20
+
+47) Mon Dec 11 04:20:00 CET 2000 - Honzik started using second bike and will be doing it for 100 minutes
+
+48) Mon Dec 11 04:40:00 CET 2000 - Ilona ended using tv
+
+49) Mon Dec 11 04:40:00 CET 2000 - Oldrich ended playing with animal
+
+50) Mon Dec 11 04:40:00 CET 2000 - Ilona started playing with animal and will be doing it for 20
+
+51) Mon Dec 11 04:40:00 CET 2000 - Oldrich started playing with animal and will be doing it for 20
+
+52) Mon Dec 11 04:40:00 CET 2000 - radio broke on its own
+
+53) Mon Dec 11 05:00:00 CET 2000 - Ilona ended playing with animal
+
+54) Mon Dec 11 05:00:00 CET 2000 - Oldrich ended playing with animal
+
+55) Mon Dec 11 05:00:00 CET 2000 - Ilona started playing with animal and will be doing it for 20
+
+56) Mon Dec 11 05:10:00 CET 2000 - kids room light broke on its own
+
+57) Mon Dec 11 05:20:00 CET 2000 - Ilona ended playing with animal
+
+58) Mon Dec 11 05:20:00 CET 2000 - Ilona started playing with animal and will be doing it for 20
+
+59) Mon Dec 11 05:20:00 CET 2000 - Oldrich started using dish wash and will be doing it for 60 minutes
+
+60) Mon Dec 11 05:40:00 CET 2000 - Maruska ended using first bike
+
+61) Mon Dec 11 05:40:00 CET 2000 - Ilona ended playing with animal
+
+62) Mon Dec 11 05:40:00 CET 2000 - Ilona started playing with animal and will be doing it for 20
+
+63) Mon Dec 11 05:50:00 CET 2000 - animal light broke on its own
+
+64) Mon Dec 11 06:00:00 CET 2000 - Honzik ended using second bike
+
+65) Mon Dec 11 06:00:00 CET 2000 - Ilona ended playing with animal
+
+66) Mon Dec 11 06:00:00 CET 2000 - Ilona started repairing kids room light and will be doing it for 10 minutes
+
+67) Mon Dec 11 06:00:00 CET 2000 - Maruska started using bath and will be doing it for 40 minutes
+
+68) Mon Dec 11 06:00:00 CET 2000 - computer broke on its own
+
+69) Mon Dec 11 06:10:00 CET 2000 - Ilona ended repairing kids room light
+
+70) Mon Dec 11 06:10:00 CET 2000 - Ilona started repairing radio and will be doing it for 10 minutes
+
+71) Mon Dec 11 06:20:00 CET 2000 - Oldrich ended using dish wash
+
+72) Mon Dec 11 06:20:00 CET 2000 - Ilona ended repairing radio
+
+73) Mon Dec 11 06:20:00 CET 2000 - Honzik started using bed2 and will be doing it for 70 minutes
+
+74) Mon Dec 11 06:20:00 CET 2000 - car broke on its own
+
+75) Mon Dec 11 06:40:00 CET 2000 - Maruska ended using bath
+
+76) Mon Dec 11 07:00:00 CET 2000 - Maruska started using refrigerator and will be doing it for 50 minutes
+
+77) Mon Dec 11 07:00:00 CET 2000 - bathroom light broke on its own
+
+78) Mon Dec 11 07:30:00 CET 2000 - Honzik ended using bed2
+
+79) Mon Dec 11 07:50:00 CET 2000 - Maruska ended using refrigerator
+
+80) Mon Dec 11 07:50:00 CET 2000 - Honzik started using refrigerator3 and will be doing it for 50 minutes
+
+81) Mon Dec 11 08:10:00 CET 2000 - Maruska started using first bike and will be doing it for 100 minutes
+
+82) Mon Dec 11 08:40:00 CET 2000 - Honzik ended using refrigerator3
+
+83) Mon Dec 11 09:00:00 CET 2000 - Honzik started using tv and will be doing it for 40 minutes
+
+84) Mon Dec 11 09:10:00 CET 2000 - second bike broke on its own
+
+85) Mon Dec 11 09:40:00 CET 2000 - Honzik ended using tv
+
+86) Mon Dec 11 09:50:00 CET 2000 - Maruska ended using first bike
+
+87) Mon Dec 11 09:50:00 CET 2000 - Maruska broke first bike
+
+88) Mon Dec 11 10:00:00 CET 2000 - Honzik started using bed and will be doing it for 50 minutes
+
+89) Mon Dec 11 10:40:00 CET 2000 - entry light broke on its own
+
+90) Mon Dec 11 10:50:00 CET 2000 - Honzik ended using bed
+
+91) Mon Dec 11 10:50:00 CET 2000 - Maruska started using bed and will be doing it for 50 minutes
+
+92) Mon Dec 11 11:30:00 CET 2000 - Honzik started using toilet and will be doing it for 10 minutes
+
+93) Mon Dec 11 11:40:00 CET 2000 - Maruska ended using bed
+
+94) Mon Dec 11 11:40:00 CET 2000 - Honzik ended using toilet
+
+95) Mon Dec 11 12:00:00 CET 2000 - Honzik started using cloth wash and will be doing it for 40 minutes
+
+96) Mon Dec 11 12:20:00 CET 2000 - refrigerator2 broke on its own
+
+97) Mon Dec 11 12:40:00 CET 2000 - Honzik ended using cloth wash
+
+98) Mon Dec 11 12:40:00 CET 2000 - Maruska started using cloth wash and will be doing it for 40 minutes
+
+99) Mon Dec 11 13:00:00 CET 2000 - Honzik started using bed2 and will be doing it for 70 minutes
+
+100) Mon Dec 11 13:20:00 CET 2000 - Maruska ended using cloth wash
+
+101) Mon Dec 11 13:40:00 CET 2000 - dish wash broke on its own
+
+102) Mon Dec 11 13:50:00 CET 2000 - Maruska started using toilet and will be doing it for 10 minutes
+
+103) Mon Dec 11 14:00:00 CET 2000 - Maruska ended using toilet
+
+104) Mon Dec 11 14:10:00 CET 2000 - Honzik ended using bed2
+
+105) Mon Dec 11 14:10:00 CET 2000 - tv broke on its own
+
+106) Mon Dec 11 14:20:00 CET 2000 - Maruska started using cloth wash and will be doing it for 40 minutes
+
+107) Mon Dec 11 14:50:00 CET 2000 - Honzik started using radio and will be doing it for 10 minutes
+
+108) Mon Dec 11 15:00:00 CET 2000 - Maruska ended using cloth wash
+
+109) Mon Dec 11 15:00:00 CET 2000 - Honzik ended using radio
+
+110) Mon Dec 11 15:10:00 CET 2000 - Maruska started using cloth wash and will be doing it for 40 minutes
+
+111) Mon Dec 11 15:30:00 CET 2000 - Honzik started using bath and will be doing it for 40 minutes
+
+112) Mon Dec 11 15:50:00 CET 2000 - Maruska ended using cloth wash
+
+113) Mon Dec 11 15:50:00 CET 2000 - toilet light broke on its own
+
+114) Mon Dec 11 16:10:00 CET 2000 - Honzik ended using bath
+
+115) Mon Dec 11 16:10:00 CET 2000 - Maruska started using bed2 and will be doing it for 70 minutes
+
+116) Mon Dec 11 16:30:00 CET 2000 - Honzik started using radio and will be doing it for 10 minutes
+
+117) Mon Dec 11 16:40:00 CET 2000 - Honzik ended using radio
 
 
-Oldrich's stats after simulation are : hunger: 66 clean: 46 happiness: 106 fresh: 56
+Oldrich's stats after simulation are : hunger: 57 clean: 52 happiness: 112 fresh: 42
 
-Pepa's stats after simulation are : hunger: 78 clean: 78 happiness: 78 fresh: 78
+Pepa's stats after simulation are : hunger: 176 clean: 71 happiness: 131 fresh: 66
 
 Iveta's stats after simulation are : hunger: 66 clean: 46 happiness: 106 fresh: 56
 
-Ilona's stats after simulation are : hunger: 78 clean: 78 happiness: 78 fresh: 78
+Ilona's stats after simulation are : hunger: 138 clean: 8 happiness: 133 fresh: 53
 
-Honzik's stats after simulation are : hunger: 10 clean: 0 happiness: 160 fresh: 70
+Honzik's stats after simulation are : hunger: 116 clean: 169 happiness: 198 fresh: 198
 
-Maruska's stats after simulation are : hunger: 162 clean: 137 happiness: 177 fresh: 52
+Maruska's stats after simulation are : hunger: 169 clean: 182 happiness: 198 fresh: 112
 
 Mimino's stats after simulation are : hunger: 0 clean: 0 happiness: 0 fresh: 0
 
-Mourek's stats after simulation are : hunger: 0 happiness: 0
+Mourek's stats after simulation are : hunger: 0 happiness: 170
 
-DogeCoin's stats after simulation are : hunger: 0 happiness: 144
+DogeCoin's stats after simulation are : hunger: 0 happiness: 170
 
-Bitcoin's stats after simulation are : hunger: 0 happiness: 0
+Bitcoin's stats after simulation are : hunger: 0 happiness: 170

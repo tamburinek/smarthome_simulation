@@ -17,6 +17,10 @@ import strategy.DifficultyStrategy;
 import utills.Helper;
 import utills.Time;
 
+
+/**
+ * main class that work with all entities and can generate events
+ */
 public class HouseController {
 
     private final House house;

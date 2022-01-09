@@ -1,5 +1,8 @@
 package notification;
 
+/**
+ * notification that humans or animals did
+ */
 public abstract class Notification {
 
     private final String report;

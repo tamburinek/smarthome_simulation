@@ -13,6 +13,9 @@ import utills.Helper;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Device entity
+ */
 public abstract class Device extends Tracker {
 
     private final String deviceName;
@@ -32,6 +35,15 @@ public abstract class Device extends Tracker {
 
     private final Manual manual;
 
+    /**
+     * In constructor duration is set - it is calculated with effectivity
+     * @param deviceName
+     * @param repairDifficulty
+     * @param brokenIndex
+     * @param effectivity
+     * @param type
+     * @param manual
+     */
     public Device(String deviceName, int repairDifficulty, int brokenIndex, int effectivity, DeviceType type, Manual manual) {
         this.deviceName = deviceName;
         this.repairDifficulty = repairDifficulty;
@@ -106,15 +118,31 @@ public abstract class Device extends Tracker {
         this.resourcesConsumed = resourcesConsumed;
     }
 
+    /**
+     *
+     * functions to find out how many resources device takes and how make stats device can add
+     *
+     */
     public abstract void consume(boolean usingDevice);
     public abstract int cleaning();
     public abstract int happiness();
     public abstract int fresh();
     public abstract int hungry();
 
+    /**
+     * function trying to break the device in idle and inUseState
+     * @param someoneUsing - tells if someone is using the device
+     * @return the small chance that device is broken
+     */
     public boolean tryBreak(boolean someoneUsing){
         return Helper.breakDevice(this, someoneUsing);
     }
+
+    /**
+     *
+     * api for using the device
+     * functions change the state of device
+     */
 
     //states
     public void startUsingDevice(Human human){state.useDevice(this, human);}

@@ -3,6 +3,9 @@ package state;
 import devices.Device;
 import npc.Human;
 
+/**
+ * state pattern
+ */
 public interface DeviceState {
 
     void useDevice(Device device, Human human);

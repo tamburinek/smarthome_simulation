@@ -1,5 +1,8 @@
 package enums;
 
+/**
+ * different types of notification
+ */
 public enum NotificationType {
 
     STARTED_USING {
@@ -45,22 +48,10 @@ public enum NotificationType {
             return "ended repairing";
         }
     },
-    CALLED_REPAIRMAN {
-        @Override
-        public String toString() {
-            return "called repairman";
-        }
-    },
     BROKE_IN_IDLE {
         @Override
         public String toString() {
             return "broke on its own";
-        }
-    },
-    DIED {
-        @Override
-        public String toString() {
-            return "died";
         }
     };
 

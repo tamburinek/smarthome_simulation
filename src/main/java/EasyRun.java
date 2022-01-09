@@ -33,6 +33,10 @@ public class EasyRun {
         garage.addDevice(car);
         Device ski = DeviceFactory.createSki("ski", 10,0,0,manual);
         garage.addDevice(ski);
+        Device car2 = DeviceFactory.createCar("second car", 10, 0, 0, manual);
+        garage.addDevice(car2);
+        Device ski2 = DeviceFactory.createSki("second ski", 10,0,0,manual);
+        garage.addDevice(ski2);
         Device light = DeviceFactory.createLight("garage light", 10, 0, 0, manual);
         garage.addDevice(light);
         Room entry = new Room("entry");
@@ -61,6 +65,8 @@ public class EasyRun {
         Room toiletRoom = new Room("toilet");
         Device toilet = DeviceFactory.createToilet("toilet", 23, 0, 90, manual);
         toiletRoom.addDevice(toilet);
+        Device toilet2 = DeviceFactory.createToilet("second toilet", 23, 0, 90, manual);
+        toiletRoom.addDevice(toilet2);
         Device toiletLight = DeviceFactory.createLight("toilet light", 10, 0, 0, manual);
         toiletRoom.addDevice(toiletLight);
         Room bathroom = new Room("bathroom");
@@ -93,12 +99,18 @@ public class EasyRun {
         Room kidsRoom = new Room("kids room");
         Device kidsRoomLight = DeviceFactory.createLight("kids room light", 10, 0, 0, manual);
         kidsRoom.addDevice(kidsRoomLight);
+        Device tv2 = DeviceFactory.createTv("kids tv", 10, 0, 60, manual);
+        kidsRoom.addDevice(tv2);
         Device bed = DeviceFactory.createBed("bed", 10, 0, 60, manual);
         kidsRoom.addDevice(bed);
         Device phone = DeviceFactory.createPhone("phone", 10, 0, 80, manual);
         kidsRoom.addDevice(phone);
         Device radio = DeviceFactory.createRadio("radio", 10, 0, 90, manual);
         kidsRoom.addDevice(radio);
+        Device phone2 = DeviceFactory.createPhone("second phone", 10, 0, 80, manual);
+        kidsRoom.addDevice(phone2);
+        Device radio2 = DeviceFactory.createRadio("second radio", 10, 0, 90, manual);
+        kidsRoom.addDevice(radio2);
         Device babyDevice = DeviceFactory.createBabyDevice("baby ultimatum device", 10, 0, 90, manual);
         kidsRoom.addDevice(babyDevice);
         thirdFloor.addRoom(kidsRoom);
@@ -110,6 +122,10 @@ public class EasyRun {
         parentsRoom.addDevice(bed2);
         Device tv = DeviceFactory.createTv("tv", 10, 0, 60, manual);
         parentsRoom.addDevice(tv);
+        Device phone3 = DeviceFactory.createPhone("third phone", 10, 0, 80, manual);
+        parentsRoom.addDevice(phone3);
+        Device radio3 = DeviceFactory.createRadio("third radio", 10, 0, 90, manual);
+        parentsRoom.addDevice(radio3);
         Device computer = DeviceFactory.createComputer("computer", 20, 0, 80, manual);
         parentsRoom.addDevice(computer);
 

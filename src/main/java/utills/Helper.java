@@ -7,6 +7,9 @@ import npc.Human;
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+ * helper helps to find random devices or humans
+ */
 public class Helper {
 
     public static Random random = new Random();
@@ -40,6 +43,9 @@ public class Helper {
         return null;
     }
 
+    /**
+     * 50% chance on sport or other device
+     */
     public static Device findRandomDevice(ArrayList<Device> devices){
         if (random.nextBoolean()){
             return findDevice(devices, DeviceType.SPORT);

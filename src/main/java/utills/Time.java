@@ -3,6 +3,9 @@ package utills;
 import java.util.Calendar;
 import java.util.Date;
 
+/**
+ * time necessary for reporting
+ */
 public class Time {
 
     public static Calendar calendar = Calendar.getInstance();

@@ -3,6 +3,9 @@ package event;
 import enums.NotificationType;
 import notification.BrokeNotification;
 
+/**
+ * visitor pattern - should be better code but it is what it is
+ */
 public class EventVisitor implements Visitor {
 
     public boolean visitBabyEvent(BabyEvent event){

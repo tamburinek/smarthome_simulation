@@ -9,6 +9,9 @@ import sensors.Sensor;
 
 import java.util.ArrayList;
 
+/**
+ * house class
+ */
 public class House {
 
     private String houseName;
@@ -70,6 +73,9 @@ public class House {
         }
     }
 
+    /**
+     * setting location for all entities in house
+     */
     public void setLocation(){
         for (Floor floor : floors) {
             floor.setHouse(this);
@@ -84,6 +90,9 @@ public class House {
         }
     }
 
+    /**
+     * attach observer for all devices
+     */
     public void atachObserver() {
         for (Device device : devices) {
             new DeviceObserver(device);

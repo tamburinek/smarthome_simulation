@@ -6,8 +6,15 @@ import notification.ResourceNotification;
 import utills.Helper;
 import utills.Time;
 
+/**
+ * sensor is checking if house has enough money and other resources
+ */
 public class ResourceSensor implements Sensor{
 
+    /**
+     * buys resources if necessary
+     * @return true if there is not enough money
+     */
     @Override
     public boolean isSomethingWrong() {
         if (ResourceEnum.FOOD.getQuantity() <= 100){

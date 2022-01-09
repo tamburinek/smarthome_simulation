@@ -1,187 +1,277 @@
 This is file of all events
 ------------------------------------
 
-1) Mon Dec 11 00:30:00 CET 2000 - Oldrich started using second bike and will be doing it for 100 minutes
+1) Mon Dec 11 00:20:00 CET 2000 - Iveta started using second bike and will be doing it for 100 minutes
 
-2) Mon Dec 11 00:30:00 CET 2000 - Iveta started using bed2 and will be doing it for 70 minutes
+2) Mon Dec 11 00:30:00 CET 2000 - Lisa started using first bike and will be doing it for 100 minutes
 
-3) Mon Dec 11 00:30:00 CET 2000 - Ilona started using first bike and will be doing it for 100 minutes
+3) Mon Dec 11 00:30:00 CET 2000 - Honzik started using dish wash and will be doing it for 60 minutes
 
-4) Mon Dec 11 01:40:00 CET 2000 - Iveta ended using bed2
+4) Mon Dec 11 00:40:00 CET 2000 - Iveta started using work and will be doing it for 100 minutes
 
-5) Mon Dec 11 01:40:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
+5) Mon Dec 11 01:30:00 CET 2000 - Honzik ended using dish wash
 
-6) Mon Dec 11 02:00:00 CET 2000 - Iveta ended playing with animal
+6) Mon Dec 11 01:40:00 CET 2000 - Honzik started using dish wash and will be doing it for 60 minutes
 
-7) Mon Dec 11 02:00:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
+7) Mon Dec 11 02:00:00 CET 2000 - Iveta ended using second bike
 
-8) Mon Dec 11 02:10:00 CET 2000 - Oldrich ended using second bike
+8) Mon Dec 11 02:00:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
 
-9) Mon Dec 11 02:10:00 CET 2000 - Ilona ended using first bike
+9) Mon Dec 11 02:10:00 CET 2000 - Lisa ended using first bike
 
-10) Mon Dec 11 02:10:00 CET 2000 - Ilona started using baby ultimatum device and will be doing it for 10 minutes
+10) Mon Dec 11 02:10:00 CET 2000 - Lisa started using baby ultimatum device and will be doing it for 10 minutes
 
-11) Mon Dec 11 02:10:00 CET 2000 - Honzik started using first bike and will be doing it for 100 minutes
+11) Mon Dec 11 02:10:00 CET 2000 - Maruska started using first bike and will be doing it for 100 minutes
 
-12) Mon Dec 11 02:10:00 CET 2000 - Oldrich started playing with animal and will be doing it for 20
+12) Mon Dec 11 02:20:00 CET 2000 - Iveta ended using work
 
 13) Mon Dec 11 02:20:00 CET 2000 - Iveta ended playing with animal
 
-14) Mon Dec 11 02:20:00 CET 2000 - Ilona ended using baby ultimatum device
+14) Mon Dec 11 02:20:00 CET 2000 - Lisa ended using baby ultimatum device
 
-15) Mon Dec 11 02:20:00 CET 2000 - Ilona started using baby ultimatum device and will be doing it for 10 minutes
+15) Mon Dec 11 02:20:00 CET 2000 - Lisa started using baby ultimatum device and will be doing it for 10 minutes
 
 16) Mon Dec 11 02:20:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
 
-17) Mon Dec 11 02:30:00 CET 2000 - Oldrich ended playing with animal
+17) Mon Dec 11 02:30:00 CET 2000 - Lisa ended using baby ultimatum device
 
-18) Mon Dec 11 02:30:00 CET 2000 - Ilona ended using baby ultimatum device
+18) Mon Dec 11 02:30:00 CET 2000 - Lisa started using baby ultimatum device and will be doing it for 10 minutes
 
-19) Mon Dec 11 02:30:00 CET 2000 - Oldrich started using baby ultimatum device and will be doing it for 10 minutes
+19) Mon Dec 11 02:40:00 CET 2000 - Honzik ended using dish wash
 
-20) Mon Dec 11 02:30:00 CET 2000 - Ilona started playing with animal and will be doing it for 20
+20) Mon Dec 11 02:40:00 CET 2000 - Iveta ended playing with animal
 
-21) Mon Dec 11 02:40:00 CET 2000 - Iveta ended playing with animal
+21) Mon Dec 11 02:40:00 CET 2000 - Lisa ended using baby ultimatum device
 
-22) Mon Dec 11 02:40:00 CET 2000 - Oldrich ended using baby ultimatum device
+22) Mon Dec 11 02:40:00 CET 2000 - Lisa started using baby ultimatum device and will be doing it for 10 minutes
 
 23) Mon Dec 11 02:40:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
 
-24) Mon Dec 11 02:50:00 CET 2000 - Ilona ended playing with animal
+24) Mon Dec 11 02:50:00 CET 2000 - Lisa ended using baby ultimatum device
 
-25) Mon Dec 11 03:00:00 CET 2000 - Iveta ended playing with animal
+25) Mon Dec 11 02:50:00 CET 2000 - Lisa started using baby ultimatum device and will be doing it for 10 minutes
 
-26) Mon Dec 11 03:00:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
+26) Mon Dec 11 03:00:00 CET 2000 - Iveta ended playing with animal
 
-27) Mon Dec 11 03:20:00 CET 2000 - Iveta ended playing with animal
+27) Mon Dec 11 03:00:00 CET 2000 - Lisa ended using baby ultimatum device
 
-28) Mon Dec 11 03:40:00 CET 2000 - Iveta started using bed2 and will be doing it for 70 minutes
+28) Mon Dec 11 03:00:00 CET 2000 - Lisa started playing with animal and will be doing it for 20
 
-29) Mon Dec 11 03:50:00 CET 2000 - Honzik ended using first bike
+29) Mon Dec 11 03:00:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
 
-30) Mon Dec 11 03:50:00 CET 2000 - Maruska started using first bike and will be doing it for 100 minutes
+30) Mon Dec 11 03:00:00 CET 2000 - Honzik started using computer and will be doing it for 20 minutes
 
-31) Mon Dec 11 04:10:00 CET 2000 - Honzik started using bath and will be doing it for 40 minutes
+31) Mon Dec 11 03:20:00 CET 2000 - Lisa ended playing with animal
 
-32) Mon Dec 11 04:50:00 CET 2000 - Iveta ended using bed2
+32) Mon Dec 11 03:20:00 CET 2000 - Iveta ended playing with animal
 
-33) Mon Dec 11 04:50:00 CET 2000 - Honzik ended using bath
+33) Mon Dec 11 03:20:00 CET 2000 - Honzik ended using computer
 
-34) Mon Dec 11 04:50:00 CET 2000 - Iveta started using baby ultimatum device and will be doing it for 10 minutes
+34) Mon Dec 11 03:20:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
 
-35) Mon Dec 11 05:00:00 CET 2000 - Iveta ended using baby ultimatum device
+35) Mon Dec 11 03:20:00 CET 2000 - Lisa started playing with animal and will be doing it for 20
 
-36) Mon Dec 11 05:00:00 CET 2000 - Iveta started using baby ultimatum device and will be doing it for 10 minutes
+36) Mon Dec 11 03:40:00 CET 2000 - Iveta ended playing with animal
 
-37) Mon Dec 11 05:10:00 CET 2000 - Iveta ended using baby ultimatum device
+37) Mon Dec 11 03:40:00 CET 2000 - Lisa ended playing with animal
 
-38) Mon Dec 11 05:10:00 CET 2000 - Honzik started using second bike and will be doing it for 100 minutes
+38) Mon Dec 11 03:40:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
 
-39) Mon Dec 11 05:30:00 CET 2000 - Maruska ended using first bike
+39) Mon Dec 11 03:40:00 CET 2000 - Lisa started playing with animal and will be doing it for 20
 
-40) Mon Dec 11 05:30:00 CET 2000 - Iveta started using cloth wash and will be doing it for 40 minutes
+40) Mon Dec 11 03:40:00 CET 2000 - Honzik started using bed and will be doing it for 50 minutes
 
-41) Mon Dec 11 05:50:00 CET 2000 - Maruska started using dish wash and will be doing it for 60 minutes
+41) Mon Dec 11 03:50:00 CET 2000 - Maruska ended using first bike
 
-42) Mon Dec 11 06:10:00 CET 2000 - Iveta ended using cloth wash
+42) Mon Dec 11 04:00:00 CET 2000 - Iveta ended playing with animal
 
-43) Mon Dec 11 06:30:00 CET 2000 - Iveta started using toilet and will be doing it for 10 minutes
+43) Mon Dec 11 04:00:00 CET 2000 - Lisa ended playing with animal
 
-44) Mon Dec 11 06:40:00 CET 2000 - Iveta ended using toilet
+44) Mon Dec 11 04:00:00 CET 2000 - Lisa started playing with animal and will be doing it for 20
 
-45) Mon Dec 11 06:50:00 CET 2000 - Honzik ended using second bike
+45) Mon Dec 11 04:00:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
 
-46) Mon Dec 11 06:50:00 CET 2000 - Maruska ended using dish wash
+46) Mon Dec 11 04:10:00 CET 2000 - Maruska started using cloth wash and will be doing it for 40 minutes
 
-47) Mon Dec 11 07:00:00 CET 2000 - Iveta started using refrigerator and will be doing it for 50 minutes
+47) Mon Dec 11 04:20:00 CET 2000 - Lisa ended playing with animal
 
-48) Mon Dec 11 07:10:00 CET 2000 - Honzik started using bed and will be doing it for 50 minutes
+48) Mon Dec 11 04:20:00 CET 2000 - Iveta ended playing with animal
 
-49) Mon Dec 11 07:10:00 CET 2000 - Maruska started using toilet and will be doing it for 10 minutes
+49) Mon Dec 11 04:20:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
 
-50) Mon Dec 11 07:20:00 CET 2000 - Maruska ended using toilet
+50) Mon Dec 11 04:20:00 CET 2000 - Lisa started playing with animal and will be doing it for 20
 
-51) Mon Dec 11 07:40:00 CET 2000 - Maruska started using dish wash and will be doing it for 60 minutes
+51) Mon Dec 11 04:30:00 CET 2000 - Honzik ended using bed
 
-52) Mon Dec 11 07:50:00 CET 2000 - Iveta ended using refrigerator
+52) Mon Dec 11 04:40:00 CET 2000 - Iveta ended playing with animal
 
-53) Mon Dec 11 08:00:00 CET 2000 - Honzik ended using bed
+53) Mon Dec 11 04:40:00 CET 2000 - Lisa ended playing with animal
 
-54) Mon Dec 11 08:10:00 CET 2000 - Iveta started using toilet and will be doing it for 10 minutes
+54) Mon Dec 11 04:40:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
 
-55) Mon Dec 11 08:20:00 CET 2000 - Iveta ended using toilet
+55) Mon Dec 11 04:40:00 CET 2000 - Lisa started playing with animal and will be doing it for 20
 
-56) Mon Dec 11 08:20:00 CET 2000 - Honzik started using bath and will be doing it for 40 minutes
+56) Mon Dec 11 04:50:00 CET 2000 - Maruska ended using cloth wash
 
-57) Mon Dec 11 08:40:00 CET 2000 - Maruska ended using dish wash
+57) Mon Dec 11 04:50:00 CET 2000 - Honzik started using second bike and will be doing it for 100 minutes
 
-58) Mon Dec 11 09:00:00 CET 2000 - Honzik ended using bath
+58) Mon Dec 11 05:00:00 CET 2000 - Iveta ended playing with animal
 
-59) Mon Dec 11 09:00:00 CET 2000 - Maruska started using refrigerator3 and will be doing it for 50 minutes
+59) Mon Dec 11 05:00:00 CET 2000 - Lisa ended playing with animal
 
-60) Mon Dec 11 09:20:00 CET 2000 - Honzik started using refrigerator2 and will be doing it for 50 minutes
+60) Mon Dec 11 05:00:00 CET 2000 - Lisa started using baby ultimatum device and will be doing it for 10 minutes
 
-61) Mon Dec 11 09:50:00 CET 2000 - Maruska ended using refrigerator3
+61) Mon Dec 11 05:00:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
 
-62) Mon Dec 11 10:10:00 CET 2000 - Honzik ended using refrigerator2
+62) Mon Dec 11 05:10:00 CET 2000 - Lisa ended using baby ultimatum device
 
-63) Mon Dec 11 10:10:00 CET 2000 - Maruska started using dish wash and will be doing it for 60 minutes
+63) Mon Dec 11 05:10:00 CET 2000 - Lisa started playing with animal and will be doing it for 20
 
-64) Mon Dec 11 10:30:00 CET 2000 - Honzik started using refrigerator and will be doing it for 50 minutes
+64) Mon Dec 11 05:10:00 CET 2000 - Maruska started using bed and will be doing it for 50 minutes
 
-65) Mon Dec 11 11:10:00 CET 2000 - Maruska ended using dish wash
+65) Mon Dec 11 05:20:00 CET 2000 - Iveta ended playing with animal
 
-66) Mon Dec 11 11:20:00 CET 2000 - Honzik ended using refrigerator
+66) Mon Dec 11 05:20:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
 
-67) Mon Dec 11 11:30:00 CET 2000 - Maruska started using first bike and will be doing it for 100 minutes
+67) Mon Dec 11 05:30:00 CET 2000 - Lisa ended playing with animal
 
-68) Mon Dec 11 11:40:00 CET 2000 - Honzik started using second bike and will be doing it for 100 minutes
+68) Mon Dec 11 05:30:00 CET 2000 - Lisa started using baby ultimatum device and will be doing it for 10 minutes
 
-69) Mon Dec 11 13:10:00 CET 2000 - Maruska ended using first bike
+69) Mon Dec 11 05:40:00 CET 2000 - Iveta ended playing with animal
 
-70) Mon Dec 11 13:20:00 CET 2000 - Honzik ended using second bike
+70) Mon Dec 11 05:40:00 CET 2000 - Lisa ended using baby ultimatum device
 
-71) Mon Dec 11 13:30:00 CET 2000 - Maruska started using cloth wash and will be doing it for 40 minutes
+71) Mon Dec 11 05:40:00 CET 2000 - Lisa started playing with animal and will be doing it for 20
 
-72) Mon Dec 11 13:40:00 CET 2000 - Honzik started using dish wash and will be doing it for 60 minutes
+72) Mon Dec 11 05:40:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
 
-73) Mon Dec 11 14:10:00 CET 2000 - Maruska ended using cloth wash
+73) Mon Dec 11 06:00:00 CET 2000 - Maruska ended using bed
 
-74) Mon Dec 11 14:30:00 CET 2000 - Maruska started using bed and will be doing it for 50 minutes
+74) Mon Dec 11 06:00:00 CET 2000 - Lisa ended playing with animal
 
-75) Mon Dec 11 14:40:00 CET 2000 - Honzik ended using dish wash
+75) Mon Dec 11 06:00:00 CET 2000 - Iveta ended playing with animal
 
-76) Mon Dec 11 15:00:00 CET 2000 - Honzik started using bed2 and will be doing it for 70 minutes
+76) Mon Dec 11 06:00:00 CET 2000 - Lisa started playing with animal and will be doing it for 20
 
-77) Mon Dec 11 15:20:00 CET 2000 - Maruska ended using bed
+77) Mon Dec 11 06:00:00 CET 2000 - Iveta started playing with animal and will be doing it for 20
 
-78) Mon Dec 11 15:40:00 CET 2000 - Maruska started using cloth wash and will be doing it for 40 minutes
+78) Mon Dec 11 06:20:00 CET 2000 - Lisa ended playing with animal
 
-79) Mon Dec 11 16:10:00 CET 2000 - Honzik ended using bed2
+79) Mon Dec 11 06:20:00 CET 2000 - Iveta ended playing with animal
 
-80) Mon Dec 11 16:20:00 CET 2000 - Maruska ended using cloth wash
+80) Mon Dec 11 06:20:00 CET 2000 - Lisa started playing with animal and will be doing it for 20
 
-81) Mon Dec 11 16:30:00 CET 2000 - Honzik started using bath and will be doing it for 40 minutes
+81) Mon Dec 11 06:20:00 CET 2000 - Maruska started using refrigerator3 and will be doing it for 50 minutes
 
-82) Mon Dec 11 16:40:00 CET 2000 - Maruska started using second bike and will be doing it for 100 minutes
+82) Mon Dec 11 06:30:00 CET 2000 - Honzik ended using second bike
+
+83) Mon Dec 11 06:40:00 CET 2000 - Lisa ended playing with animal
+
+84) Mon Dec 11 06:40:00 CET 2000 - Lisa started playing with animal and will be doing it for 20
+
+85) Mon Dec 11 06:50:00 CET 2000 - Honzik started using dish wash and will be doing it for 60 minutes
+
+86) Mon Dec 11 07:00:00 CET 2000 - Lisa ended playing with animal
+
+87) Mon Dec 11 07:00:00 CET 2000 - Lisa started playing with animal and will be doing it for 20
+
+88) Mon Dec 11 07:10:00 CET 2000 - Maruska ended using refrigerator3
+
+89) Mon Dec 11 07:20:00 CET 2000 - Lisa ended playing with animal
+
+90) Mon Dec 11 07:20:00 CET 2000 - Lisa started playing with animal and will be doing it for 20
+
+91) Mon Dec 11 07:30:00 CET 2000 - Maruska started using second bike and will be doing it for 100 minutes
+
+92) Mon Dec 11 07:40:00 CET 2000 - Lisa ended playing with animal
+
+93) Mon Dec 11 07:40:00 CET 2000 - Lisa started using baby ultimatum device and will be doing it for 10 minutes
+
+94) Mon Dec 11 07:50:00 CET 2000 - Honzik ended using dish wash
+
+95) Mon Dec 11 07:50:00 CET 2000 - Lisa ended using baby ultimatum device
+
+96) Mon Dec 11 08:10:00 CET 2000 - Honzik started using refrigerator and will be doing it for 50 minutes
+
+97) Mon Dec 11 09:00:00 CET 2000 - Honzik ended using refrigerator
+
+98) Mon Dec 11 09:10:00 CET 2000 - Maruska ended using second bike
+
+99) Mon Dec 11 09:20:00 CET 2000 - Honzik started using dish wash and will be doing it for 60 minutes
+
+100) Mon Dec 11 10:20:00 CET 2000 - Honzik ended using dish wash
+
+101) Mon Dec 11 10:20:00 CET 2000 - Maruska started using dish wash and will be doing it for 60 minutes
+
+102) Mon Dec 11 10:40:00 CET 2000 - Honzik started using bed and will be doing it for 50 minutes
+
+103) Mon Dec 11 11:20:00 CET 2000 - Maruska ended using dish wash
+
+104) Mon Dec 11 11:30:00 CET 2000 - Honzik ended using bed
+
+105) Mon Dec 11 11:30:00 CET 2000 - Maruska started using bath and will be doing it for 40 minutes
+
+106) Mon Dec 11 11:50:00 CET 2000 - Honzik started using dish wash and will be doing it for 60 minutes
+
+107) Mon Dec 11 12:10:00 CET 2000 - Maruska ended using bath
+
+108) Mon Dec 11 12:30:00 CET 2000 - Maruska started using tv and will be doing it for 40 minutes
+
+109) Mon Dec 11 12:50:00 CET 2000 - Honzik ended using dish wash
+
+110) Mon Dec 11 13:00:00 CET 2000 - Honzik started using bath and will be doing it for 40 minutes
+
+111) Mon Dec 11 13:10:00 CET 2000 - Maruska ended using tv
+
+112) Mon Dec 11 13:30:00 CET 2000 - Maruska started using second bike and will be doing it for 100 minutes
+
+113) Mon Dec 11 13:40:00 CET 2000 - Honzik ended using bath
+
+114) Mon Dec 11 14:00:00 CET 2000 - Honzik started using first bike and will be doing it for 100 minutes
+
+115) Mon Dec 11 15:10:00 CET 2000 - Maruska ended using second bike
+
+116) Mon Dec 11 15:30:00 CET 2000 - Maruska started using dish wash and will be doing it for 60 minutes
+
+117) Mon Dec 11 15:40:00 CET 2000 - Honzik ended using first bike
+
+118) Mon Dec 11 15:50:00 CET 2000 - Honzik started using first bike and will be doing it for 100 minutes
+
+119) Mon Dec 11 16:30:00 CET 2000 - Maruska ended using dish wash
+
+120) Mon Dec 11 16:40:00 CET 2000 - Maruska started using cloth wash and will be doing it for 40 minutes
 
 
-Oldrich's stats after simulation are : hunger: 64 clean: 44 happiness: 97 fresh: 54
+Bart's stats after simulation are : hunger: 77 clean: 77 happiness: 77 fresh: 77
+
+Lisa's stats after simulation are : hunger: 64 clean: 44 happiness: 97 fresh: 54
+
+Mimino druhe's stats after simulation are : hunger: -2 clean: -2 happiness: -2 fresh: -2
+
+Oldrich's stats after simulation are : hunger: 77 clean: 77 happiness: 77 fresh: 77
 
 Pepa's stats after simulation are : hunger: 77 clean: 77 happiness: 77 fresh: 77
 
-Iveta's stats after simulation are : hunger: 89 clean: 54 happiness: 97 fresh: 65
+Iveta's stats after simulation are : hunger: 34 clean: 9 happiness: 62 fresh: 29
 
-Ilona's stats after simulation are : hunger: 64 clean: 44 happiness: 97 fresh: 54
+Ilona's stats after simulation are : hunger: 77 clean: 77 happiness: 77 fresh: 77
 
-Honzik's stats after simulation are : hunger: 78 clean: 52 happiness: 97 fresh: 97
+Honzik's stats after simulation are : hunger: 72 clean: 64 happiness: 97 fresh: 68
 
-Maruska's stats after simulation are : hunger: 72 clean: 97 happiness: 97 fresh: 84
+Maruska's stats after simulation are : hunger: 59 clean: 58 happiness: 97 fresh: 91
 
 Mimino's stats after simulation are : hunger: -2 clean: -2 happiness: -2 fresh: -2
 
-Mourek's stats after simulation are : hunger: -1 happiness: 52
+Mourek's stats after simulation are : hunger: -1 happiness: 100
 
-DogeCoin's stats after simulation are : hunger: -1 happiness: 55
+Kocourek's stats after simulation are : hunger: -1 happiness: 76
 
-Bitcoin's stats after simulation are : hunger: -1 happiness: 58
+Hrstka's stats after simulation are : hunger: -1 happiness: 100
+
+DogeCoin's stats after simulation are : hunger: -1 happiness: 100
+
+Bitcoin's stats after simulation are : hunger: -1 happiness: 97
+
+Penguin's stats after simulation are : hunger: -1 happiness: 100
+
+Penguinik's stats after simulation are : hunger: -1 happiness: 100

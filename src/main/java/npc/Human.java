@@ -19,6 +19,9 @@ public abstract class Human extends Tracker {
     private House house;
     private boolean isDoingSt = false;
 
+    /**
+     * human stats
+     */
     private int happiness = Constants.START_HAPPINESS;
     private int hungry = Constants.START_HUNGRY;
     private int clean = Constants.START_CLEAN;
@@ -34,6 +37,9 @@ public abstract class Human extends Tracker {
         this.sound = sound;
     }
 
+    /**
+     * claim stats from device
+     */
     public void claimSatisfy(Device device){
         happiness = Math.min(happiness + device.happiness(), Constants.MAX_HAPPINESS);
         clean = Math.min(clean + device.cleaning(), Constants.MAX_CLEAN);
@@ -41,6 +47,9 @@ public abstract class Human extends Tracker {
         hungry = Math.min(hungry + device.hungry(), Constants.MAX_HUNGRY);
     }
 
+    /**
+     * every tick human loses his stats
+     */
     public void dropStats(){
         happiness = happiness - Constants.INDEX;
         fresh = fresh - Constants.INDEX;
