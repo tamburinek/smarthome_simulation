@@ -63,14 +63,16 @@ public class EventVisitor implements Visitor {
     }
 
     public boolean visitRepairEvent(RepairEvent event){
-            if (!event.getUsingDevice().getState().isBroken()){
+        if (Event.activitiesToDo.contains(event) || Event.notifications.contains(event)) {
+            if (!event.getUsingDevice().getState().isBroken() || event.getUsingDevice().getHumanUsingDevice() != null){
                 return true;
             }
-
             if (event.getHuman().isIn(event.getUsingDevice().getLocation())) {
                 if (!event.getHuman().isDoingSt()) {
-                    event.getUsingDevice().repairDevice(event.getHuman());
-                    Event.doneEvents.add(new PrintingEvent(event.getUsingDevice(), event.getHuman(), 0, NotificationType.ENDED_REPAIRING));
+                    event.getHuman().setDoingSt(true);
+                    event.getUsingDevice().setHumanUsingDevice(event.getHuman());
+                    Event.doneEvents.add(new PrintingEvent(event.getUsingDevice(), event.getHuman(), event.getUsingDevice().getRepairDifficulty(), NotificationType.STARTED_REPAIRING));
+                    Event.currentActivities.add(event);
                     return true;
                 } else
                     return false;
@@ -78,6 +80,16 @@ public class EventVisitor implements Visitor {
                 event.getHuman().setLocation(event.getUsingDevice().getLocation());
                 return false;
             }
+        }
+        else if (Event.currentActivities.contains(event)) {
+            event.setDuration(event.getDuration() - 10);
+            if (event.getDuration() <= 0) {
+                Event.doneEvents.add(new PrintingEvent(event.getUsingDevice(), event.getHuman(), 0, NotificationType.ENDED_REPAIRING));
+                event.getUsingDevice().repairDevice(event.getHuman());
+                return true;
+            }
+        }
+        return false;
     }
 
     public boolean animalEvent(AnimalEvent event){

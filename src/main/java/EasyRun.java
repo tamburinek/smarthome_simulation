@@ -43,9 +43,9 @@ public class EasyRun {
 
         Device clothWash = DeviceFactory.createClothWash("cloth wash", 10, 2, 60, manual);
         bathroom.addDevice(clothWash);
-        Device computer = new Computer("computer", 10, 2, 80, manual);
+        Device computer = new Computer("computer", 20, 2, 80, manual);
         bathroom.addDevice(computer);
-        Device dishWash = new DishWash("dish wash", 10, 2, 40, manual);
+        Device dishWash = new DishWash("dish wash", 20, 2, 40, manual);
         bathroom.addDevice(dishWash);
         Device phone = new Phone("phone", 10, 2, 35, manual);
         bathroom.addDevice(phone);
@@ -57,11 +57,11 @@ public class EasyRun {
         bathroom.addDevice(tv);
         Device workingComputer = new WorkingComputer("work", 0, 0, 0, manual);
         bathroom.addDevice(workingComputer);
-        Device refrigerator = new Refrigerator("refrigerator", 10, 2, 50, manual);
+        Device refrigerator = new Refrigerator("refrigerator", 20, 2, 50, manual);
         bathroom.addDevice(refrigerator);
-        Device refrigerator2 = new Refrigerator("refrigerator2", 10, 2, 50, manual);
+        Device refrigerator2 = new Refrigerator("refrigerator2", 40, 2, 50, manual);
         bathroom.addDevice(refrigerator2);
-        Device refrigerator3 = new Refrigerator("refrigerator3", 10, 2, 50, manual);
+        Device refrigerator3 = new Refrigerator("refrigerator3", 60, 2, 50, manual);
         bathroom.addDevice(refrigerator3);
         Device bike = new Bike("bike", 10, 2, 0, manual);
         bathroom.addDevice(bike);
