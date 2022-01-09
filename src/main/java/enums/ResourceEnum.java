@@ -30,6 +30,7 @@ public enum ResourceEnum {
         @Override
         public void add(int quantity) {
             this.quantity += quantity;
+            ResourceEnum.MONEY.consume(price * quantity);
         }
 
         @Override
@@ -74,6 +75,7 @@ public enum ResourceEnum {
         @Override
         public void add(int quantity) {
             this.quantity += quantity;
+            ResourceEnum.MONEY.consume(price * quantity);
         }
 
         @Override
@@ -118,6 +120,7 @@ public enum ResourceEnum {
         @Override
         public void add(int quantity) {
             this.quantity += quantity;
+            ResourceEnum.MONEY.consume(price * quantity);
         }
 
         @Override
@@ -205,6 +208,7 @@ public enum ResourceEnum {
         @Override
         public void add(int quantity) {
             this.quantity += quantity;
+            ResourceEnum.MONEY.consume(price * quantity);
         }
 
         @Override

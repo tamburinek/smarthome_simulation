@@ -5,6 +5,7 @@ import iterator.ConfigurationIterator;
 import manuals.Manual;
 import manuals.ManualProxyImpl;
 import npc.*;
+import sensors.ResourceSensor;
 import sensors.Sensor;
 import strategy.EasyStrategy;
 
@@ -20,6 +21,9 @@ public class EasyRun {
         ArrayList<Sensor> sensors = new ArrayList<>();
 
         Manual manual = new ManualProxyImpl();
+
+        ResourceSensor resourceSensor = new ResourceSensor();
+        sensors.add(resourceSensor);
 
         //first floor
         Floor firstFloor = new Floor("first");

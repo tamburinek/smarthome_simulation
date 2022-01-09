@@ -48,6 +48,10 @@ House:
                     tv
                     computer
 
+
+               Sensors:
+                    resource sensor
+
 Human and Animals:
      Oldrich
      Pepa

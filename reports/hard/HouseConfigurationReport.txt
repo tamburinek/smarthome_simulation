@@ -13,7 +13,8 @@ House:
                     garage light
           Room: entry
                Devices:
-                    bike
+                    first bike
+                    second bike
                     entry light
      Floor: second
           Room: toilet
@@ -39,12 +40,17 @@ House:
                     bed
                     phone
                     radio
+                    baby ultimatum device
           Room: parents room
                Devices:
                     parents room light
                     bed2
                     tv
                     computer
+
+
+               Sensors:
+                    resource sensor
 
 Human and Animals:
      Oldrich

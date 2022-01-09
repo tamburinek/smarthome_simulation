@@ -49,7 +49,10 @@ House:
                     bed2
                     tv
                     computer
+
+
                Sensors:
+                    resource sensor
 
 Human and Animals:
      Oldrich

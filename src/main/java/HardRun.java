@@ -6,6 +6,8 @@ import iterator.ConfigurationIterator;
 import manuals.Manual;
 import manuals.ManualProxyImpl;
 import npc.*;
+import sensors.ResourceSensor;
+import sensors.Sensor;
 import strategy.HardStrategy;
 
 import java.util.ArrayList;
@@ -16,8 +18,12 @@ public class HardRun {
         ArrayList<Floor> floors = new ArrayList<>();
         ArrayList<Animal> animals = new ArrayList<>();
         ArrayList<Human> humans = new ArrayList<>();
+        ArrayList<Sensor> sensors = new ArrayList<>();
 
         Manual manual = new ManualProxyImpl();
+
+        ResourceSensor resourceSensor = new ResourceSensor();
+        sensors.add(resourceSensor);
 
         //first floor
         Floor firstFloor = new Floor("first");
@@ -142,7 +148,7 @@ public class HardRun {
         animals.add(dog2);
 
         HouseBuilder builder = new HouseBuilder();
-        House testHouse = builder.houseName("test").floors(floors).animals(animals).humans(humans).getResult();
+        House testHouse = builder.houseName("test").floors(floors).animals(animals).humans(humans).sensors(sensors).getResult();
         HouseController runner = new HouseController(testHouse, new HardStrategy());
 
 

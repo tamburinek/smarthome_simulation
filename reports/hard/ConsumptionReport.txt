@@ -3,54 +3,58 @@ This is file of all consumes
 
 1) animal light consumed 200 electricity and 0 gas and 0 water
 
-2) refrigerator consumed 500 electricity and 0 gas and 1300 water
+2) refrigerator consumed 500 electricity and 0 gas and 500 water
 
 3) car consumed 0 electricity and 10000 gas and 0 water
 
 4) garage light consumed 200 electricity and 0 gas and 0 water
 
-5) bike consumed 0 electricity and 0 gas and 0 water
+5) first bike consumed 0 electricity and 0 gas and 0 water
 
-6) entry light consumed 200 electricity and 0 gas and 0 water
+6) second bike consumed 0 electricity and 0 gas and 0 water
 
-7) toilet consumed 0 electricity and 0 gas and 450 water
+7) entry light consumed 200 electricity and 0 gas and 0 water
 
-8) toilet light consumed 200 electricity and 0 gas and 0 water
+8) toilet consumed 0 electricity and 0 gas and 150 water
 
-9) kitchen light consumed 200 electricity and 0 gas and 0 water
+9) toilet light consumed 200 electricity and 0 gas and 0 water
 
-10) refrigerator2 consumed 500 electricity and 0 gas and 1000 water
+10) kitchen light consumed 200 electricity and 0 gas and 0 water
 
-11) refrigerator3 consumed 500 electricity and 0 gas and 1750 water
+11) refrigerator2 consumed 500 electricity and 0 gas and 250 water
 
-12) bathroom light consumed 200 electricity and 0 gas and 0 water
+12) refrigerator3 consumed 500 electricity and 0 gas and 250 water
 
-13) bath consumed 2024 electricity and 0 gas and 2400 water
+13) bathroom light consumed 200 electricity and 0 gas and 0 water
 
-14) cloth wash consumed 1568 electricity and 0 gas and 1800 water
+14) bath consumed 580 electricity and 0 gas and 500 water
 
-15) dish wash consumed 1796 electricity and 0 gas and 2100 water
+15) cloth wash consumed 656 electricity and 0 gas and 600 water
 
-16) work consumed 0 electricity and 0 gas and 0 water
+16) dish wash consumed 1112 electricity and 0 gas and 1200 water
 
-17) kids room light consumed 200 electricity and 0 gas and 0 water
+17) work consumed 0 electricity and 0 gas and 0 water
 
-18) bed consumed 0 electricity and 0 gas and 0 water
+18) kids room light consumed 200 electricity and 0 gas and 0 water
 
-19) phone consumed 500 electricity and 0 gas and 0 water
+19) bed consumed 0 electricity and 0 gas and 0 water
 
-20) radio consumed 732 electricity and 0 gas and 0 water
+20) phone consumed 500 electricity and 0 gas and 0 water
 
-21) parents room light consumed 200 electricity and 0 gas and 0 water
+21) radio consumed 200 electricity and 0 gas and 0 water
 
-22) bed2 consumed 0 electricity and 0 gas and 0 water
+22) baby ultimatum device consumed 690 electricity and 690 gas and 690 water
 
-23) tv consumed 656 electricity and 0 gas and 0 water
+23) parents room light consumed 200 electricity and 0 gas and 0 water
 
-24) computer consumed 808 electricity and 0 gas and 0 water
+24) bed2 consumed 0 electricity and 0 gas and 0 water
 
-all consumed electricity 11184
-all consumed food 4050
-all consumed water 10800
-all consumed gas 10000
-all consumed money 0
+25) tv consumed 200 electricity and 0 gas and 0 water
+
+26) computer consumed 200 electricity and 0 gas and 0 water
+
+all consumed electricity 7238
+all consumed food 1500
+all consumed water 4140
+all consumed gas 10690
+all consumed money 132000

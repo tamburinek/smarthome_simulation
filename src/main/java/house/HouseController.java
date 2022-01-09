@@ -7,6 +7,8 @@ import iterator.ConsumeIterator;
 import iterator.EventIterator;
 import iterator.NotificationIterator;
 import notification.NeedsNotification;
+import notification.Notification;
+import notification.ResourceNotification;
 import npc.Animal;
 import npc.Baby;
 import npc.Human;
@@ -118,9 +120,15 @@ public class HouseController {
                 }
             }
 
+            //checking if we have enough money
             for (Sensor sensor : house.getSensors()) {
                 if (sensor.isSomethingWrong()){
-                    sensor.makeNotification();
+                    device = Helper.findDevice(house.getDevices(), DeviceType.WORK);
+                    Human human = Helper.findPersonForActivity(20,house.getHumans());
+                    if (device != null && human != null){
+                        Event.activitiesToDo.add(new BasicEvent(device, human, device.getDuration()));
+                        Event.allNotifications.add(new ResourceNotification(Time.getCurrentTime() + " - hey we need to find some money"));
+                    }
                 }
             }
 
