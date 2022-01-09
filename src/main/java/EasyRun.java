@@ -60,6 +60,8 @@ public class EasyRun {
         bathroom.addDevice(refrigerator);
         Device refrigerator2 = new Refrigerator("refrigerator2", 10, 2, 0, manual);
         bathroom.addDevice(refrigerator2);
+        Device refrigerator3 = new Refrigerator("refrigerator3", 10, 2, 0, manual);
+        bathroom.addDevice(refrigerator3);
         Device bike = new Bike("bike", 10, 2, 0, manual);
         bathroom.addDevice(bike);
 

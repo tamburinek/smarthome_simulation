@@ -60,7 +60,7 @@ public class HouseController {
                     device = Helper.findDevice(house.getDevices(), DeviceType.SLEEPING);
                     Event.allNotifications.add(new NeedsNotification(Time.getCurrentTime() + " - " + human.getName() + " is tired"));
                 }
-                else if (human.getHungry() < 60) {
+                else if (human.getHungry() < 20) {
                     device = Helper.findDevice(house.getDevices(), DeviceType.EAT);
                     Event.allNotifications.add(new NeedsNotification(Time.getCurrentTime() + " - " + human.getName() + " is hungry"));
                 }
@@ -101,7 +101,7 @@ public class HouseController {
 
         EventIterator iterator = new EventIterator(filename);
         NotificationIterator iterator1  = new NotificationIterator(filename1);
-        ConsumeIterator iterator2 = new ConsumeIterator(filename2);
+        ConsumeIterator iterator2 = new ConsumeIterator(filename2, house.getDevices());
 
         while (iterator.hasNext()){
             iterator.next();
@@ -117,5 +117,6 @@ public class HouseController {
         while (iterator2.hasNext()){
             iterator2.next();
         }
+        iterator2.last();
     }
 }

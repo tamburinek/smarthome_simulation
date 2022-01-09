@@ -5,6 +5,7 @@ public enum ResourceEnum {
     ELECTRICITY{
         private int price = 0;
         private int quantity = 0;
+        private int consumedElectricity = 0;
 
         @Override
         public int price() {
@@ -38,11 +39,17 @@ public enum ResourceEnum {
             return quantity;
         }
 
+        @Override
+        public int consumedEnd() {
+            return consumedElectricity;
+        }
+
     },
 
     FOOD{
         private int price = 0;
         private int quantity = 0;
+        private int consumedFood = 0;
 
         @Override
         public int price() {
@@ -76,11 +83,17 @@ public enum ResourceEnum {
             return quantity;
         }
 
+        @Override
+        public int consumedEnd() {
+            return consumedFood;
+        }
+
     },
 
     GAS{
         private int price = 0;
         private int quantity = 0;
+        private int consumedGas = 0;
 
         @Override
         public int price() {
@@ -114,11 +127,17 @@ public enum ResourceEnum {
             return quantity;
         }
 
+        @Override
+        public int consumedEnd() {
+            return consumedGas;
+        }
+
     },
 
     MONEY{
         private int price = 1;
         private int quantity = 0;
+        private int consumedMoney = 0;
 
         @Override
         public int price() {
@@ -143,7 +162,6 @@ public enum ResourceEnum {
         @Override
         public void add(int quantity) {
             this.quantity += quantity;
-            earnedMoney += quantity;
         }
 
         @Override
@@ -153,11 +171,16 @@ public enum ResourceEnum {
             return quantity;
         }
 
-    },
+        @Override
+        public int consumedEnd() {
+            return consumedMoney;
+        }
+        },
 
     WATER{
         private int price = 0;
         private int quantity = 0;
+        private int consumedWater = 0;
 
         @Override
         public int price() {
@@ -191,6 +214,11 @@ public enum ResourceEnum {
             return quantity;
         }
 
+        @Override
+        public int consumedEnd() {
+            return consumedWater;
+        }
+
     };
 
     public abstract int price();
@@ -199,12 +227,5 @@ public enum ResourceEnum {
     public abstract int getQuantity();
     public abstract void add(int quantity);
     public abstract int consume(int quantity);
-
-    public int consumedElectricity = 0;
-    public int consumedFood = 0;
-    public int consumedGas = 0;
-    public int consumedMoney = 0;
-    public int earnedMoney = 0;
-    public int consumedWater = 0;
-
+    public abstract int consumedEnd();
 }
