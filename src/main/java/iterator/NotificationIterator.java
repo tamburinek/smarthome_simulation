@@ -16,6 +16,8 @@ public class NotificationIterator implements Iterator{
             FileWriter myWriter = new FileWriter(file);
             myWriter.write("This is file of all notifications");
             myWriter.write("\r\n");
+            myWriter.write("------------------------------------");
+            myWriter.write("\r\n");
             myWriter.write("\r\n");
             myWriter.close();
         } catch (IOException e) {

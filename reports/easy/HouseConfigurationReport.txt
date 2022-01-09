@@ -1,0 +1,40 @@
+This is file of house configuration
+------------------------------------
+
+House:
+     Floor: first
+          Room: animal room
+               Devices:
+          Room: garage
+               Devices:
+          Room: entry
+               Devices:
+     Floor: second
+          Room: bathroom
+               Devices:
+                    bath
+                    bed
+                    cloth wash
+                    computer
+                    dish wash
+                    phone
+                    radio
+                    bed2
+                    tv
+                    work
+                    refrigerator
+                    refrigerator2
+                    refrigerator3
+                    bike
+     Floor: third
+
+Human and Animals:
+     Pepa
+     Iveta
+     Ilona
+     Honzik
+     Maruska
+     Mimino
+     Mourek
+     DogeCoin
+     Bitcoin

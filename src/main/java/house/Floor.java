@@ -22,6 +22,10 @@ public class Floor {
         rooms.add(room);
     }
 
+    public String getName() {
+        return name;
+    }
+
     public House getHouse() {
         return house;
     }

@@ -1,6 +1,7 @@
 import devices.*;
 import enums.Gender;
 import house.*;
+import iterator.ConfigurationIterator;
 import manuals.Manual;
 import manuals.ManualProxyImpl;
 import npc.*;
@@ -40,7 +41,7 @@ public class EasyRun {
         Device bed = new Bed("bed", 10, 2, 50, manual);
         bathroom.addDevice(bed);
 
-        Device clothWash = DeviceFactory.createClothWash("cloth wash", 10, 2, 20, manual);
+        Device clothWash = DeviceFactory.createClothWash("cloth wash", 10, 2, 60, manual);
         bathroom.addDevice(clothWash);
         Device computer = new Computer("computer", 10, 2, 80, manual);
         bathroom.addDevice(computer);
@@ -50,17 +51,17 @@ public class EasyRun {
         bathroom.addDevice(phone);
         Device radio = new Radio("radio", 10, 2, 90, manual);
         bathroom.addDevice(radio);
-        Device bed2 = new Bed("bed2", 10, 2, 10, manual);
+        Device bed2 = new Bed("bed2", 10, 2, 30, manual);
         bathroom.addDevice(bed2);
         Device tv = new Television("tv", 10, 2, 60, manual);
         bathroom.addDevice(tv);
         Device workingComputer = new WorkingComputer("work", 10, 2, 0, manual);
         bathroom.addDevice(workingComputer);
-        Device refrigerator = new Refrigerator("refrigerator", 10, 2, 0, manual);
+        Device refrigerator = new Refrigerator("refrigerator", 10, 2, 50, manual);
         bathroom.addDevice(refrigerator);
-        Device refrigerator2 = new Refrigerator("refrigerator2", 10, 2, 0, manual);
+        Device refrigerator2 = new Refrigerator("refrigerator2", 10, 2, 50, manual);
         bathroom.addDevice(refrigerator2);
-        Device refrigerator3 = new Refrigerator("refrigerator3", 10, 2, 0, manual);
+        Device refrigerator3 = new Refrigerator("refrigerator3", 10, 2, 50, manual);
         bathroom.addDevice(refrigerator3);
         Device bike = new Bike("bike", 10, 2, 0, manual);
         bathroom.addDevice(bike);
@@ -114,5 +115,8 @@ public class EasyRun {
         //running simulation
         runner.runSimulation(70);
 
+        ConfigurationIterator iterator = new ConfigurationIterator(testHouse,"reports/easy/HouseConfigurationReport.txt");
+        iterator.next();
+        iterator.last();
     }
 }

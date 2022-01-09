@@ -19,6 +19,8 @@ public class EventIterator implements Iterator{
             FileWriter myWriter = new FileWriter(file);
             myWriter.write("This is file of all events");
             myWriter.write("\r\n");
+            myWriter.write("------------------------------------");
+            myWriter.write("\r\n");
             myWriter.write("\r\n");
             myWriter.close();
         } catch (IOException e) {

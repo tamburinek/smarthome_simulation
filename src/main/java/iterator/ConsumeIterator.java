@@ -21,6 +21,8 @@ public class ConsumeIterator implements Iterator{
             FileWriter myWriter = new FileWriter(filename);
             myWriter.write("This is file of all consumes");
             myWriter.write("\r\n");
+            myWriter.write("------------------------------------");
+            myWriter.write("\r\n");
             myWriter.write("\r\n");
             myWriter.close();
         } catch (IOException e) {
