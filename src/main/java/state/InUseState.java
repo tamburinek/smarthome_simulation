@@ -31,15 +31,16 @@ public class InUseState implements DeviceState{
         human.setDoingSt(false);
         device.setHumanUsingDevice(null);
         device.setState(new IdleState());
+        /*if (device.tryBreak(true)){
+            human.setDoingSt(false);
+            device.setHumanUsingDevice(null);
+            device.setState(new BrokenState());
+        }*/
     }
 
     @Override
     public void doNothingNew(Device device, Human human) {
         device.consume(true);
-        /*if (device.tryBreak(true)){
-            device.setHumanUsingDevice(null);
-            device.setState(new BrokenState());
-        }*/
     }
 
     @Override

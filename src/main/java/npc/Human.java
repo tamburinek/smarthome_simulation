@@ -3,8 +3,11 @@ package npc;
 import devices.Device;
 import enums.Constants;
 import enums.Gender;
+import event.Event;
 import house.House;
 import location.Tracker;
+import notification.NeedsNotification;
+import utills.Time;
 
 public abstract class Human extends Tracker {
 
@@ -34,7 +37,6 @@ public abstract class Human extends Tracker {
         clean = Math.min(clean + device.cleaning(), Constants.MAX_CLEAN);
         fresh = Math.min(fresh + device.fresh(), Constants.MAX_FRESH);
         hungry = Math.min(hungry + device.hungry(), Constants.MAX_HUNGRY);
-        checkForDead();
     }
 
     public void dropStats(){
@@ -47,6 +49,7 @@ public abstract class Human extends Tracker {
 
     private void checkForDead(){
         if (fresh <= 0 || happiness <= 0 || hungry <= 0 || clean <= 0){
+            Event.allNotifications.add(new NeedsNotification(Time.getCurrentTime() + " - " + getName() + " died"));
             isAlive = false;
         }
     }

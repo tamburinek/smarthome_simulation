@@ -17,7 +17,7 @@ public class EasyStrategy implements DifficultyStrategy{
         ResourceEnum.WATER.add(1000);
         ResourceEnum.MONEY.add(0);
 
-        Constants.INDEX = 1;
+        Constants.INDEX = 2;
         Constants.MAX_HUNGRY = 100;
         Constants.MAX_CLEAN = 100;
         Constants.MAX_HAPPINESS = 100;

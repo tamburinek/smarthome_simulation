@@ -38,31 +38,6 @@ public enum NotificationType {
             return "called repairman";
         }
     },
-    HAVE_HUNGER {
-        @Override
-        public String toString() {
-            return "has hunger";
-        }
-    },
-    IS_DIRTY {
-        @Override
-        public String toString() {
-            return "is dirty";
-        }
-    },
-    NEEDS_SLEEP {
-        @Override
-        public String toString() {
-            return "needs to sleep";
-        }
-    },
-    IS_NOT_HAPPY {
-        @Override
-        public String toString() {
-            return "is not happy";
-        }
-    },
-
     DIED {
         @Override
         public String toString() {

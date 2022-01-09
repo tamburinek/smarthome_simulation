@@ -42,11 +42,11 @@ public class HouseController {
 
             for (Human human : house.getHumans()) {
 
-                human.dropStats();
-
                 if (human.isDoingSt() || !human.isAlive()){
                     continue;
                 }
+
+                human.dropStats();
 
                 if (human.getClean() < 60){
                     device = Helper.findDevice(house.getDevices(), DeviceType.CLEANING);

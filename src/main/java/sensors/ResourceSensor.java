@@ -1,8 +1,6 @@
 package sensors;
 
-import devices.Device;
-
-public class LightSensor implements Sensor{
+public class ResourceSensor implements Sensor{
 
     @Override
     public boolean isSomethingWrong() {
