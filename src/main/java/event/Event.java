@@ -1,6 +1,7 @@
 package event;
 
 import devices.Device;
+import notification.Notification;
 import npc.Human;
 import utills.Time;
 
@@ -26,7 +27,7 @@ public abstract class Event {
     public static ArrayList<Event> notifications = new ArrayList<>();
 
     public static ArrayList<Event> doneEvents = new ArrayList<>();
-    public static ArrayList<Event> allNotifications = new ArrayList<>();
+    public static ArrayList<Notification> allNotifications = new ArrayList<>();
 
     public abstract boolean accept(EventVisitor visitor);
 
