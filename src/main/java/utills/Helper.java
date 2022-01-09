@@ -13,7 +13,7 @@ public class Helper {
 
     public static boolean breakDevice(Device device, boolean using){
         double numberToBeat = device.getBrokenIndex();
-        double breakNumber = random.nextInt(100);
+        double breakNumber = random.nextInt(200);
         if (using){
             breakNumber = (breakNumber / 2);
         }
@@ -41,9 +41,12 @@ public class Helper {
     }
 
     public static Device findRandomDevice(ArrayList<Device> devices){
+        if (random.nextBoolean()){
+            return findDevice(devices, DeviceType.SPORT);
+        }
         ArrayList<Device> devices1 = new ArrayList<>();
         for (Device device : devices) {
-            if (device.getType() != DeviceType.WORK && device.getType() != DeviceType.LIGHT && device.getType() != DeviceType.ANIMAL) {
+            if (device.getType() != DeviceType.WORK && device.getType() != DeviceType.LIGHT && device.getType() != DeviceType.ANIMAL && device.getType() != DeviceType.BABY) {
                 if (!device.getState().isOccupied() && !device.getState().isBroken())
                     devices1.add(device);
             }

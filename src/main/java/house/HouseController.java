@@ -55,7 +55,7 @@ public class HouseController {
                 human.dropStats();
 
                 if (human instanceof Baby){
-                    if (human.getHappiness() < 40 || human.getFresh()<40 || human.getClean()<40 || human.getHungry()<40){
+                    if (human.getHappiness() < 70 || human.getFresh()<70 || human.getClean()<70 || human.getHungry()<70){
                         device = Helper.findDevice(house.getDevices(), DeviceType.BABY);
                         Human human2 = Helper.findPersonForActivity(15, house.getHumans());
                         if (human2 != null && device!=null){
@@ -109,7 +109,7 @@ public class HouseController {
                         Event.activitiesToDo.add(new AnimalEvent(null, human, animal, 20));
                     }
                 }
-                else if (animal.getHungry() < 60){
+                else if (animal.getHungry() < 80){
                     device = Helper.findDevice(house.getDevices(), DeviceType.ANIMAL);
                     Event.allNotifications.add(new NeedsNotification(Time.getCurrentTime() + " - " + animal.getName() + " is hungry"));
                     if (device != null){

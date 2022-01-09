@@ -60,11 +60,11 @@ public class EasyRun {
         Room bathroom = new Room("bathroom");
         Device bathLight = DeviceFactory.createLight("bathroom light", 10, 0, 0, manual);
         bathroom.addDevice(bathLight);
-        Device bath = DeviceFactory.createBath("bath", 23, 0, 60, manual);
+        Device bath = DeviceFactory.createBath("bath", 23, 0, 70, manual);
         bathroom.addDevice(bath);
-        Device clothWash = DeviceFactory.createClothWash("cloth wash", 10, 0, 60, manual);
+        Device clothWash = DeviceFactory.createClothWash("cloth wash", 10, 0, 70, manual);
         bathroom.addDevice(clothWash);
-        Device dishWash = DeviceFactory.createDishWash("dish wash", 20, 0, 40, manual);
+        Device dishWash = DeviceFactory.createDishWash("dish wash", 20, 0, 70, manual);
         bathroom.addDevice(dishWash);
         Device workingComputer = DeviceFactory.createWorkPc();
         bathroom.addDevice(workingComputer);
@@ -72,9 +72,9 @@ public class EasyRun {
         Room kitchen = new Room("kitchen");
         Device kitchenLight = DeviceFactory.createLight("kitchen light", 10, 0, 0, manual);
         kitchen.addDevice(kitchenLight);
-        Device refrigerator2 = DeviceFactory.createRefrigerator("refrigerator2", 40, 0, 50, manual);
+        Device refrigerator2 = DeviceFactory.createRefrigerator("refrigerator2", 40, 0, 80, manual);
         kitchen.addDevice(refrigerator2);
-        Device refrigerator3 = DeviceFactory.createRefrigerator("refrigerator3", 60, 0, 50, manual);
+        Device refrigerator3 = DeviceFactory.createRefrigerator("refrigerator3", 60, 0, 80, manual);
         kitchen.addDevice(refrigerator3);
 
         secondFloor.addRoom(toiletRoom);
@@ -87,9 +87,9 @@ public class EasyRun {
         Room kidsRoom = new Room("kids room");
         Device kidsRoomLight = DeviceFactory.createLight("kids room light", 10, 0, 0, manual);
         kidsRoom.addDevice(kidsRoomLight);
-        Device bed = DeviceFactory.createBed("bed", 10, 0, 50, manual);
+        Device bed = DeviceFactory.createBed("bed", 10, 0, 60, manual);
         kidsRoom.addDevice(bed);
-        Device phone = DeviceFactory.createPhone("phone", 10, 0, 35, manual);
+        Device phone = DeviceFactory.createPhone("phone", 10, 0, 80, manual);
         kidsRoom.addDevice(phone);
         Device radio = DeviceFactory.createRadio("radio", 10, 0, 90, manual);
         kidsRoom.addDevice(radio);
