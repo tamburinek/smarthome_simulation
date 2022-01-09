@@ -87,7 +87,7 @@ public class HouseController {
                 if (deviceHelper.getState().isBroken()) {
                     Human human = Helper.findPersonForActivity(16, house.getHumans());
                     if (human != null){
-                        Event event = new RepairEvent(device, human, 0);
+                        Event event = new RepairEvent(deviceHelper, human, 0);
                         Event.activitiesToDo.add(0,event);
                     }
                 }

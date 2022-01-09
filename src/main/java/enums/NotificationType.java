@@ -41,7 +41,7 @@ public enum NotificationType {
     BROKE_IN_IDLE {
         @Override
         public String toString() {
-            return "broke on it's own";
+            return "broke on its own";
         }
     },
     DIED {

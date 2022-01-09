@@ -82,11 +82,6 @@ public class House {
         for (Animal animal : animals){
             animal.setHouse(this);
         }
-
-        for (Sensor sensor : sensors){
-            sensor.setHouse(this);
-        }
-
     }
 
     public void atachObserver() {

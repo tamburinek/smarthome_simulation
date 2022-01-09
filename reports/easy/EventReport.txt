@@ -1,35 +1,25 @@
 This is file of all notifications
 ------------------------------------
 
-1) Tue Oct 23 01:50:00 CEST 2012 - Iveta is tired
+1) Tue Oct 23 02:20:00 CEST 2012 - Honzik is dirty
 
-2) Tue Oct 23 02:10:00 CEST 2012 - Ilona is tired
+2) Tue Oct 23 02:40:00 CEST 2012 - Iveta is dirty
 
-3) Tue Oct 23 02:20:00 CEST 2012 - Maruska is dirty
+3) Tue Oct 23 03:10:00 CEST 2012 - Pepa is dirty
 
-4) Tue Oct 23 03:10:00 CEST 2012 - Iveta is dirty
+4) Tue Oct 23 04:00:00 CEST 2012 - Pepa is tired
 
-5) Tue Oct 23 04:50:00 CEST 2012 - Mimino is dirty
+5) Tue Oct 23 05:20:00 CEST 2012 - Iveta is tired
 
-6) Tue Oct 23 05:00:00 CEST 2012 - Honzik is dirty
+6) Tue Oct 23 06:00:00 CEST 2012 - Mimino is dirty
 
-7) Tue Oct 23 06:00:00 CEST 2012 - Maruska is dirty
+7) Tue Oct 23 06:40:00 CEST 2012 - Iveta is dirty
 
-8) Tue Oct 23 06:30:00 CEST 2012 - Iveta is dirty
+8) Tue Oct 23 08:50:00 CEST 2012 - Honzik is dirty
 
-9) Tue Oct 23 07:30:00 CEST 2012 - Mimino is dirty
+9) Tue Oct 23 10:10:00 CEST 2012 - Mimino is tired
 
-10) Tue Oct 23 08:00:00 CEST 2012 - Honzik is dirty
+10) Tue Oct 23 10:40:00 CEST 2012 - Pepa is dirty
 
-11) Tue Oct 23 08:10:00 CEST 2012 - Pepa is dirty
-
-12) Tue Oct 23 08:20:00 CEST 2012 - Mimino is tired
-
-13) Tue Oct 23 09:20:00 CEST 2012 - Pepa is tired
-
-14) Tue Oct 23 09:30:00 CEST 2012 - Iveta is dirty
-
-15) Tue Oct 23 10:20:00 CEST 2012 - Maruska is dirty
-
-16) Tue Oct 23 11:10:00 CEST 2012 - Iveta is dirty
+11) Tue Oct 23 11:30:00 CEST 2012 - Honzik is dirty
 

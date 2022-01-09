@@ -63,7 +63,7 @@ public class EventVisitor implements Visitor {
     }
 
     public boolean visitRepairEvent(RepairEvent event){
-            if (event.getUsingDevice().getState().isBroken()){
+            if (!event.getUsingDevice().getState().isBroken()){
                 return true;
             }
 
